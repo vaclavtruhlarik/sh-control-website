@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.sites-runtime/
+
+dist/
+route-manifest.json
+verification.json
+.openai/
+OPEN-WEBSITE.html

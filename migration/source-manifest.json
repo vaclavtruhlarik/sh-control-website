@@ -1,0 +1,989 @@
+{
+  "captured": "2026-09-17",
+  "sources": [
+    {
+      "locale": "cz",
+      "route": "about",
+      "source": "http://shcontrol.cz/cz/",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "solutions/petrochemicals",
+      "source": "http://shcontrol.cz/cz/area.asp?area_id=1&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "solutions/power-engineering",
+      "source": "http://shcontrol.cz/cz/area.asp?area_id=9&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "solutions/small-hydropower",
+      "source": "http://shcontrol.cz/cz/area.asp?area_id=3&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "solutions/other-projects",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=4&place_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "cz",
+      "route": "products/br2",
+      "source": "http://shcontrol.cz/art.asp?id=4&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/br3",
+      "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/df2",
+      "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/dp1",
+      "source": "http://shcontrol.cz/art.asp?id=6&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/fc3",
+      "source": "http://shcontrol.cz/art.asp?id=7&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/gi1",
+      "source": "http://shcontrol.cz/art.asp?id=8&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/la1",
+      "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/mr1",
+      "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/ps3",
+      "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/rp1",
+      "source": "http://shcontrol.cz/art.asp?id=12&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/sy1",
+      "source": "http://shcontrol.cz/art.asp?id=13&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "products/tr1",
+      "source": "http://shcontrol.cz/art.asp?id=14&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/favorit",
+      "source": "http://shcontrol.cz/art.asp?id=42&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/libchavy",
+      "source": "http://shcontrol.cz/art.asp?id=47&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/chladilnik",
+      "source": "http://shcontrol.cz/art.asp?id=49&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/procovci-1",
+      "source": "http://shcontrol.cz/art.asp?id=50&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/krusevo-brdo",
+      "source": "http://shcontrol.cz/art.asp?id=52&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/podivic",
+      "source": "http://shcontrol.cz/art.asp?id=53&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/djordjine",
+      "source": "http://shcontrol.cz/art.asp?id=54&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/antalieptes",
+      "source": "http://shcontrol.cz/art.asp?id=55&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/jovana",
+      "source": "http://shcontrol.cz/art.asp?id=56&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/lithuania-control-systems",
+      "source": "http://shcontrol.cz/art.asp?id=57&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/prodanca",
+      "source": "http://shcontrol.cz/art.asp?id=61&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "cz",
+      "route": "references/archive",
+      "source": "http://shcontrol.cz/art.asp?id=22&lang_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "about",
+      "source": "http://shcontrol.cz/en/",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "solutions/petrochemicals",
+      "source": "http://shcontrol.cz/en/area.asp?area_id=1&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "solutions/power-engineering",
+      "source": "http://shcontrol.cz/en/area.asp?area_id=9&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "solutions/small-hydropower",
+      "source": "http://shcontrol.cz/en/area.asp?area_id=3&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "solutions/other-projects",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=4&place_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/br2",
+      "source": "http://shcontrol.cz/art.asp?id=4&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/br3",
+      "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/df2",
+      "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/dp1",
+      "source": "http://shcontrol.cz/art.asp?id=6&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/fc3",
+      "source": "http://shcontrol.cz/art.asp?id=7&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/gi1",
+      "source": "http://shcontrol.cz/art.asp?id=8&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/la1",
+      "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/mr1",
+      "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/ps3",
+      "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/rp1",
+      "source": "http://shcontrol.cz/art.asp?id=12&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/sy1",
+      "source": "http://shcontrol.cz/art.asp?id=13&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "products/tr1",
+      "source": "http://shcontrol.cz/art.asp?id=14&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "references/favorit",
+      "source": "http://shcontrol.cz/art.asp?id=42&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "references/libchavy",
+      "source": "http://shcontrol.cz/art.asp?id=47&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "en",
+      "route": "references/chladilnik",
+      "source": "http://shcontrol.cz/art.asp?id=49&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/procovci-1",
+      "source": "http://shcontrol.cz/art.asp?id=50&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/krusevo-brdo",
+      "source": "http://shcontrol.cz/art.asp?id=52&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/podivic",
+      "source": "http://shcontrol.cz/art.asp?id=53&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/djordjine",
+      "source": "http://shcontrol.cz/art.asp?id=54&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/antalieptes",
+      "source": "http://shcontrol.cz/art.asp?id=55&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/jovana",
+      "source": "http://shcontrol.cz/art.asp?id=56&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/lithuania-control-systems",
+      "source": "http://shcontrol.cz/art.asp?id=57&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/prodanca",
+      "source": "http://shcontrol.cz/art.asp?id=61&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "en",
+      "route": "references/archive",
+      "source": "http://shcontrol.cz/art.asp?id=22&lang_id=2",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "about",
+      "source": "http://shcontrol.cz/ru/",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "solutions/petrochemicals",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=1&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "solutions/power-engineering",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=9&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "solutions/small-hydropower",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=3&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "solutions/other-projects",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=4&place_id=1",
+      "newTranslation": false
+    },
+    {
+      "locale": "ru",
+      "route": "products/br2",
+      "source": "http://shcontrol.cz/art.asp?id=4&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/br3",
+      "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/df2",
+      "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/dp1",
+      "source": "http://shcontrol.cz/art.asp?id=6&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/fc3",
+      "source": "http://shcontrol.cz/art.asp?id=7&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/gi1",
+      "source": "http://shcontrol.cz/art.asp?id=8&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/la1",
+      "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/mr1",
+      "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/ps3",
+      "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/rp1",
+      "source": "http://shcontrol.cz/art.asp?id=12&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/sy1",
+      "source": "http://shcontrol.cz/art.asp?id=13&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "products/tr1",
+      "source": "http://shcontrol.cz/art.asp?id=14&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/favorit",
+      "source": "http://shcontrol.cz/art.asp?id=42&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/libchavy",
+      "source": "http://shcontrol.cz/art.asp?id=47&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/chladilnik",
+      "source": "http://shcontrol.cz/art.asp?id=49&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/procovci-1",
+      "source": "http://shcontrol.cz/art.asp?id=50&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/krusevo-brdo",
+      "source": "http://shcontrol.cz/art.asp?id=52&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/podivic",
+      "source": "http://shcontrol.cz/art.asp?id=53&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/djordjine",
+      "source": "http://shcontrol.cz/art.asp?id=54&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/antalieptes",
+      "source": "http://shcontrol.cz/art.asp?id=55&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/jovana",
+      "source": "http://shcontrol.cz/art.asp?id=56&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/lithuania-control-systems",
+      "source": "http://shcontrol.cz/art.asp?id=57&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/prodanca",
+      "source": "http://shcontrol.cz/art.asp?id=61&lang_id=1",
+      "newTranslation": true
+    },
+    {
+      "locale": "ru",
+      "route": "references/archive",
+      "source": "http://shcontrol.cz/ru/area.asp?area_id=6&place_id=1",
+      "newTranslation": false
+    }
+  ],
+  "assets": {
+    "http://shcontrol.cz/images/logo.gif": {
+      "relative_path": "images/logo.gif",
+      "sha256": "63472cc0a8b248a2b81700b95e710aec59f8ba4f715834369c3f039bbae662c9",
+      "bytes": 2266
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114131224604687.jpg": {
+      "relative_path": "images/2020114131224604687.jpg",
+      "sha256": "dff588beb8e55c116c4f69075d8366047021df1d3bed24ecb0398e0097b1b4d2",
+      "bytes": 84590
+    },
+    "http://shcontrol.cz/apollo/pictures/2020102916911558682.JPG": {
+      "relative_path": "images/2020102916911558682.JPG",
+      "sha256": "ed2afabcf83f075cee689e76e23aa5f27a06a00d988e9bdd62c50b8afb6dd383",
+      "bytes": 88993
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114144042370266.jpg": {
+      "relative_path": "images/2020114144042370266.jpg",
+      "sha256": "1579c723d8d73185e988eeb10eeae7df71daadf25aa5f42ab794bdf82fe57e51",
+      "bytes": 60138
+    },
+    "http://shcontrol.cz/apollo/pictures/2008619165246870266.jpg": {
+      "relative_path": "images/2008619165246870266.jpg",
+      "sha256": "16f0e62e07df3d84b09dea4e94138de66ee4ff42a7180a16db2ccb619527abc7",
+      "bytes": 7770
+    },
+    "http://shcontrol.cz/apollo/pictures/2008619165314699627.jpg": {
+      "relative_path": "images/2008619165314699627.jpg",
+      "sha256": "5bb4bae4eb1dd9cb3d7a74bf9a7efa6a63e63d1fe7c8a4e4cdaed52db96a4837",
+      "bytes": 12198
+    },
+    "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg": {
+      "relative_path": "images/2008624153611637310.jpg",
+      "sha256": "9624a8d744028eefdf468b4bbceff199bcaf4e7b46dae17158ea1fe110654999",
+      "bytes": 46717
+    },
+    "http://shcontrol.cz/apollo/pictures/2008618161248135846.jpg": {
+      "relative_path": "images/2008618161248135846.jpg",
+      "sha256": "b9dd6cd33ba6f661a261583feb62768cd97a81a3aa5cbf9e9c638abe21019690",
+      "bytes": 8047
+    },
+    "http://shcontrol.cz/apollo/pictures/2008618161357698162.jpg": {
+      "relative_path": "images/2008618161357698162.jpg",
+      "sha256": "f38a70e70a44104157944631331ab9cbf2ea841122bfc19222c44c0210a7e497",
+      "bytes": 24841
+    },
+    "http://shcontrol.cz/apollo/pictures/200862311431727524.jpg": {
+      "relative_path": "images/200862311431727524.jpg",
+      "sha256": "1e5beda00b17e05316bd19987eedf25c8e40fbd3302a756fa09bc6912ba00608",
+      "bytes": 5955
+    },
+    "http://shcontrol.cz/apollo/pictures/2008618161539307949.jpg": {
+      "relative_path": "images/2008618161539307949.jpg",
+      "sha256": "b9d4fbecff4707ffcf6727bef5594b3ccf352b1f7b9cf0dce80c9d5ac662db7c",
+      "bytes": 17593
+    },
+    "http://shcontrol.cz/apollo/pictures/200861816185388043.jpg": {
+      "relative_path": "images/200861816185388043.jpg",
+      "sha256": "8b468e2e6a6ce7e01dfc099748851b4a4b498a3378488b48c1e2b82902c77f06",
+      "bytes": 51939
+    },
+    "http://shcontrol.cz/apollo/pictures/200862523215325726.jpg": {
+      "relative_path": "images/200862523215325726.jpg",
+      "sha256": "a8a326f3136d661a8e3c412cac1408552333bebe28614e5594cfb6afc4317569",
+      "bytes": 14504
+    },
+    "http://shcontrol.cz/apollo/pictures/2010716154659880882.JPG": {
+      "relative_path": "images/2010716154659880882.JPG",
+      "sha256": "6662b65595a5bec9a036981faa24a8c5efd34ad306e3b9b2d924b49fa7c5fb43",
+      "bytes": 10820
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg": {
+      "relative_path": "images/2008626115142339108.jpg",
+      "sha256": "f0ed099da84ae3cc6e03d9cd0bf2f5953b88e2c5136786282358bee8022c1ef8",
+      "bytes": 26851
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626115142256248.jpg": {
+      "relative_path": "images/2008626115142256248.jpg",
+      "sha256": "83c0c78f26d9e57677fc4787fbaa69584cf36f767c81f534acbca0d9b32c4640",
+      "bytes": 30912
+    },
+    "http://shcontrol.cz/apollo/pictures/200862611514235986.jpg": {
+      "relative_path": "images/200862611514235986.jpg",
+      "sha256": "de491f0102b37064e1c29a5b66ea31e3590d77afb38f0d6787e88bc782dd1549",
+      "bytes": 24965
+    },
+    "http://shcontrol.cz/apollo/pictures/200862612852667004.jpg": {
+      "relative_path": "images/200862612852667004.jpg",
+      "sha256": "b9bd505b179e1a8c72454f4cba51c62d26238479cc368cc4d3acd2f427caea55",
+      "bytes": 9299
+    },
+    "http://shcontrol.cz/apollo/pictures/200862612852584144.jpg": {
+      "relative_path": "images/200862612852584144.jpg",
+      "sha256": "fc9aca2d7375427bf3a3454c509e94dae2afc148774b58bb766c9dc8e7a44db9",
+      "bytes": 9123
+    },
+    "http://shcontrol.cz/apollo/pictures/200862612852363882.jpg": {
+      "relative_path": "images/200862612852363882.jpg",
+      "sha256": "4b346aa32b7a8fff73e01548c8572149bc2baf876d208c09168fb1add31d7f82",
+      "bytes": 21873
+    },
+    "http://shcontrol.cz/apollo/pictures/202153110852463742.jpg": {
+      "relative_path": "images/202153110852463742.jpg",
+      "sha256": "0c9eb9096569b3453b1167ff8b1b3574117e1ca0eb179da2cea12078b44fce9f",
+      "bytes": 98715
+    },
+    "http://shcontrol.cz/apollo/pictures/202011593911459510.jpg": {
+      "relative_path": "images/202011593911459510.jpg",
+      "sha256": "a100d3e3ece1dadf5f22ddf99a619af56d5ead6d7b8b5f93fbb11b05c2e97127",
+      "bytes": 98490
+    },
+    "http://shcontrol.cz/apollo/pictures/202011410951745632.jpg": {
+      "relative_path": "images/202011410951745632.jpg",
+      "sha256": "bfea7e2d64e21b9b6c1e5575af52df43df6e6500d401976a6e4713a24c4d157c",
+      "bytes": 113078
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114142732807949.jpg": {
+      "relative_path": "images/2020114142732807949.jpg",
+      "sha256": "fbaec4ffcffa6b4d00930cb0467231c3713f6ef3ccbda99ecf0601f4d778d553",
+      "bytes": 55805
+    },
+    "http://shcontrol.cz/apollo/pictures/201210216524263409.JPG": {
+      "relative_path": "images/201210216524263409.JPG",
+      "sha256": "35ffdca1b646189f3d1c5a1930a50ab9e69ca3a188557bc5d4c627c2d40d00b5",
+      "bytes": 36579
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114131224511146.jpg": {
+      "relative_path": "images/2020114131224511146.jpg",
+      "sha256": "fd87e13f2c817357d805864d5948a0bd44d9437bf48980adb9afc1cb071a00a1",
+      "bytes": 72675
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114131224521827.jpg": {
+      "relative_path": "images/2020114131224521827.jpg",
+      "sha256": "810596bda4a334bc7e56a1d99b4bbc78f6b5edaec4390c2b44d425e6e226c972",
+      "bytes": 54319
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114131224301565.jpg": {
+      "relative_path": "images/2020114131224301565.jpg",
+      "sha256": "15b29a0bf917ea58e648026a7f3869d0b41ec1dc5dd8ae54c6b6911061dbda34",
+      "bytes": 27505
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114131224696774.jpg": {
+      "relative_path": "images/2020114131224696774.jpg",
+      "sha256": "ca9b40a03ec4110c0fe1476476409279cfe8a5a088d505260423322e255e8176",
+      "bytes": 132553
+    },
+    "http://shcontrol.cz/apollo/pictures/20201029134815761944.png": {
+      "relative_path": "images/20201029134815761944.png",
+      "sha256": "8a40db67045ce4e5142782e1c8c6d6c097fdb8e5828fd2be47394754b69979ea",
+      "bytes": 297735
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114104034552986.jpg": {
+      "relative_path": "images/2020114104034552986.jpg",
+      "sha256": "662f0b1679270a720d54fb4f388b90e974cc0331a6127cb61ccf7529491d8de2",
+      "bytes": 118751
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114104034635845.jpg": {
+      "relative_path": "images/2020114104034635845.jpg",
+      "sha256": "96e0ca3950256904af1d69967e9c3e63e8fc1abc448a970e3322d5beb1dd56f6",
+      "bytes": 53592
+    },
+    "http://shcontrol.cz/apollo/pictures/2020114104034332723.jpg": {
+      "relative_path": "images/2020114104034332723.jpg",
+      "sha256": "c26007ebccf17279e365ab870d3ffb396085fc59d550d6758938c89deb964be9",
+      "bytes": 71319
+    },
+    "http://shcontrol.cz/apollo/pictures/20201029112048635845.png": {
+      "relative_path": "images/20201029112048635845.png",
+      "sha256": "9f7156bc57032009565db7b786b346a9ca7b71ae5de4e975152d71ac82eddd58",
+      "bytes": 309543
+    },
+    "http://shcontrol.cz/apollo/pictures/20201141022943835.jpg": {
+      "relative_path": "images/20201141022943835.jpg",
+      "sha256": "be40133bef045105e171a322396c17462cb51aa5bf80a46a64daf1724991b607",
+      "bytes": 102204
+    },
+    "http://shcontrol.cz/apollo/pictures/202011410229960975.jpg": {
+      "relative_path": "images/202011410229960975.jpg",
+      "sha256": "521bd304189277a5e76a97ce1fb8df98ac06b02efd9bf2c9117b72a39d373710",
+      "bytes": 138553
+    },
+    "http://shcontrol.cz/apollo/pictures/202011410229740712.jpg": {
+      "relative_path": "images/202011410229740712.jpg",
+      "sha256": "c5a1cb271cd37a0dea84c82684760a03f0bbdb20ef03e0266fe7a4e07509ab92",
+      "bytes": 60256
+    },
+    "http://shcontrol.cz/apollo/pictures/20201030143938807949.png": {
+      "relative_path": "images/20201030143938807949.png",
+      "sha256": "f67d56d3b3801b741113b3e552c28d4eef8b8c838f83b6b992ed0cd6cd865575",
+      "bytes": 245039
+    },
+    "http://shcontrol.cz/apollo/pictures/20104151092325726.bmp": {
+      "relative_path": "images/20104151092325726.bmp",
+      "sha256": "0f66c7b05d09b3e2e978b794fe1431f23dc810af07b829e4be3e693c40f54ec8",
+      "bytes": 224694
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg": {
+      "relative_path": "images/2008626132642339108.jpg",
+      "sha256": "7d28cdc931f0d584e73e6188006d1ff8f64f3ec4418eb09bdb2369d51eb32865",
+      "bytes": 19718
+    },
+    "http://shcontrol.cz/apollo/pictures/200862612852573463.jpg": {
+      "relative_path": "images/200862612852573463.jpg",
+      "sha256": "428d00460ea7511262a5bd44e8e91e04fad63bb8434b76ac7af73d7d1c24c29f",
+      "bytes": 26776
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626121111106152.jpg": {
+      "relative_path": "images/2008626121111106152.jpg",
+      "sha256": "640c5b1f7eb427dc36d27331b4d3e65567c8cbe0ba9f3f45c86e8469343e21b9",
+      "bytes": 24396
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626121147370266.jpg": {
+      "relative_path": "images/2008626121147370266.jpg",
+      "sha256": "fd8f31a7616b9255fba0f602602f9c654f8a7de81c01b9b0deed0d2b54dd1ade",
+      "bytes": 51532
+    },
+    "http://shcontrol.cz/apollo/pictures/2008626121219558682.jpg": {
+      "relative_path": "images/2008626121219558682.jpg",
+      "sha256": "7390f8f6ac0b4d9d76e88799a4f11caddfb3e2b447315f1faa169758ef6f5e10",
+      "bytes": 23357
+    },
+    "http://shcontrol.cz/apollo/pictures/20201119822944663.jpg": {
+      "relative_path": "images/20201119822944663.jpg",
+      "sha256": "c580d367122fc9c61798130b5c6f1d0e74cf4a31d3d06d1f0b9d5449af90ab50",
+      "bytes": 33947
+    },
+    "http://shcontrol.cz/apollo/pictures/20201119822724401.jpg": {
+      "relative_path": "images/20201119822724401.jpg",
+      "sha256": "be59902db3e2f64a075e7c720d30bccf2c36f323d1fd23c66adc6690d8f65fce",
+      "bytes": 88849
+    },
+    "http://shcontrol.cz/apollo/pictures/2020111982227524.jpg": {
+      "relative_path": "images/2020111982227524.jpg",
+      "sha256": "73aa7aea57c44ba179e398fabbd60a9a0d33d51b95ec76fa69f2d0ccc5a54239",
+      "bytes": 43494
+    },
+    "http://shcontrol.cz/apollo/pictures/202011593911542370.jpg": {
+      "relative_path": "images/202011593911542370.jpg",
+      "sha256": "cb831fbb55814602cc6cad99fc25f9dfb4575405655204ab7482aff838f47985",
+      "bytes": 77968
+    },
+    "http://shcontrol.cz/apollo/pictures/202011593911239248.png": {
+      "relative_path": "images/202011593911239248.png",
+      "sha256": "9f417d5d462b1ee8022bae2ff9f9552770bc86f60aca9021b7d455955a88347e",
+      "bytes": 257763
+    },
+    "http://shcontrol.cz/apollo/pictures/202011410951662773.jpg": {
+      "relative_path": "images/202011410951662773.jpg",
+      "sha256": "7eac9f81521332dd4a8bc7372f7ea1aacf7c2c72c804c3f4653cfc4e77a6992f",
+      "bytes": 162156
+    },
+    "http://shcontrol.cz/apollo/pictures/20201030101145104687.png": {
+      "relative_path": "images/20201030101145104687.png",
+      "sha256": "66085c2820d858f31d2d3d019ce8be64f3be6fc6098287b8f22c53b683cc7cd0",
+      "bytes": 260202
+    },
+    "http://shcontrol.cz/apollo/pictures/202011491658699627.jpg": {
+      "relative_path": "images/202011491658699627.jpg",
+      "sha256": "87f623d9594253702c78df52a8c8bebe2213d363876d54c1ab0ae03f4def1103",
+      "bytes": 75063
+    },
+    "http://shcontrol.cz/apollo/pictures/2020103011411027524.jpg": {
+      "relative_path": "images/2020103011411027524.jpg",
+      "sha256": "5e3c6faa412cc3d0bfdc76e4fce36b3c0fa816a3249e36e2f33e95bcd9ab3135",
+      "bytes": 69362
+    },
+    "http://shcontrol.cz/apollo/pictures/202011491658616767.jpg": {
+      "relative_path": "images/202011491658616767.jpg",
+      "sha256": "86541f8aae5d69b7d3da91ea3e2f3d4c844521f06c72d81a948201f88bb45b4c",
+      "bytes": 36358
+    },
+    "http://shcontrol.cz/apollo/pictures/202011491658396505.jpg": {
+      "relative_path": "images/202011491658396505.jpg",
+      "sha256": "07cef8575d093daa95942ddd99fb317d3c45810e336da8d9f2fdb0b22243ddd3",
+      "bytes": 37873
+    },
+    "http://shcontrol.cz/apollo/pictures/20201030163235542370.png": {
+      "relative_path": "images/20201030163235542370.png",
+      "sha256": "0b14a1db49011a58101eab4e2be9a3076c4613848c23476b997ce511b4b5bb39",
+      "bytes": 139559
+    },
+    "http://shcontrol.cz/apollo/pictures/2012102164913693931.JPG": {
+      "relative_path": "images/2012102164913693931.JPG",
+      "sha256": "a4fb5d99a7bf695db11441f76e11de76cbef0a500c752841ef94df4e38519e4b",
+      "bytes": 158575
+    },
+    "http://shcontrol.cz/apollo/pictures/2012102164913473668.jpg": {
+      "relative_path": "images/2012102164913473668.jpg",
+      "sha256": "00a797631ee39ea5afc835bc9f92061d027e0e448568be4b733e19187cdf3734",
+      "bytes": 65443
+    },
+    "http://shcontrol.cz/apollo/pictures/2012102164913868877.JPG": {
+      "relative_path": "images/2012102164913868877.JPG",
+      "sha256": "2ca2887721beee90c9d141ed9c9213cd4212204e77896ad4403e358d231fac10",
+      "bytes": 233338
+    },
+    "http://shcontrol.cz/apollo/pictures/201210216519272560.JPG": {
+      "relative_path": "images/201210216519272560.JPG",
+      "sha256": "1b04f915e4ac70b2c59d78b96ec29e5dd905351d2cce57e8bb57ba4ce1c0d1b6",
+      "bytes": 184248
+    },
+    "http://shcontrol.cz/apollo/pictures/201210216519355419.JPG": {
+      "relative_path": "images/201210216519355419.JPG",
+      "sha256": "6d184400ddc74a1645b8a3c25c28112bfecef03af91b4648334435388101de22",
+      "bytes": 154589
+    },
+    "http://shcontrol.cz/apollo/pictures/2012102164913683250.JPG": {
+      "relative_path": "images/2012102164913683250.JPG",
+      "sha256": "e0915563cd997b6686c679fd86115e9949c08458c1b913507b17786dbbc8c259",
+      "bytes": 221613
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925161711106152.JPG": {
+      "relative_path": "images/2012925161711106152.JPG",
+      "sha256": "24e63189e7cfc9f7f66f9a332f16df55149399a97c4afbeea5b9860437832efe",
+      "bytes": 34220
+    },
+    "http://shcontrol.cz/apollo/pictures/201129171913724401.jpg": {
+      "relative_path": "images/201129171913724401.jpg",
+      "sha256": "6de74677d3f3f273f5ce3eaa898b4826bafc0e269446df0a63937a41fb8ad364",
+      "bytes": 45007
+    },
+    "http://shcontrol.cz/apollo/pictures/20086244132442370.JPG": {
+      "relative_path": "images/20086244132442370.JPG",
+      "sha256": "a1706759962180a987f95eddfd9993d255fe71a6c30275556335b54ff751889b",
+      "bytes": 137816
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925161856698162.jpg": {
+      "relative_path": "images/2012925161856698162.jpg",
+      "sha256": "e59361792639d2763377070d06cfda3aec7d9e5b2216637b4127ab899a24c7b9",
+      "bytes": 83681
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925154354380882.jpg": {
+      "relative_path": "images/2012925154354380882.jpg",
+      "sha256": "1b24e9ad91cdfbf3d80d0c1ac64f601fe0eb06e8936f2e69f7464c6ebd536237",
+      "bytes": 118707
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925154354160619.jpg": {
+      "relative_path": "images/2012925154354160619.jpg",
+      "sha256": "18496d09ab4b45a643372eb878b75d0475b07eadac8daa792c9f3f72cb57273b",
+      "bytes": 81727
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925161856615303.jpg": {
+      "relative_path": "images/2012925161856615303.jpg",
+      "sha256": "9f4ebde427b1db1cdaf3c012f30310e27386e90de437d041fce40a27f8b28900",
+      "bytes": 57943
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925154354370201.jpg": {
+      "relative_path": "images/2012925154354370201.jpg",
+      "sha256": "6c5cfa3483704d37d73d43798abc110a7aeba975d70f957ea0a02503d2d68886",
+      "bytes": 90033
+    },
+    "http://shcontrol.cz/apollo/pictures/2012925154512168469.jpg": {
+      "relative_path": "images/2012925154512168469.jpg",
+      "sha256": "b6d512b40248ee45a7c08081ce2b5ff186d707f82fbc3970c72bd627e8217bc5",
+      "bytes": 142944
+    },
+    "http://shcontrol.cz/apollo/pictures/201292515451285609.png": {
+      "relative_path": "images/201292515451285609.png",
+      "sha256": "820e4445f161777973e204eead760dc09935d7a1c6e8238f5c68bc44c240d989",
+      "bytes": 159774
+    },
+    "http://shcontrol.cz/apollo/pictures/201129171913119610.jpg": {
+      "relative_path": "images/201129171913119610.jpg",
+      "sha256": "5f750a5f6d5872b33f45767cc3e5325bbdd7a91c97a5e0355233ed246528368b",
+      "bytes": 59555
+    },
+    "http://shcontrol.cz/apollo/pictures/2010481111852297.JPG": {
+      "relative_path": "images/2010481111852297.JPG",
+      "sha256": "950ffbb6a9796018008e685e5965bea0232a904762adeaba25f9a8da3886755a",
+      "bytes": 80422
+    },
+    "http://shcontrol.cz/apollo/pictures/20104811118355419.JPG": {
+      "relative_path": "images/20104811118355419.JPG",
+      "sha256": "9c06f08670e8fb6096ba234292cbab2ccd1322874eee0d7eb91f2178ba86b6a4",
+      "bytes": 89527
+    },
+    "http://shcontrol.cz/apollo/pictures/20104811118272560.JPG": {
+      "relative_path": "images/20104811118272560.JPG",
+      "sha256": "69694f655f0f182f6100a4aea78b214807e021e9920669e36ee86b8192b811b6",
+      "bytes": 80574
+    },
+    "http://shcontrol.cz/download.asp?id=1": {
+      "relative_path": "documents/BR2.pdf",
+      "sha256": "df509e1f1993bb49e9b9fa76217bf1658498be06b7f9b9296d7ed7b562355c8d",
+      "bytes": 137065
+    },
+    "http://shcontrol.cz/download.asp?id=18": {
+      "relative_path": "documents/BR3.pdf",
+      "sha256": "43643322fa1a6ab77794f1700d8b6c676741dc1c393fde4459d5ed80a6bae836",
+      "bytes": 197110
+    },
+    "http://shcontrol.cz/download.asp?id=2": {
+      "relative_path": "documents/DF2.pdf",
+      "sha256": "c47cfff2f7922f4bf9abe621526e21b54055ddd22cfff6636f392934a3c81397",
+      "bytes": 738224
+    },
+    "http://shcontrol.cz/download.asp?id=3": {
+      "relative_path": "documents/DP1.pdf",
+      "sha256": "5b5c14ebb347218e8e7baa1aa6e04a3dcf7113a744b06c2b88ce8b663fca507f",
+      "bytes": 197961
+    },
+    "http://shcontrol.cz/download.asp?id=4": {
+      "relative_path": "documents/FC3.pdf",
+      "sha256": "da984f6e233f88944a04c1211308f5c6387569cd57b21ee4a38ab2a59a602765",
+      "bytes": 155671
+    },
+    "http://shcontrol.cz/download.asp?id=5": {
+      "relative_path": "documents/GI1.pdf",
+      "sha256": "f60eb4351e710db9e53f3f445cd132f547fa02f8c683cf8d5681e57264e2f2f0",
+      "bytes": 143030
+    },
+    "http://shcontrol.cz/download.asp?id=6": {
+      "relative_path": "documents/LA1.pdf",
+      "sha256": "2024b3608e36f0505628191a712696fbe3648d039cd6ddd3d992cfb4238e6363",
+      "bytes": 137358
+    },
+    "http://shcontrol.cz/download.asp?id=7": {
+      "relative_path": "documents/MR1.pdf",
+      "sha256": "fd8dddb3bb2c64ad1e106973596dde3dfeb465d41e5c2fc8783dcc367183eb10",
+      "bytes": 156440
+    },
+    "http://shcontrol.cz/download.asp?id=11": {
+      "relative_path": "documents/PS3.pdf",
+      "sha256": "70715169fd95a9edac1e1609f876152a19db3d93ec470dccfca6553ed8e7b2ad",
+      "bytes": 151479
+    },
+    "http://shcontrol.cz/download.asp?id=12": {
+      "relative_path": "documents/RP1.pdf",
+      "sha256": "586a8c89b59f944c87a2378855e035c6d5b4d7bf27ddfb6ad538ab8b1c490807",
+      "bytes": 190470
+    },
+    "http://shcontrol.cz/download.asp?id=14": {
+      "relative_path": "documents/SY1.pdf",
+      "sha256": "4ee0c1fbfd4f747d5d8c12689cdf804fe160ce2378001b6036a251ff16caaf96",
+      "bytes": 230389
+    },
+    "http://shcontrol.cz/download.asp?id=15": {
+      "relative_path": "documents/TR1.pdf",
+      "sha256": "e26fbdb5db283d1fe15d086b4a831890a63d71c29185a0bbdefdb6bc0bc98188",
+      "bytes": 144929
+    },
+    "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA.woff2": {
+      "relative_path": "fonts/ibm-plex-sans-cyrillic-ext.woff2",
+      "sha256": "7d0037a170882a49e65a45c38ef195237bb07b1cc791d078379f0ac0d7ae1935",
+      "bytes": 23568
+    },
+    "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA.woff2": {
+      "relative_path": "fonts/ibm-plex-sans-cyrillic.woff2",
+      "sha256": "9409ee21811f0f5272b7e1d828fe8838005b0573481ef906e7e55b63f6610ab0",
+      "bytes": 29512
+    },
+    "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2": {
+      "relative_path": "fonts/ibm-plex-sans-latin-ext.woff2",
+      "sha256": "d160e20920ae4d6556518d352d3af27a74e9b0de3d8fe17b1c1044fc75aa2f81",
+      "bytes": 30964
+    },
+    "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2": {
+      "relative_path": "fonts/ibm-plex-sans-latin.woff2",
+      "sha256": "e2291e842cf5af167122a22881a740c7f2dda7716f1e8cd76680264f4a859470",
+      "bytes": 45712
+    }
+  }
+}

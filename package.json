@@ -1,0 +1,11 @@
+{
+  "name": "sh-control-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SH Control multilingual static website with native light and dark color schemes",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "preview": "python3 -m http.server 8080 --directory dist",
+    "check": "python3 scripts/check.py"
+  }
+}
