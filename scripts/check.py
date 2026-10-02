@@ -142,7 +142,7 @@ for label, fg, bg in pairs:
     require(ratio >= 4.5, f"Low contrast {label}: {ratio:.2f}")
     contrasts.append({"pair": label, "ratio": round(ratio, 2)})
 css = (ROOT / "src/styles.css").read_text()
-require("@media(prefers-color-scheme: dark)" in css, "Missing native dark scheme")
+require("@media (prefers-color-scheme: dark)" in css, "Missing native dark scheme")
 require("border-top: 7px solid var(--brand)" in css, "Missing red page stripe")
 require(
     "localStorage" not in (ROOT / "src/site.js").read_text(),
