@@ -1,24 +1,25 @@
-/* SH Control: one layout, native system color scheme. Brand red: #A1003A. */
+/* SH Control: one layout, native system color scheme. Brand red: #E20000. */
 :root {
     color-scheme: light dark;
     --brand: #e20000;
     --brand-hover: #bd0000;
+    --brand-tint: #fff5f5;
     --paper: #fff;
     --ink: #191919;
     --muted: #585d67;
     --soft: #f3f3f5;
     --line: #dcdde2;
     --accent: #d60000;
-    --hero: #e20000;
+    --hero: var(--brand);
     --hero-gradient: linear-gradient(
         90deg,
-        #e20000 6%,
-        #e20000f7 30%,
-        #e20000a6 57%,
-        #e2000022 100%
+        var(--hero) 6%,
+        color-mix(in srgb, var(--hero) 97%, transparent) 30%,
+        color-mix(in srgb, var(--hero) 65%, transparent) 57%,
+        color-mix(in srgb, var(--hero) 13%, transparent) 100%
     );
     --sector: #f3f3f5;
-    --band: #e20000;
+    --band: var(--brand);
     --band-ink: #fff;
     --band-line: #ffffff4d;
     --focus: #004dba;
@@ -33,13 +34,6 @@
         --line: #3d4552;
         --accent: #ff7070;
         --hero: #14171c;
-        --hero-gradient: linear-gradient(
-            90deg,
-            #14171c 6%,
-            #14171cf7 30%,
-            #14171ca6 57%,
-            #14171c22 100%
-        );
         --sector: #20252d;
         --band: #20252d;
         --band-ink: #f7f8fa;
@@ -154,7 +148,7 @@ h3 {
     height: 46px;
     overflow: hidden;
     background: #fff;
-    border: 1px solid #e20000;
+    border: 1px solid var(--brand);
     border-radius: 2px;
     padding: 3px 7px;
     display: block;
@@ -233,10 +227,10 @@ h3 {
     letter-spacing: -0.04em;
 }
 .hero .eyebrow {
-    color: #ffffff;
+    color: #fff;
 }
 .hero .lead {
-    color: #ffffff;
+    color: #fff;
     max-width: 465px;
 }
 .lead {
@@ -306,10 +300,10 @@ h3 {
 }
 .hero .button {
     background: #fff;
-    color: #e20000;
+    color: var(--brand);
 }
 .hero .button:hover {
-    background: #fff5f5;
+    background: var(--brand-tint);
 }
 .text-link {
     font-weight: 500;
