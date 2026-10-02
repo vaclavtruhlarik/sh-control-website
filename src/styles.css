@@ -1,26 +1,26 @@
 /* SH Control: one layout, native system color scheme. Brand red: #A1003A. */
 :root {
     color-scheme: light dark;
-    --brand: #a1003a;
-    --brand-hover: #830030;
+    --brand: #e20000;
+    --brand-hover: #bd0000;
     --paper: #fff;
     --ink: #191919;
     --muted: #585d67;
     --soft: #f3f3f5;
     --line: #dcdde2;
-    --accent: #a1003a;
-    --hero: #a1003a;
+    --accent: #d60000;
+    --hero: #e20000;
     --hero-gradient: linear-gradient(
         90deg,
-        #a1003a 6%,
-        #a1003af7 30%,
-        #a1003aa6 57%,
-        #a1003a22 100%
+        #e20000 6%,
+        #e20000f7 30%,
+        #e20000a6 57%,
+        #e2000022 100%
     );
     --sector: #f3f3f5;
-    --band: #a1003a;
+    --band: #e20000;
     --band-ink: #fff;
-    --band-line: #c96187;
+    --band-line: #ffffff4d;
     --focus: #004dba;
     --shadow: 0 12px 35px #161a2410;
 }
@@ -31,7 +31,7 @@
         --muted: #bec5d0;
         --soft: #20252d;
         --line: #3d4552;
-        --accent: #f48bb0;
+        --accent: #ff7070;
         --hero: #14171c;
         --hero-gradient: linear-gradient(
             90deg,
@@ -154,6 +154,7 @@ h3 {
     height: 46px;
     overflow: hidden;
     background: #fff;
+    border: 1px solid #e20000;
     border-radius: 2px;
     padding: 3px 7px;
     display: block;
@@ -232,10 +233,10 @@ h3 {
     letter-spacing: -0.04em;
 }
 .hero .eyebrow {
-    color: #ffcbdd;
+    color: #ffffff;
 }
 .hero .lead {
-    color: #f8e9ef;
+    color: #ffffff;
     max-width: 465px;
 }
 .lead {
@@ -305,10 +306,10 @@ h3 {
 }
 .hero .button {
     background: #fff;
-    color: #a1003a;
+    color: #e20000;
 }
 .hero .button:hover {
-    background: #f6dbe5;
+    background: #fff5f5;
 }
 .text-link {
     font-weight: 500;
@@ -850,10 +851,10 @@ tbody tr:nth-child(even) {
         color: #fff;
     }
     .hero .button:hover {
-        background: #bd0045;
+        background: var(--brand-hover);
     }
     .hero .eyebrow {
-        color: #f48bb0;
+        color: var(--accent);
     }
     .hero .lead {
         color: #d3d9e2;
@@ -1165,7 +1166,7 @@ tbody tr:nth-child(even) {
         --paper: #fff;
         --ink: #111;
         --muted: #444;
-        --accent: #a1003a;
+        --accent: #d60000;
         --soft: #f5f5f5;
         --line: #ccc;
     }

@@ -8,3 +8,5 @@ route-manifest.json
 verification.json
 .openai/
 OPEN-WEBSITE.html
+
+*.zip
