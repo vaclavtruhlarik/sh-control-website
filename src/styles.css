@@ -144,19 +144,18 @@ h3 {
     flex-shrink: 0;
 }
 .brand-mark {
-    width: 194px;
-    height: 46px;
-    overflow: hidden;
-    background: #fff;
-    border: 1px solid var(--brand);
-    border-radius: 2px;
-    padding: 3px 7px;
     display: block;
+    font-family: "Banff";
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    white-space: nowrap;
+    color: var(--brand);
 }
-.brand-mark img {
-    width: 435px;
-    max-width: none;
-    height: 40px;
+
+.brand:hover {
+    text-decoration: none;
 }
 .brand-tagline {
     display: none;
@@ -1040,9 +1039,7 @@ tbody tr:nth-child(even) {
         width: calc(100% - 36px);
     }
     .brand-mark {
-        width: 181px;
-        padding-left: 1px;
-        padding-right: 0;
+        font-size: 1.5rem;
     }
     .languages {
         gap: 0.5rem;
