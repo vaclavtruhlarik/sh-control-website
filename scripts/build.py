@@ -70,13 +70,33 @@ def language_links(current, locale, route):
     )
 
 
+def home_link(current, locale, route):
+    label = esc(UI[locale]["home"])
+    active = ' aria-current="page"' if route == "" else ""
+
+    return f"""
+    <a class="nav-home" href="{href(current, locale)}"
+       aria-label="{label}" title="{label}"{active}>
+        <svg width="20" height="20" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true" focusable="false">
+            <path d="M3 10L12 3L21 10"/>
+            <path d="M5 9V21H19V9"/>
+            <path d="M9 21V14H15V21"/>
+        </svg>
+        <span class="nav-home-label">{label}</span>
+    </a>
+    """
+
+
 def header(current, locale, route):
     u = UI[locale]
     return f"""<a class="skip-link" href="#main">{esc(u['skip'])}</a>
     <header class="site-header"><div class="wrap header-inner">{brand(current,locale)}
-      <nav class="desktop-nav" aria-label="{esc(u['menu'])}">{nav(current,locale,route)}</nav>
+      <nav class="desktop-nav" aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route)}</nav>
       <nav class="languages" aria-label="Language">{language_links(current,locale,route)}</nav>
-      <details class="mobile-menu"><summary>{esc(u['menu'])}</summary><nav aria-label="{esc(u['menu'])}">{nav(current,locale,route)}</nav></details>
+      <details class="mobile-menu"><summary>{esc(u['menu'])}</summary><nav aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route)}</nav></details>
     </div></header>"""
 
 
