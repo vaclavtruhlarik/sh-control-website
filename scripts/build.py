@@ -14,7 +14,7 @@ PAGES = json.loads((SRC / "content/pages.json").read_text(encoding="utf-8"))
 CONTENT = {(p["locale"], p["route"]): p for p in PAGES}
 LANG_NAMES = {"cz": "Čeština", "en": "English", "ru": "Русский"}
 MAIN_ROUTES = ["solutions", "products", "references", "about", "contact"]
-HERO = "images/2020114131224521827.jpg"
+HERO = "images/homepage_hero.jpg"
 TURBINE = "images/2020114131224604687.jpg"
 FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="5" fill="#a1003a"/><text x="32" y="43" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="34" font-weight="bold">SH</text></svg>'
 
@@ -226,7 +226,7 @@ def home(current, locale):
         for ident in ["57", "53", "52"]
     ]
     return f"""<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow">{esc(u['heroEyebrow'])}</p><h1>{u['heroTitle']}</h1><p class="lead">{esc(u['heroLead'])}</p><div class="actions">{page_link(current,locale,'solutions',u['ourSolutions'],'button',True)}{page_link(current,locale,'about',u['meetUs'],'text-link')}</div></div></div>
-    <figure class="hero-photo"><img src="{asset(current,HERO)}" width="560" height="420" alt="{esc(u['hydro'])} — Podivić" fetchpriority="high"><figcaption><strong>Podivić</strong>{'Bosna a Hercegovina' if locale=='cz' else 'Bosnia & Herzegovina' if locale=='en' else 'Босния и Герцеговина'}</figcaption></figure></section>
+    <figure class="hero-photo"><img src="{asset(current,HERO)}" width="560" height="420" alt="" fetchpriority="high"><figcaption><strong>Name_of_plant</strong>{'Place_of_plant' if locale=='cz' else 'Place_of_plant' if locale=='en' else 'Place_of_plant'}</figcaption></figure></section>
     <section class="sectors" aria-label="{esc(u['solutions'])}"><div class="wrap sector-grid">{''.join(sectors)}</div></section>
     <section class="section"><div class="wrap intro-grid"><h2>{esc(u['aboutHeading'])}</h2><div><p class="lead">{esc(u['aboutLead'])}</p>{page_link(current,locale,'about',u['meetUs'],'text-link')}</div></div></section>
     <section class="section muted-section"><div class="wrap"><div class="section-title"><h2>{esc(u['selectedProjects'])}</h2>{page_link(current,locale,'references',u['allProjects'],'text-link')}</div>{project_cards(current,locale,selected)}</div></section>{cta(current,locale)}"""

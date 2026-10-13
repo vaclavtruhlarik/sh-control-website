@@ -249,7 +249,7 @@ h3 {
     width: 72%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center top;
     position: absolute;
     right: 0;
 }
@@ -267,9 +267,10 @@ h3 {
     color: #fff;
     font-size: 0.81rem;
     text-shadow: 0 1px 8px #000;
+    display: none;
 }
 .hero-photo figcaption strong {
-    display: block;
+    display: none;
     font-weight: 600;
 }
 .actions {
@@ -902,6 +903,7 @@ tbody tr:nth-child(even) {
     }
     .hero-photo figcaption {
         right: 24px;
+        display: none;
     }
     .capability-grid {
         gap: 40px;
@@ -1071,6 +1073,7 @@ tbody tr:nth-child(even) {
     .hero-photo figcaption {
         left: 18px;
         right: 18px;
+        display: none;
     }
     .lead {
         font-size: 1.06rem;
