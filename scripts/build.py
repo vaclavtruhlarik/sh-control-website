@@ -302,11 +302,55 @@ def detail(current, page):
     elif kind == "product":
         head += page_head(current, locale, esc(page["title"]), "", u["products"])
         photos = gallery(page, current)
-        return (
-            head
-            + f'<div class="wrap product-summary"><article class="prose"><h2>{esc(u["productDetails"])}</h2>{body}{photos}</article><aside class="download-panel"><h2>{esc(u["catalogue"])}</h2><p>{esc(page["code"])} · PDF<br>{esc(u["czechDocument"])}</p><a class="button" href="{asset(current,page["download"])}" download>{esc(u["download"])} <span aria-hidden="true">↓</span></a><p style="margin-top:1.3rem;margin-bottom:0">{page_link(current,locale,"products",u["allProducts"],"text-link")}</p></aside></div>'
-            + cta(current, locale)
-        )
+
+        extra = page.get("extra_download")
+        extra_download_html = ""
+
+        if extra:
+            extra_download_html = f"""
+                <p style="margin-top:1rem;margin-bottom:0">
+                    <p>
+                        {esc(extra["text"])}
+                    </p>
+                    <a class="button"
+                        href="{asset(current, extra["src"])}"
+                        download>
+                            {esc(extra["label"])}
+                            <span aria-hidden="true">↓</span>
+                    </a>
+                </p>
+            """
+
+        return head + f"""
+                <div class="wrap product-summary">
+                    <article class="prose">
+                        <h2>{esc(u["productDetails"])}</h2>
+                        {body}
+                        {photos}
+                    </article>
+
+                    <aside class="download-panel">
+                        <h2>{esc(u["catalogue"])}</h2>
+                        <p>
+                            {esc(page["code"])} · PDF<br>
+                            {esc(u["czechDocument"])}
+                        </p>
+
+                        <a class="button"
+                           href="{asset(current, page["download"])}"
+                           download>
+                            {esc(u["download"])}
+                            <span aria-hidden="true">↓</span>
+                        </a>
+
+                        {extra_download_html}
+
+                        <p style="margin-top:1.3rem;margin-bottom:0">
+                            {page_link(current, locale, "products", u["allProducts"], "text-link")}
+                        </p>
+                    </aside>
+                </div>
+            """ + cta(current, locale)
     elif kind == "case":
         head += page_head(
             current, locale, esc(page["title"]), "", u["project"], project_image(page)

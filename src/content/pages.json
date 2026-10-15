@@ -122,7 +122,7 @@
         "body": "\n\n\t\t\nSnímač otáček slouží k měření otáček asynchronních a synchronních generátorů přímo na výstupních svorkách (bez čidla). Na výstupu je pak unifikovaný výstupní signál bez ohledu na velikost vstupního napětí. Tímto snímačem je možno měřit otáčky i nepřipojeného (nebo nebuzeného) generátoru.\n\t",
         "gallery": [
             {
-                "src": "images/200862523215325726.jpg",
+                "src": "images/BR2.png",
                 "alt": "BR2 - snímač otáček",
                 "source": "http://shcontrol.cz/apollo/pictures/200862523215325726.jpg"
             }
@@ -134,20 +134,20 @@
     {
         "locale": "cz",
         "id": "45",
-        "route": "products/br3",
+        "route": "products/br4",
         "kind": "product",
-        "code": "BR3",
-        "title": "BR3 — remanentní otáčkové relé",
+        "code": "BR4",
+        "title": "BR4 — remanentní otáčkové relé",
         "lead": "Remanentní otáčkové relé slouží k měření otáček asynchronních a synchronních generátorů pomocí remanentního napětí přímo na výstupních svorkách (bez indukčního čidla).",
         "body": "\n\n\t\t\n<p>Remanentní otáčkové relé slouží k měření otáček asynchronních a synchronních generátorů pomocí remanentního napětí přímo na výstupních svorkách (bez indukčního čidla). Remanentní otáčkové relé obsahuje převodník Hz/mA s analogovým výstupem 4–20mA, galvanicky oddělený pulzní výstup o dvojnásobné frekvenci a dvě výstupní relé. První slouží pro připojení asynchronního generátoru do sítě a druhé funguje jako ochrana před roztočením soustrojí do průběžných otáček.  </p>\n\t",
         "gallery": [
             {
-                "src": "images/2010716154659880882.JPG",
-                "alt": "BR3 - remanentní otáčkové relé",
+                "src": "images/BR4.png",
+                "alt": "BR4 - remanentní otáčkové relé",
                 "source": "http://shcontrol.cz/apollo/pictures/2010716154659880882.JPG"
             }
         ],
-        "download": "documents/BR3.pdf",
+        "download": "documents/BR4.pdf",
         "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
         "translated": false
     },
@@ -162,12 +162,42 @@
         "body": "\n\n\t\t\nKombinovaná vektorová a frekvenční ochrana slouží především k ochraně synchronních a asynchronních generátorù pracujících paralelně s veřejnou sítí. Vyznačuje se vysokou přesností a rychlostí díky použití mikroprocesorové techniky v kombinaci s jednoduchým zpùsobem nastavování.\n\t",
         "gallery": [
             {
-                "src": "images/2008626115142339108.jpg",
+                "src": "images/DF2.png",
                 "alt": "DF2 - kombinovaná vektorová a frekvenční ochrana",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
             }
         ],
         "download": "documents/DF2.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Stáhnout PDF",
+            "text": "Protokol o zkoušce"
+        },
+        "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+        "translated": false
+    },
+    {
+        "locale": "cz",
+        "id": "5",
+        "route": "products/df3",
+        "kind": "product",
+        "code": "DF3",
+        "title": "DF3 — kombinovaná vektorová a frekvenční ochrana",
+        "lead": "Kombinovaná vektorová a frekvenční ochrana slouží především k ochraně synchronních a asynchronních generátorù pracujících paralelně s veřejnou sítí.",
+        "body": "\n\n\t\t\nKombinovaná vektorová a frekvenční ochrana slouží především k ochraně synchronních a asynchronních generátorù pracujících paralelně s veřejnou sítí. Vyznačuje se vysokou přesností a rychlostí díky použití mikroprocesorové techniky v kombinaci s jednoduchým zpùsobem nastavování.\n\t",
+        "gallery": [
+            {
+                "src": "images/DF3.png",
+                "alt": "DF3 - kombinovaná vektorová a frekvenční ochrana",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
+            }
+        ],
+        "download": "documents/DF3.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Stáhnout PDF",
+            "text": "Protokol o zkoušce"
+        },
         "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
         "translated": false
     },
@@ -182,7 +212,7 @@
         "body": "\n\n\t\t\nRozdílová ochrana generátoru slouží k ochraně vinutí generátoru před zkraty mezi jednotlivými vinutími statoru nebo mezi vinutím a zemí. Každý začátek a konec vinutí je opatřen přístrojovým transformátorem proudu. Ochrana měří zvlášť vstupní a výstupní proudy jednotlivých vinutí. Průběžně je vyhodnocován jejich rozdíl a při překročení zadaného rozdílu je rozpojeno výstupní relé. Po obnovení proudové rovnováhy se výstupní relé opět sepne, ale informace o posledním odstavení zùstane uchována pomocí signalizačních LED diod až do stisku tlačítka reset.\n\t",
         "gallery": [
             {
-                "src": "images/2008626115142256248.jpg",
+                "src": "images/DP1.png",
                 "alt": "DP1 - rozdílová ochrana generátoru",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142256248.jpg"
             }
@@ -202,7 +232,7 @@
         "body": "\n\n\t\t\nRegulátor frekvence slouží k řízení frekvence generátorů, pracujících v ostrovním režimu změnou přídavného zatížení. Toto řešení se využívá v případě, že generátor je poháněn zařízením, u kterého je obtížné regulovat otáčky nebo je nelze měnit dostatečně rychle. Jedná se především o vodní turbiny. Regulátor měří frekvenci střídavého napětí z generátoru a pomocí až šesti binárních výstupů ovládá přídavné odporové zátěže, které umožňují při požadované frekvenci udržet v rovnováze bilanci mechanické energie pohonu s energií odebíranou z generátoru. Výstupy regulátoru jsou pouze ovládací nikoli silové, proto je třeba regulátor doplnit silovými elektronickými spínači odpovídajících výkonů. <br>Na čelní straně regulátoru je pomocí LED diod zobrazována okamžitá frekvence a momentálně sepnuté výstupy na zátěže.\n\t",
         "gallery": [
             {
-                "src": "images/200862611514235986.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "FC3 - regulátor frekvence",
                 "source": "http://shcontrol.cz/apollo/pictures/200862611514235986.jpg"
             }
@@ -222,7 +252,7 @@
         "body": "\n\n\t\t\nGalvanický oddělovač signálu se používá tam, kde je nutné galvanicky oddělit různá zařízení z hlediska bezpečnosti, ochrany obvodů řídících systémů nebo oddělení různých potenciálů.\n\t",
         "gallery": [
             {
-                "src": "images/200862612852667004.jpg",
+                "src": "images/GI1.png",
                 "alt": "GI1 - galvanický oddělovač signálu",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852667004.jpg"
             }
@@ -242,12 +272,12 @@
         "body": "\n\n\t\t\nPřepěťová ochrana LA1 slouží pro ochranu komunikačních linek a měřících obvodů před destrukcí navazujících zařízení úderem blesku nebo zvýšeným napětím.\n\t",
         "gallery": [
             {
-                "src": "images/200862612852584144.jpg",
+                "src": "images/LA1.png",
                 "alt": "LA1 - přepěťová ochrana",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852584144.jpg"
             }
         ],
-        "download": "documents/LA1.pdf",
+        "download": "documents/LA1_V2.pdf",
         "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
         "translated": false
     },
@@ -262,33 +292,13 @@
         "body": "\n\n\t\t\nElektronický odpor slouží především jako náhrada tzv. motorpotenciometru pro nastavování žádané hodnoty regulátorů napětí (buzení) synchronních generátorů. Hodnotu odporu lze měnit jak manuálně pomocí tlačítek, tak dálkově pomocí digitálních vstupů. Hodnota nastaveného odporu je zobrazována pomocí sloupcového LED displeje. Výstupní odpor je galvanicky oddělen.\n\t",
         "gallery": [
             {
-                "src": "images/200862612852363882.jpg",
+                "src": "images/MR1.png",
                 "alt": "MR1 - elektronický odpor",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852363882.jpg"
             }
         ],
         "download": "documents/MR1.pdf",
         "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
-        "translated": false
-    },
-    {
-        "locale": "cz",
-        "id": "11",
-        "route": "products/ps3",
-        "kind": "product",
-        "code": "PS3",
-        "title": "PS3 — napájecí zdroj 24V DC s bateriovým zálohováním",
-        "lead": "Tento napájecí zdroj je určen k napájení elektronických zařízení především na bázi mikroprocesorů.",
-        "body": "\n\n\t\t\nTento napájecí zdroj je určen k napájení elektronických zařízení především na bázi mikroprocesorů. Zdroj zajišťuje napájecí napětí při provozu ze sítě a během jejího výpadku po dobu danou kapacitou baterií. Po jejich vybití zajišťuje jejich jednoznačné odpojení tak, aby při dlouhodobém výpadku nedošlo k úplnému vybití. Při provozu ze sítě jsou baterie dobíjeny s ochranou proti přebití.\n\t",
-        "gallery": [
-            {
-                "src": "images/200862612852573463.jpg",
-                "alt": "PS3 - napájecí zdroj 24V DC s bateriovým zálohováním",
-                "source": "http://shcontrol.cz/apollo/pictures/200862612852573463.jpg"
-            }
-        ],
-        "download": "documents/PS3.pdf",
-        "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
         "translated": false
     },
     {
@@ -302,7 +312,7 @@
         "body": "\n\n\t\t\nZpětná wattová ochrana slouží k zamezení přechodu generátoru do motorického režimu. Analogový proudový výstup pak slouží k zobrazení naměřeného okamžitého výkonu. Mez pro sepnutí a zpoždění odpadu výstupního relé lze nastavit pomocí trimrů na čelní straně.\n\t",
         "gallery": [
             {
-                "src": "images/2008626121111106152.jpg",
+                "src": "images/RP1.png",
                 "alt": "RP1 - zpětná wattová ochrana kombinovaná s převodníkem výkonu",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121111106152.jpg"
             }
@@ -322,7 +332,7 @@
         "body": "\n\n\t\t\nAutomatický synchronizátor slouží k bezpečnému připojení synchronního generátoru k veřejné síti. Toto připojení je možno provést až když napětí a frekvence generátoru se liší od sítě méně než je pro daný typ generátoru přípustné. Dalším požadavkem je připojení generátoru s minimálním, nejlépe nulovým fázovým posuvem. Jelikož stykač potřebný pro připojení má určitou dobu sepnutí, je třeba vyslat zapínací impuls s určitým předstihem, tak aby k sepnutí došlo přibližně při nulovém rozdílu fází. Jestliže napětí a frekvence nejsou v potřebných mezích, je třeba pomocí regulátoru napětí a otáček tyto veličiny upravit. <br>Všechny tyto úlohy (včetně zobrazení okamžitých veličin fáze, rozdílu frekvence a rozdílu napětí pomocí LED diod) je schopen řešit tento automatický synchronizátor.\n\t",
         "gallery": [
             {
-                "src": "images/2008626121147370266.jpg",
+                "src": "images/SY1.png",
                 "alt": "SY1 - automatický synchronizátor",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121147370266.jpg"
             }
@@ -342,7 +352,7 @@
         "body": "\n\n\t\t\nOchrana TR1 slouží především k ochraně teploty vinutí motorů nebo generátorů pomocí zabudovaných čidel PTC. Čidla PTC s charakteristikou podle normy DIN 44081 (IEC 34-11) mají při normální teplotě nízký odpor cca 40 – 100 Ohmů a při dosažení mezní teploty jejich odpor prudce vzrůstá až na více než 4000 Ohmů. Tato čidla lze používat jak jednotlivě, tak zapojená v sérii. Ochranu TR1 lze použít pro dvě nezávislá zařízení, z nichž každé může mít dvě smyčky čidel PTC.\n\t",
         "gallery": [
             {
-                "src": "images/2008626121219558682.jpg",
+                "src": "images/TR1.png",
                 "alt": "TR1 - ochrana teploty vinutí motoru",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121219558682.jpg"
             }
@@ -967,7 +977,7 @@
         "body": "<p>The speed transducer measures the speed of asynchronous and synchronous generators directly at their output terminals, without a separate sensor. It provides a standardised output signal regardless of the input voltage level. The transducer can also measure the speed of a generator that is not connected to the grid or is not excited.</p>",
         "gallery": [
             {
-                "src": "images/200862523215325726.jpg",
+                "src": "images/BR2.png",
                 "alt": "BR2",
                 "source": "http://shcontrol.cz/apollo/pictures/200862523215325726.jpg"
             }
@@ -979,20 +989,20 @@
     {
         "locale": "en",
         "id": "45",
-        "route": "products/br3",
+        "route": "products/br4",
         "kind": "product",
-        "code": "BR3",
-        "title": "BR3 — Residual-voltage speed relay",
+        "code": "BR4",
+        "title": "BR4 — Residual-voltage speed relay",
         "lead": "Measures generator speed from residual voltage directly at the output terminals, without an inductive sensor.",
         "body": "<p>The residual-voltage speed relay measures the speed of asynchronous and synchronous generators using the residual voltage directly at their output terminals, without an inductive sensor. It incorporates a Hz/mA converter with a 4–20 mA analogue output, a galvanically isolated pulse output at twice the frequency, and two output relays. The first relay is used to connect an asynchronous generator to the grid; the second protects the generating set against acceleration to runaway speed.</p>",
         "gallery": [
             {
-                "src": "images/2010716154659880882.JPG",
-                "alt": "BR3",
+                "src": "images/BR4.png",
+                "alt": "BR4",
                 "source": "http://shcontrol.cz/apollo/pictures/2010716154659880882.JPG"
             }
         ],
-        "download": "documents/BR3.pdf",
+        "download": "documents/BR4_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
         "translated": true
     },
@@ -1007,12 +1017,42 @@
         "body": "<p>The combined vector-shift and frequency protection device is primarily intended to protect synchronous and asynchronous generators operating in parallel with the public grid. Microprocessor technology provides high accuracy and fast response, combined with a simple setting procedure.</p>",
         "gallery": [
             {
-                "src": "images/2008626115142339108.jpg",
+                "src": "images/DF2.png",
                 "alt": "DF2",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
             }
         ],
-        "download": "documents/DF2.pdf",
+        "download": "documents/DF2_eng.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Download PDF",
+            "text": "Test report"
+        },
+        "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+        "translated": true
+    },
+    {
+        "locale": "en",
+        "id": "5",
+        "route": "products/df3",
+        "kind": "product",
+        "code": "DF3",
+        "title": "DF3 — Combined vector-shift and frequency protection",
+        "lead": "Protects synchronous and asynchronous generators operating in parallel with the public grid.",
+        "body": "<p>The combined vector-shift and frequency protection device is primarily intended to protect synchronous and asynchronous generators operating in parallel with the public grid. Microprocessor technology provides high accuracy and fast response, combined with a simple setting procedure.</p>",
+        "gallery": [
+            {
+                "src": "images/DF3.png",
+                "alt": "DF3",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
+            }
+        ],
+        "download": "documents/DF3_eng.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Download PDF",
+            "text": "Test report"
+        },
         "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
         "translated": true
     },
@@ -1027,7 +1067,7 @@
         "body": "<p>The generator differential protection device protects generator windings against short circuits between individual stator windings or between a winding and earth. An instrument current transformer is fitted at both the start and the end of each winding. The device measures the incoming and outgoing currents of each winding separately. It continuously evaluates the difference and opens the output relay when the specified differential-current threshold is exceeded. When current balance is restored, the output relay closes again, but the indication of the last trip remains stored on the signal LEDs until the reset button is pressed.</p>",
         "gallery": [
             {
-                "src": "images/2008626115142256248.jpg",
+                "src": "images/DP1.png",
                 "alt": "DP1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142256248.jpg"
             }
@@ -1047,12 +1087,12 @@
         "body": "<p>The frequency controller controls the frequency of generators operating in island mode by varying an additional load. This approach is used when the generator is driven by equipment whose speed is difficult to control or cannot be changed quickly enough, particularly water turbines. The controller measures the frequency of the AC voltage from the generator and uses up to six binary outputs to control additional resistive loads. These loads maintain the balance between the drive&#x27;s mechanical energy and the energy drawn from the generator at the required frequency. The controller outputs provide control signals only, so the controller must be supplemented with electronic power switches of suitable ratings.</p><p>LEDs on the front of the controller indicate the instantaneous frequency and the load outputs that are currently switched on.</p>",
         "gallery": [
             {
-                "src": "images/200862611514235986.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "FC3",
                 "source": "http://shcontrol.cz/apollo/pictures/200862611514235986.jpg"
             }
         ],
-        "download": "documents/FC3.pdf",
+        "download": "documents/FC3_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=7&lang_id=1",
         "translated": true
     },
@@ -1067,7 +1107,7 @@
         "body": "<p>The galvanic signal isolator is used wherever different devices need to be galvanically isolated for safety, to protect control-system circuits, or to separate different electrical potentials.</p>",
         "gallery": [
             {
-                "src": "images/200862612852667004.jpg",
+                "src": "images/GI1.png",
                 "alt": "GI1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852667004.jpg"
             }
@@ -1087,12 +1127,12 @@
         "body": "<p>The LA1 surge protection device is used on communication lines and measurement circuits to prevent connected equipment from being destroyed by a lightning strike or excessive voltage.</p>",
         "gallery": [
             {
-                "src": "images/200862612852584144.jpg",
+                "src": "images/LA1.png",
                 "alt": "LA1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852584144.jpg"
             }
         ],
-        "download": "documents/LA1.pdf",
+        "download": "documents/LA1_V2.pdf",
         "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
         "translated": true
     },
@@ -1107,33 +1147,13 @@
         "body": "<p>The electronic resistor is primarily intended to replace a motorised potentiometer used to set the reference value of voltage (excitation) regulators for synchronous generators. The resistance can be adjusted manually using buttons or remotely using digital inputs. The set resistance value is shown on an LED bar display. The output resistance is galvanically isolated.</p>",
         "gallery": [
             {
-                "src": "images/200862612852363882.jpg",
+                "src": "images/MR1.png",
                 "alt": "MR1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852363882.jpg"
             }
         ],
         "download": "documents/MR1.pdf",
         "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
-        "translated": true
-    },
-    {
-        "locale": "en",
-        "id": "11",
-        "route": "products/ps3",
-        "kind": "product",
-        "code": "PS3",
-        "title": "PS3 — 24 V DC power supply with battery backup",
-        "lead": "Powers electronic equipment from the mains and maintains the supply during an outage using backup batteries.",
-        "body": "<p>This power supply is designed to power electronic equipment, particularly microprocessor-based devices. It provides the supply voltage during mains operation and, during a mains failure, for a period determined by the battery capacity. When the batteries are discharged, it reliably disconnects them to prevent complete discharge during a prolonged outage. During mains operation, the batteries are recharged with overcharge protection.</p>",
-        "gallery": [
-            {
-                "src": "images/200862612852573463.jpg",
-                "alt": "PS3",
-                "source": "http://shcontrol.cz/apollo/pictures/200862612852573463.jpg"
-            }
-        ],
-        "download": "documents/PS3.pdf",
-        "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
         "translated": true
     },
     {
@@ -1147,7 +1167,7 @@
         "body": "<p>The reverse-power protection device prevents the generator from entering motoring operation. Its analogue current output is used to display the measured instantaneous power. The output relay&#x27;s pickup threshold and dropout delay can be adjusted using trimmers on the front panel.</p>",
         "gallery": [
             {
-                "src": "images/2008626121111106152.jpg",
+                "src": "images/RP1.png",
                 "alt": "RP1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121111106152.jpg"
             }
@@ -1167,12 +1187,12 @@
         "body": "<p>The automatic synchroniser is used to connect a synchronous generator safely to the public grid. Connection is possible only when the differences between the generator and grid voltage and frequency are below the limits permitted for that generator type. The generator must also be connected with a minimal, preferably zero, phase difference. Because the contactor used for connection takes a certain time to close, the closing pulse must be issued in advance so that the contacts close at approximately zero phase difference. If the voltage and frequency are outside the required limits, they must be adjusted using the voltage and speed regulators.</p><p>This automatic synchroniser performs all these tasks, including LED indication of the instantaneous phase, frequency difference and voltage difference.</p>",
         "gallery": [
             {
-                "src": "images/2008626121147370266.jpg",
+                "src": "images/SY1.png",
                 "alt": "SY1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121147370266.jpg"
             }
         ],
-        "download": "documents/SY1.pdf",
+        "download": "documents/SY1_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=13&lang_id=1",
         "translated": true
     },
@@ -1187,7 +1207,7 @@
         "body": "<p>The TR1 protection device is primarily intended to protect motor or generator windings against excessive temperature using built-in PTC sensors. PTC sensors with characteristics conforming to DIN 44081 (IEC 34-11) have a low resistance of approximately 40–100 ohms at normal temperature. When the temperature limit is reached, their resistance rises sharply to more than 4000 ohms. The sensors can be used individually or connected in series. TR1 can be used for two independent devices, each of which may have two PTC sensor loops.</p>",
         "gallery": [
             {
-                "src": "images/2008626121219558682.jpg",
+                "src": "images/TR1.png",
                 "alt": "TR1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121219558682.jpg"
             }
@@ -1817,7 +1837,7 @@
         "body": "<p>Преобразователь предназначен для измерения частоты вращения асинхронных и синхронных генераторов непосредственно на их выходных клеммах, без отдельного датчика. Он формирует унифицированный выходной сигнал независимо от величины входного напряжения. Преобразователь позволяет измерять частоту вращения также у генератора, не подключённого к сети или работающего без возбуждения.</p>",
         "gallery": [
             {
-                "src": "images/200862523215325726.jpg",
+                "src": "images/BR2.png",
                 "alt": "BR2",
                 "source": "http://shcontrol.cz/apollo/pictures/200862523215325726.jpg"
             }
@@ -1829,20 +1849,20 @@
     {
         "locale": "ru",
         "id": "45",
-        "route": "products/br3",
+        "route": "products/br4",
         "kind": "product",
-        "code": "BR3",
-        "title": "BR3 — Реле частоты вращения по остаточному напряжению",
+        "code": "BR4",
+        "title": "BR4 — Реле частоты вращения по остаточному напряжению",
         "lead": "Измеряет частоту вращения генератора по остаточному напряжению непосредственно на выходных клеммах, без индуктивного датчика.",
         "body": "<p>Реле предназначено для измерения частоты вращения асинхронных и синхронных генераторов по остаточному напряжению непосредственно на их выходных клеммах, без индуктивного датчика. Реле содержит преобразователь Hz/mA с аналоговым выходом 4–20 мА, гальванически развязанный импульсный выход с удвоенной частотой и два выходных реле. Первое служит для подключения асинхронного генератора к сети, а второе защищает агрегат от разгона до угонной частоты вращения.</p>",
         "gallery": [
             {
-                "src": "images/2010716154659880882.JPG",
-                "alt": "BR3",
+                "src": "images/BR4.png",
+                "alt": "BR4",
                 "source": "http://shcontrol.cz/apollo/pictures/2010716154659880882.JPG"
             }
         ],
-        "download": "documents/BR3.pdf",
+        "download": "documents/BR4_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=45&lang_id=1",
         "translated": true
     },
@@ -1857,12 +1877,42 @@
         "body": "<p>Комбинированная защита по скачку вектора и частоте предназначена прежде всего для защиты синхронных и асинхронных генераторов, работающих параллельно с общей электрической сетью. Благодаря применению микропроцессорной техники устройство сочетает высокую точность и быстродействие с простотой настройки.</p>",
         "gallery": [
             {
-                "src": "images/2008626115142339108.jpg",
+                "src": "images/DF2.png",
                 "alt": "DF2",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
             }
         ],
-        "download": "documents/DF2.pdf",
+        "download": "documents/DF2_eng.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Скачать PDF",
+            "text": "Протокол испытаний"
+        },
+        "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
+        "translated": true
+    },
+    {
+        "locale": "ru",
+        "id": "5",
+        "route": "products/df3",
+        "kind": "product",
+        "code": "DF3",
+        "title": "DF3 — Комбинированная защита по скачку вектора и частоте",
+        "lead": "Защищает синхронные и асинхронные генераторы, работающие параллельно с общей электрической сетью.",
+        "body": "<p>Комбинированная защита по скачку вектора и частоте предназначена прежде всего для защиты синхронных и асинхронных генераторов, работающих параллельно с общей электрической сетью. Благодаря применению микропроцессорной техники устройство сочетает высокую точность и быстродействие с простотой настройки.</p>",
+        "gallery": [
+            {
+                "src": "images/DF3.png",
+                "alt": "DF3",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
+            }
+        ],
+        "download": "documents/DF3_eng.pdf",
+        "extra_download": {
+            "src": "documents/DF2_protokol.pdf",
+            "label": "Скачать PDF",
+            "text": "Протокол испытаний"
+        },
         "source": "http://shcontrol.cz/art.asp?id=5&lang_id=1",
         "translated": true
     },
@@ -1877,7 +1927,7 @@
         "body": "<p>Дифференциальная защита генератора предназначена для защиты его обмоток от коротких замыканий между отдельными обмотками статора или между обмоткой и землёй. В начале и конце каждой обмотки устанавливается измерительный трансформатор тока. Устройство раздельно измеряет входной и выходной токи каждой обмотки. Разность токов непрерывно контролируется, и при превышении заданного порога контакты выходного реле размыкаются. После восстановления баланса токов контакты выходного реле вновь замыкаются, однако информация о последнем отключении сохраняется на светодиодных индикаторах до нажатия кнопки сброса.</p>",
         "gallery": [
             {
-                "src": "images/2008626115142256248.jpg",
+                "src": "images/DP1.png",
                 "alt": "DP1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142256248.jpg"
             }
@@ -1897,12 +1947,12 @@
         "body": "<p>Регулятор предназначен для управления частотой генераторов, работающих в автономном режиме, путём изменения дополнительной нагрузки. Такое решение применяется, когда генератор приводится во вращение оборудованием, частоту вращения которого трудно регулировать или невозможно изменять достаточно быстро. В первую очередь это относится к гидротурбинам. Регулятор измеряет частоту переменного напряжения генератора и с помощью до шести дискретных выходов управляет дополнительными резистивными нагрузками. При требуемой частоте эти нагрузки позволяют поддерживать баланс между механической энергией привода и энергией, отбираемой от генератора. Выходы регулятора являются управляющими, а не силовыми, поэтому его необходимо дополнить электронными силовыми ключами соответствующей мощности.</p><p>Светодиоды на передней панели регулятора показывают текущую частоту и включённые в данный момент выходы управления нагрузками.</p>",
         "gallery": [
             {
-                "src": "images/200862611514235986.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "FC3",
                 "source": "http://shcontrol.cz/apollo/pictures/200862611514235986.jpg"
             }
         ],
-        "download": "documents/FC3.pdf",
+        "download": "documents/FC3_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=7&lang_id=1",
         "translated": true
     },
@@ -1917,7 +1967,7 @@
         "body": "<p>Гальванический изолятор сигнала применяется там, где необходимо обеспечить гальваническую развязку различных устройств для безопасности, защиты цепей систем управления или разделения различных электрических потенциалов.</p>",
         "gallery": [
             {
-                "src": "images/200862612852667004.jpg",
+                "src": "images/GI1.png",
                 "alt": "GI1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852667004.jpg"
             }
@@ -1937,12 +1987,12 @@
         "body": "<p>Устройство защиты от перенапряжений LA1 применяется в линиях связи и измерительных цепях для предотвращения разрушения подключённого оборудования вследствие удара молнии или повышенного напряжения.</p>",
         "gallery": [
             {
-                "src": "images/200862612852584144.jpg",
+                "src": "images/LA1.png",
                 "alt": "LA1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852584144.jpg"
             }
         ],
-        "download": "documents/LA1.pdf",
+        "download": "documents/LA1_V2.pdf",
         "source": "http://shcontrol.cz/art.asp?id=9&lang_id=1",
         "translated": true
     },
@@ -1957,33 +2007,13 @@
         "body": "<p>Электронный резистор предназначен прежде всего для замены моторизованного потенциометра, используемого для задания уставки регуляторов напряжения (возбуждения) синхронных генераторов. Сопротивление можно изменять вручную с помощью кнопок или дистанционно через цифровые входы. Заданное значение сопротивления отображается на линейном светодиодном индикаторе. Выходное сопротивление гальванически развязано.</p>",
         "gallery": [
             {
-                "src": "images/200862612852363882.jpg",
+                "src": "images/MR1.png",
                 "alt": "MR1",
                 "source": "http://shcontrol.cz/apollo/pictures/200862612852363882.jpg"
             }
         ],
         "download": "documents/MR1.pdf",
         "source": "http://shcontrol.cz/art.asp?id=10&lang_id=1",
-        "translated": true
-    },
-    {
-        "locale": "ru",
-        "id": "11",
-        "route": "products/ps3",
-        "kind": "product",
-        "code": "PS3",
-        "title": "PS3 — Источник питания 24 В DC с аккумуляторным резервированием",
-        "lead": "Питает электронное оборудование от сети и поддерживает питание от резервных аккумуляторов при её отключении.",
-        "body": "<p>Этот источник питания предназначен для электронного оборудования, прежде всего устройств на базе микропроцессоров. Он обеспечивает питающее напряжение при работе от сети, а при её отключении — в течение времени, определяемого ёмкостью аккумуляторов. При разряде аккумуляторов источник обеспечивает их надёжное отключение, чтобы длительное отсутствие сети не привело к полному разряду. Во время работы от сети аккумуляторы заряжаются с защитой от перезаряда.</p>",
-        "gallery": [
-            {
-                "src": "images/200862612852573463.jpg",
-                "alt": "PS3",
-                "source": "http://shcontrol.cz/apollo/pictures/200862612852573463.jpg"
-            }
-        ],
-        "download": "documents/PS3.pdf",
-        "source": "http://shcontrol.cz/art.asp?id=11&lang_id=1",
         "translated": true
     },
     {
@@ -1997,7 +2027,7 @@
         "body": "<p>Защита от обратной мощности предназначена для предотвращения перехода генератора в двигательный режим. Аналоговый токовый выход служит для отображения измеренной текущей мощности. Порог срабатывания и задержку отпускания выходного реле можно настраивать подстроечными резисторами на передней панели.</p>",
         "gallery": [
             {
-                "src": "images/2008626121111106152.jpg",
+                "src": "images/RP1.png",
                 "alt": "RP1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121111106152.jpg"
             }
@@ -2017,12 +2047,12 @@
         "body": "<p>Автоматический синхронизатор предназначен для безопасного подключения синхронного генератора к общей электрической сети. Подключение допускается только тогда, когда различия между напряжением и частотой генератора и сети меньше пределов, допустимых для данного типа генератора. Кроме того, генератор необходимо подключать с минимальным, в идеале нулевым, сдвигом фаз. Поскольку контактору, используемому для подключения, требуется определённое время на замыкание, импульс включения необходимо подать заранее, чтобы замыкание произошло приблизительно при нулевой разности фаз. Если напряжение и частота находятся вне требуемых пределов, их необходимо скорректировать с помощью регуляторов напряжения и частоты вращения.</p><p>Автоматический синхронизатор способен выполнять все эти задачи, включая светодиодную индикацию текущей фазы, разности частот и разности напряжений.</p>",
         "gallery": [
             {
-                "src": "images/2008626121147370266.jpg",
+                "src": "images/SY1.png",
                 "alt": "SY1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121147370266.jpg"
             }
         ],
-        "download": "documents/SY1.pdf",
+        "download": "documents/SY1_eng.pdf",
         "source": "http://shcontrol.cz/art.asp?id=13&lang_id=1",
         "translated": true
     },
@@ -2037,7 +2067,7 @@
         "body": "<p>Устройство TR1 предназначено прежде всего для температурной защиты обмоток двигателей или генераторов с помощью встроенных датчиков PTC. Датчики PTC с характеристикой по стандарту DIN 44081 (IEC 34-11) при нормальной температуре имеют низкое сопротивление — приблизительно 40–100 Ом. При достижении предельной температуры их сопротивление резко возрастает до более чем 4000 Ом. Датчики можно использовать как по отдельности, так и при последовательном соединении. Защиту TR1 можно применять для двух независимых устройств, каждое из которых может иметь две цепи датчиков PTC.</p>",
         "gallery": [
             {
-                "src": "images/2008626121219558682.jpg",
+                "src": "images/TR1.png",
                 "alt": "TR1",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626121219558682.jpg"
             }
