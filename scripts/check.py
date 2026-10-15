@@ -106,8 +106,9 @@ for f in DIST.rglob("*.css"):
         if not urlsplit(ref).scheme:
             require((f.parent / ref).exists(), f"Missing CSS asset: {ref}")
 pdfs = list((DIST / "assets/documents").glob("*.pdf"))
-require(len(pdfs) == 12, "Expected 12 PDFs")
+require(len(pdfs) == 20, "Expected 20 PDFs")
 for f in pdfs:
+    print(f"Checking PDF: {f}")
     require(f.read_bytes().startswith(b"%PDF-"), f"Invalid PDF: {f}")
 pages = json.loads((ROOT / "src/content/pages.json").read_text())
 for locale in ["cz", "en", "ru"]:

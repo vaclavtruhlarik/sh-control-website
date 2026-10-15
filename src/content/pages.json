@@ -74,7 +74,7 @@
                 "source": "http://shcontrol.cz/apollo/pictures/2008618161357698162.jpg"
             },
             {
-                "src": "images/200862311431727524.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/200862311431727524.jpg"
             },
@@ -929,7 +929,7 @@
                 "source": "http://shcontrol.cz/apollo/pictures/2008618161357698162.jpg"
             },
             {
-                "src": "images/200862311431727524.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/200862311431727524.jpg"
             },
@@ -1047,7 +1047,7 @@
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
             }
         ],
-        "download": "documents/DF3_eng.pdf",
+        "download": "documents/DF3.pdf",
         "extra_download": {
             "src": "documents/DF2_protokol.pdf",
             "label": "Download PDF",
@@ -1789,7 +1789,7 @@
                 "source": "http://shcontrol.cz/apollo/pictures/2008618161357698162.jpg"
             },
             {
-                "src": "images/200862311431727524.jpg",
+                "src": "images/FC3.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/200862311431727524.jpg"
             },
@@ -1907,7 +1907,7 @@
                 "source": "http://shcontrol.cz/apollo/pictures/2008626115142339108.jpg"
             }
         ],
-        "download": "documents/DF3_eng.pdf",
+        "download": "documents/DF3.pdf",
         "extra_download": {
             "src": "documents/DF2_protokol.pdf",
             "label": "Скачать PDF",
