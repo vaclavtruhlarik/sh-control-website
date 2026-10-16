@@ -271,35 +271,117 @@ def index_page(current, locale, route):
     )
 
 
+def solution_main_image(page, fallback=None):
+    """Use the page's main_image; preserve the original image when omitted."""
+    main_image = page.get("main_image") or {}
+    photos = page.get("gallery") or []
+    default_photo = fallback or (photos[0]["src"] if photos else None)
+    return main_image.get("src") or default_photo, main_image.get("alt", "")
+
+
+# Each solution owns its layout below. Text and pictures come from pages.json;
+# the same function renders CZ, EN and RU using the page's locale.
+def solution_petrochemicals(current, page):
+    """Build the Oil and Chemical industries solution page."""
+    locale = page["locale"]
+    u = UI[locale]
+    body, headings = rich_body(page, current)
+    photo, photo_alt = solution_main_image(page)
+    head = breadcrumbs(current, locale, page["route"], page["title"])
+    head += page_head(
+        current, locale, esc(page["title"]), page["lead"], u["solutions"],
+        photo, photo_alt,
+    )
+    return (
+        head
+        + '<div class="wrap content-layout">'
+        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'{side_panel(current,locale,headings)}</div>'
+        + cta(current, locale)
+    )
+
+
+def solution_power_engineering(current, page):
+    """Build the Power engineering solution page."""
+    locale = page["locale"]
+    u = UI[locale]
+    body, headings = rich_body(page, current)
+    photo, photo_alt = solution_main_image(page)
+    head = breadcrumbs(current, locale, page["route"], page["title"])
+    head += page_head(
+        current, locale, esc(page["title"]), page["lead"], u["solutions"],
+        photo, photo_alt,
+    )
+    return (
+        head
+        + '<div class="wrap content-layout">'
+        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'{side_panel(current,locale,headings)}</div>'
+        + cta(current, locale)
+    )
+
+
+def solution_small_hydropower(current, page):
+    """Build the Small hydropower solution, including its capabilities strip."""
+    locale = page["locale"]
+    u = UI[locale]
+    body, headings = rich_body(page, current)
+    photo, photo_alt = solution_main_image(page, fallback=HERO)
+    head = breadcrumbs(current, locale, page["route"], page["title"])
+    head += page_head(
+        current, locale, u["hydroHeadline"], u["hydroLead"], page["title"],
+        photo, photo_alt,
+    )
+    head += (
+        f'<section class="capabilities"><div class="wrap capability-grid"><h2>{esc(u["capabilityTitle"])}</h2><ol>'
+        + "".join("<li>" + esc(x) + "</li>" for x in u["capabilities"])
+        + "</ol></div></section>"
+    )
+    return (
+        head
+        + '<div class="wrap content-layout">'
+        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'{side_panel(current,locale,headings)}</div>'
+        + cta(current, locale)
+    )
+
+
+def solution_other_projects(current, page):
+    """Build Other projects; also provide a default for new service types."""
+    locale = page["locale"]
+    u = UI[locale]
+    body, headings = rich_body(page, current)
+    photo, photo_alt = solution_main_image(page)
+    head = breadcrumbs(current, locale, page["route"], page["title"])
+    head += page_head(
+        current, locale, esc(page["title"]), page["lead"], u["solutions"],
+        photo, photo_alt,
+    )
+    return (
+        head
+        + '<div class="wrap content-layout">'
+        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'{side_panel(current,locale,headings)}</div>'
+        + cta(current, locale)
+    )
+
+
 def detail(current, page):
     locale, route, kind = page["locale"], page["route"], page["kind"]
+    if kind == "service":
+        solution_pages = {
+            "chemistry": solution_petrochemicals,
+            "energy": solution_power_engineering,
+            "hydro": solution_small_hydropower,
+            "other": solution_other_projects,
+        }
+        render_solution = solution_pages.get(page["service"], solution_other_projects)
+        return render_solution(current, page)
+
     u = UI[locale]
     head = breadcrumbs(current, locale, route, page["title"])
     body, headings = rich_body(page, current)
-    if kind == "service":
-        is_hydro = page["service"] == "hydro"
-        title = u["hydroHeadline"] if is_hydro else esc(page["title"])
-        lead = u["hydroLead"] if is_hydro else page["lead"]
-        photo = (
-            HERO
-            if is_hydro
-            else (page["gallery"][0]["src"] if page["gallery"] else None)
-        )
-        head += page_head(
-            current,
-            locale,
-            title,
-            lead,
-            page["title"] if is_hydro else u["solutions"],
-            photo,
-        )
-        if is_hydro:
-            head += (
-                f'<section class="capabilities"><div class="wrap capability-grid"><h2>{esc(u["capabilityTitle"])}</h2><ol>'
-                + "".join("<li>" + esc(x) + "</li>" for x in u["capabilities"])
-                + "</ol></div></section>"
-            )
-    elif kind == "product":
+    if kind == "product":
         head += page_head(current, locale, esc(page["title"]), "", u["products"])
         photos = gallery(page, current)
 
