@@ -18,7 +18,11 @@
         "service": "chemistry",
         "title": "Petrochemie a chemie",
         "lead": "Řízení technologických procesů",
-        "body": "\n<p><a></a>Hlavní náplní firmy SH Control pro tento obor jsou dodávky programového vybavení a asistence při najíždění zařízení pro následující technologické procesy.</p>  <ul> <li>rafinerie ropy </li><li>rafinace ropných produktů </li><li>zpracování ropy </li><li>výrobu čpavku a vodíku </li><li>výrobu VCM a PVC </li><li>výrobu PE  </li><li>zpracování, čištění, skladování a doprava plynů </li><li>výrobu síry </li><li>kvalifikovanou chemii </li></ul>   <p>Ve spolupráci s renomovanými tuzemskými i zahraničními partnery zajišťujeme dodávky programového vybavení pro řídící systémy <a></a><a>firmy Honeywell</a>: </p> <ul> <li>TDC® 3000, </li><li>TPS, </li><li>FSC®, </li><li>HC900 </li><li>Experion® PKS. </li></ul> <p>Naši  zákazníci, kde tyto systémy pracují jsou : </p> <ul> <li>Spolana Neratovice, </li><li>Synthos (dříve Kaučuk) Kralupy nad Vltavou, </li><li>Sartomer Kralupy nad Vltavou, </li><li>Paramo Pardubice, </li><li>Česká rafinerská Litvínov a Kralupy nad Vltavou, </li><li>Plynárna Vřesová, </li><li>rafinérie TengizChevroil Tengiz (Kazachstán). </li></ul>\n\t",
+        "body": [
+            "<p>Hlavní náplní firmy SH Control pro tento obor jsou dodávky programového vybavení a asistence při najíždění zařízení pro následující technologické procesy.</p>  <ul> <li>rafinerie ropy </li><li>rafinace ropných produktů </li><li>zpracování ropy </li><li>výrobu čpavku a vodíku </li><li>výrobu VCM a PVC </li><li>výrobu PE  </li><li>zpracování, čištění, skladování a doprava plynů </li><li>výrobu síry </li><li>kvalifikovanou chemii </li></ul>",
+            "<p>Ve spolupráci s renomovanými tuzemskými i zahraničními partnery zajišťujeme dodávky programového vybavení pro řídící systémy <a>firmy Honeywell</a>: </p> <ul> <li>TDC® 3000, </li><li>TPS, </li><li>FSC®, </li><li>HC900 </li><li>Experion® PKS. </li></ul>",
+            "<p>Naši  zákazníci, kde tyto systémy pracují jsou : </p> <ul> <li>Spolana Neratovice, </li><li>Synthos (dříve Kaučuk) Kralupy nad Vltavou, </li><li>Sartomer Kralupy nad Vltavou, </li><li>Paramo Pardubice, </li><li>Česká rafinerská Litvínov a Kralupy nad Vltavou, </li><li>Plynárna Vřesová, </li><li>rafinérie TengizChevroil Tengiz (Kazachstán). </li></ul>"
+        ],
         "gallery": [
             {
                 "src": "images/PetChem1.jpg",
@@ -878,12 +882,21 @@
         "service": "chemistry",
         "title": "Oil and Chemical industries",
         "lead": "Industrial process control",
-        "body": "\n<p>SH Control provides software and startup assistance for these technological processes:</p> <ul> <li>Crude oil treatment </li><li>Ammoniac production </li><li>Poly Vinyl Chloride production </li><li>Sulphur production </li><li>Treatment, transport and storage of gases </li><li>Qualified chemistry</li></ul>  <p>In cooperation with foreign partners we provide software for HONEYWELL control systems:</p> <ul> <li>TDC® 3000, </li><li>TPS </li><li>FSC®, </li><li>HC900 </li><li>Experion® PKS<br></li></ul> <p>Example of our customers:</p>  <ul> <li>Spolana Neratovice, </li><li>Synthos Kralupy nad Vltavou </li><li>Sartomer Kralupy nad Vltavou </li><li>Paramo Pardubice </li><li>Česká rafinerská Litvínov </li><li>Gas work Vřesová </li><li>Crude oil refinery Tengiz ChevrOil Kazakhstan<br></li></ul>\n\t",
+        "body": [
+            "<p>SH Control supplies software and provides commissioning support in this sector for the following industrial processes and facilities:</p><ul><li>oil refineries</li><li>petroleum product refining</li><li>crude oil processing</li><li>ammonia and hydrogen production</li><li>VCM and PVC production</li><li>PE production</li><li>gas processing, purification, storage and transport</li><li>sulfur production</li><li>specialty chemicals production</li></ul>",
+            "<p>In cooperation with reputable Czech and international partners, we supply software for <a>Honeywell control systems</a>:</p><ul><li>TDC® 3000</li><li>TPS</li><li>FSC®</li><li>HC900</li><li>Experion® PKS</li></ul>",
+            "<p>These systems are in operation at the following customers' facilities:</p><ul><li>Spolana, Neratovice</li><li>Synthos (formerly Kaučuk), Kralupy nad Vltavou</li><li>Sartomer, Kralupy nad Vltavou</li><li>Paramo, Pardubice</li><li>Česká rafinerská, Litvínov and Kralupy nad Vltavou</li><li>Vřesová gasworks</li><li>TengizChevroil refinery, Tengiz (Kazakhstan)</li></ul>"
+        ],
         "gallery": [
             {
                 "src": "images/PetChem1.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008619165246870266.jpg"
+            },
+            {
+                "src": "images/PetChem2.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008619165314699627.jpg"
             }
         ],
         "source": "http://shcontrol.cz/en/area.asp?area_id=1&place_id=1",
@@ -1733,7 +1746,11 @@
         "service": "chemistry",
         "title": "Нефтехимия и химия",
         "lead": "Управление технологическими процессами",
-        "body": "\n<p>SH Control поставляет программное обеспечение и обеспечивает пуско-наладки систем  управления технологическими процессами в нефтехемической промышленности.</p><ul><li>переработка нефтепродуктов и нефти</li><li>производство аммиака и водорода</li><li>производство ПВХ</li><li>производство полиэтилена</li><li>обработки, очистки, хранения и транспортировки газов</li><li>производство серы</li><li>специальных химикатов</li></ul>  <p>Программное обеспечение поставляется в первую очередь  для систем управления Honeywell. Здесь мы можем выделить системы  Honeywell  TDC® 3000, TPS, FSC ®, HC900 и Experion ® PKS. </p> <p>Области применения систем управления описаны во введении, приведем лишь примеры фирм, где эти системы работают: </p><ul><li>Сполана Нератовице </li><li>Каучук  Кралупы, </li><li>Парамо Пардубице, </li><li>Вресова Соколов и другие.</li></ul>\n\t",
+        "body": [
+            "<p>Основные направления деятельности компании SH Control в этой отрасли — поставка программного обеспечения и поддержка при вводе оборудования в эксплуатацию для следующих производств и технологических процессов:</p><ul><li>нефтеперерабатывающие заводы</li><li>очистка нефтепродуктов</li><li>переработка нефти</li><li>производство аммиака и водорода</li><li>производство винилхлорида (VCM) и поливинилхлорида (PVC)</li><li>производство полиэтилена (PE)</li><li>переработка, очистка, хранение и транспортировка газов</li><li>производство серы</li><li>производство специальных химических продуктов</li></ul>",
+            "<p>В сотрудничестве с авторитетными чешскими и зарубежными партнёрами мы поставляем программное обеспечение для систем управления <a>компании Honeywell</a>:</p><ul><li>TDC® 3000</li><li>TPS</li><li>FSC®</li><li>HC900</li><li>Experion® PKS</li></ul>",
+            "<p>Наши заказчики, на предприятиях которых работают эти системы:</p><ul><li>Spolana, Neratovice</li><li>Synthos (ранее Kaučuk), Kralupy nad Vltavou</li><li>Sartomer, Kralupy nad Vltavou</li><li>Paramo, Pardubice</li><li>Česká rafinerská, Litvínov и Kralupy nad Vltavou</li><li>газовый завод Vřesová</li><li>нефтеперерабатывающий завод TengizChevroil, Тенгиз (Казахстан)</li></ul>"
+        ],
         "gallery": [
             {
                 "src": "images/PetChem1.jpg",

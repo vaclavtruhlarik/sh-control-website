@@ -23,8 +23,15 @@ def esc(value):
     return escape(str(value), quote=True)
 
 
+def body_html(value):
+    """Accept an HTML string or a list of HTML paragraph blocks from pages.json."""
+    return "\n".join(value) if isinstance(value, list) else value
+
+
 def plain(value):
-    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", value))).strip()
+    return re.sub(
+        r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", body_html(value)))
+    ).strip()
 
 
 def filepath(locale, route=""):
@@ -156,7 +163,7 @@ def side_panel(current, locale, headings=None):
 
 
 def rich_body(page, current):
-    body = re.sub(r"<a>(.*?)</a>", r"\1", page.get("body", ""), flags=re.S)
+    body = re.sub(r"<a>(.*?)</a>", r"\1", body_html(page.get("body", "")), flags=re.S)
     body = re.sub(
         r"@@route:([^@]*)@@", lambda m: href(current, page["locale"], m[1]), body
     )
@@ -174,19 +181,24 @@ def rich_body(page, current):
     return body, headings
 
 
-def gallery(page, current):
+def gallery_figure(page, current, im):
+    """Render one gallery image, also usable between body paragraphs."""
     u = UI[page["locale"]]
+    description = im.get("alt", "")
+    label = description or u["photo"] + " — " + page["title"]
+    caption = f"<figcaption>{esc(description)}</figcaption>" if description else ""
+    return f'<figure><a href="{asset(current,im["src"])}"><img src="{asset(current,im["src"])}" loading="lazy" decoding="async" alt="{esc(label)}"></a>{caption}</figure>'
+
+
+def gallery(page, current):
     photos = page.get("gallery", [])
     if not photos:
         return ""
-    out = []
-    for im in photos:
-        label = im["alt"] or u["photo"] + " — " + page["title"]
-        caption = f'<figcaption>{esc(im["alt"])}</figcaption>' if im["alt"] else ""
-        out.append(
-            f'<figure><a href="{asset(current,im["src"])}"><img src="{asset(current,im["src"])}" loading="lazy" decoding="async" alt="{esc(label)}"></a>{caption}</figure>'
-        )
-    return '<div class="gallery">' + "".join(out) + "</div>"
+    return (
+        '<div class="gallery">'
+        + "".join(gallery_figure(page, current, im) for im in photos)
+        + "</div>"
+    )
 
 
 def project_image(page):
@@ -271,32 +283,51 @@ def index_page(current, locale, route):
     )
 
 
-def solution_main_image(page, fallback=None):
-    """Use the page's main_image; preserve the original image when omitted."""
-    main_image = page.get("main_image") or {}
+def solution_main_image(page):
+    """Use the first gallery image as the solution's main image."""
     photos = page.get("gallery") or []
-    default_photo = fallback or (photos[0]["src"] if photos else None)
-    return main_image.get("src") or default_photo, main_image.get("alt", "")
+    if not photos:
+        return None, ""
+    return photos[0]["src"], photos[0].get("alt", "")
 
 
 # Each solution owns its layout below. Text and pictures come from pages.json;
 # the same function renders CZ, EN and RU using the page's locale.
 def solution_petrochemicals(current, page):
-    """Build the Oil and Chemical industries solution page."""
+    """Place gallery[1] after the first two body blocks from pages.json.
+
+    Use a body list of HTML strings to define the paragraph boundaries. Each
+    item can contain a paragraph and its associated bullet list. Existing
+    string bodies remain supported as one block, with the image after it.
+    Gallery[0] is the header; only gallery[2:] appears in the bottom gallery.
+    """
     locale = page["locale"]
     u = UI[locale]
-    body, headings = rich_body(page, current)
+    photos = page.get("gallery") or []
+    source_body = page.get("body", "")
+    blocks = list(source_body) if isinstance(source_body, list) else [source_body]
+    if len(photos) > 1:
+        blocks.insert(2, gallery_figure(page, current, photos[1]))
+
+    # Process the complete body once so heading IDs and the sidebar stay in sync.
+    body, headings = rich_body({**page, "body": blocks}, current)
+    remaining_gallery = gallery({**page, "gallery": photos[2:]}, current)
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
-        current, locale, esc(page["title"]), page["lead"], u["solutions"],
-        photo, photo_alt,
+        current,
+        locale,
+        esc(page["title"]),
+        page["lead"],
+        u["solutions"],
+        photo,
+        photo_alt,
     )
     return (
         head
         + '<div class="wrap content-layout">'
-        + f'<article class="prose">{body}{gallery(page,current)}</article>'
-        + f'{side_panel(current,locale,headings)}</div>'
+        + f'<article class="prose">{body}{remaining_gallery}</article>'
+        + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
 
@@ -309,14 +340,19 @@ def solution_power_engineering(current, page):
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
-        current, locale, esc(page["title"]), page["lead"], u["solutions"],
-        photo, photo_alt,
+        current,
+        locale,
+        esc(page["title"]),
+        page["lead"],
+        u["solutions"],
+        photo,
+        photo_alt,
     )
     return (
         head
         + '<div class="wrap content-layout">'
         + f'<article class="prose">{body}{gallery(page,current)}</article>'
-        + f'{side_panel(current,locale,headings)}</div>'
+        + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
 
@@ -326,11 +362,16 @@ def solution_small_hydropower(current, page):
     locale = page["locale"]
     u = UI[locale]
     body, headings = rich_body(page, current)
-    photo, photo_alt = solution_main_image(page, fallback=HERO)
+    photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
-        current, locale, u["hydroHeadline"], u["hydroLead"], page["title"],
-        photo, photo_alt,
+        current,
+        locale,
+        u["hydroHeadline"],
+        u["hydroLead"],
+        page["title"],
+        photo,
+        photo_alt,
     )
     head += (
         f'<section class="capabilities"><div class="wrap capability-grid"><h2>{esc(u["capabilityTitle"])}</h2><ol>'
@@ -341,7 +382,7 @@ def solution_small_hydropower(current, page):
         head
         + '<div class="wrap content-layout">'
         + f'<article class="prose">{body}{gallery(page,current)}</article>'
-        + f'{side_panel(current,locale,headings)}</div>'
+        + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
 
@@ -354,14 +395,19 @@ def solution_other_projects(current, page):
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
-        current, locale, esc(page["title"]), page["lead"], u["solutions"],
-        photo, photo_alt,
+        current,
+        locale,
+        esc(page["title"]),
+        page["lead"],
+        u["solutions"],
+        photo,
+        photo_alt,
     )
     return (
         head
         + '<div class="wrap content-layout">'
         + f'<article class="prose">{body}{gallery(page,current)}</article>'
-        + f'{side_panel(current,locale,headings)}</div>'
+        + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
 
