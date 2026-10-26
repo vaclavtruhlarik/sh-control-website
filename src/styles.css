@@ -10,7 +10,8 @@
     --soft: #f3f3f5;
     --line: #dcdde2;
     --accent: #d60000;
-    --hero: var(--brand);
+    --hero: #14171c;
+    /* --hero: var(--brand); */
     --hero-gradient: linear-gradient(
         90deg,
         var(--hero) 6%,
