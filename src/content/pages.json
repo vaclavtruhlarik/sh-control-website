@@ -157,12 +157,91 @@
         "route": "solutions/other-projects",
         "kind": "service",
         "service": "other",
-        "title": "Další projekty",
-        "lead": "Automatizace městských parkovacích systémů",
-        "body": "<p>V posledních letech se společnost zaměřila na perspektivní oblast automatizace parkovacích systémů ve městech. Nabízíme komplexní řešení řízení a kontroly podzemních i nadzemních parkovišť pro libovolný počet automobilů. Dokážeme zajistit kompletní dodávku hardwaru včetně softwaru a systému SCADA pro správu karet automatického parkování.</p>",
+        "title": "Program THÉTA",
+        "lead": "Návrh a konstrukce řídicí jednotky pro ostrovní chod s čerpadlem META 13 v turbínovém provozu",
+        "body": [
+            "<p>Na základě technické specifikace asynchronního motoru a čidel turbínové jednotky byla navržena konfigurace řídicího systému. Byl vyvinut a vyroben regulátor frekvence FC4 a statický regulátor napětí pro účely zkoušení. Správná funkce regulátoru frekvence FC4 a ověření funkce regulátoru byla otestovaná na lokalitě s turbínou BÁNKI na MVE Rotava.</p>",
+            "<p>Na základě zkoušek na lokalitě s BÁNKI turbínou byla vyvinuta koncepce řízeni asynchronního generátoru s čerpadlem v turbínovém provozu pro ostrovním chod.</p>",
+            "<p>V ostrovním chodu je třeba řídit dva parametry, frekvenci a napětí soustrojí.</p>",
+            "<p>Byl vyvinut šestistupňový regulátor frekvence SHC-FC4 s možností měnit setpoint žádané frekvence v závislosti na tlaku v potrubí. Regulátor pracuje na principu balastní zátěže připojením jednotlivých stupňů zátěží v nule a umožňuje s vysokou přesností udržovat frekvenci soustrojí.</p>",
+            "<p>Regulátor napětí je řešen pomocí pětistupňové statické kondenzátorové baterie a je integrovaný v software řídicího systému. Pro zabránění vlivů vnější ostrovní sítě na průběh a přesnost regulací napětí soustrojí bylo použité oddělení vnější ostrovní sítě od silového výstupu soustrojí pomocí usměrňovače, průmyslového DC/DC konvertoru s výstupem 24VDC a DC/AC střídače.</p>",
+            "<h2>Řídicí systém</h2><p>Pro účely automatického řízení byl zvolený řídící systém na bázi PLC UniStream USP-104-x10, s následujícími funkční moduly:</p><ul><li>UID-0808 THS (digitální vstupně-výstupní jednotka osazená vysokorychlostními vstupy)</li><li>UIA-0402 N (analogová vstupně-výstupní jednotka)</li><li>UIS-04 PTN (jednotka pro měření teplot Pt100)</li></ul>",
+            "<h2>Uživatelské rozhraní</h2><p>Rozhraní člověk – stroj je realizováno barevným dotykovým displejem o úhlopříčce 10,4 palce (264 mm) a rozlišení 780×600 pixelů. Pro snadnou obsluhu uživatelem byla vypracována sada displejů, tematicky shrnující jednotlivé oblasti sledované problematiky:</p>",
+            "<ul><li>přehledový displej aplikace</li></ul>",
+            "<ul><li>detail soustrojí</li></ul>",
+            "<ul><li>měření elektrických veličin</li></ul>",
+            "<ul><li>stav vstupů a výstupů PLC</li></ul>",
+            "<ul><li>obrazovka analýzy naměřených dat</li></ul>",
+            "<ul><li>a obrazovka grafického výstupu formou XY grafu</li></ul>",
+            "<h2>Sběr dat</h2><p>Data z aplikace jsou snímána po komunikaci Ethernet (data z analyzátoru elektrických parametrů Circutor) a dále pomocí trojice tzv. Snap-In vstupně vstupních modulů:</p><ul><li>UID-0808THS (digitální vstupy / výstupy s velkou rychlostí snímání)</li><li>UIA-0402N (standardní modul pro zpracování analogových vstupů a výstupů)</li><li>UIS-04PTN (modul specializovaný pro připojení snímačů teploty)</li></ul>",
+            "<p>Program sám sleduje stavy vstupů a vyhodnocuje případné poruchové stavy, dále pak dle nově vyvinutého algoritmu nastavuje výstup na frekvenční měnič v závislosti na vstupních hodnotách tlaku a průtoku vody turbínou s cílem najít pracovní bod s nejlepší provozní účinností. Data z průběžného měření jsou zobrazována na displej a souběžně ukládána v pracovní paměti PLC.</p>",
+            "<h2>Seznam vyhodnocovaných vstupů</h2><h3>Dvoustavové signály</h3><ul><li>přepínač Start / Stop</li><li>stav nadproudové ochrany generátoru</li><li>kontrola nadsynchronních otáček</li><li>stav napěťové a frekvenční elektrické ochrany</li><li>stav hlavního jističe</li><li>provozní stav frekvenčního měniče (OK / porucha)</li></ul>",
+            "<h3>Analogové signály</h3><ul><li>tlak v přívodním potrubí</li><li>podtlak v odpadním potrubí</li><li>průtok vody turbínou</li><li>otáčky turbíny</li></ul>",
+            "<h3>Data přicházející po komunikaci</h3><ul><li>Fázová napětí ve fázích L1, L2, L3</li><li>Sdružená napětí L1L2, L2L3, L3L1</li><li>Proudy ve fázích L1, L2, L3</li><li>Činný výkon ve fázích L1, L2, L3</li><li>Jalový výkon ve fázích L1, L2, L3</li><li>Zdánlivý výkon ve fázích L1, L2, L3</li><li>účiník a Power Factor ve fázích L1, L2, L3</li><li>celkový aktivní výkon</li><li>celkový reaktivní výkon</li><li>celková induktivní složka reaktivního výkonu</li><li>celková kapacitní složka reaktivního výkonu</li><li>celkový účiník a Power Factor</li></ul>",
+            "<h2>Vyhodnocení účinnosti soustrojí</h2><p>Na základě těchto proměnných je algoritmus schopen určit celkovou účinnost soustrojí a zobrazit ji na displeji PLC. Nejprve je spočten teoreticky dosažitelný hydrodynamický výkon jako součin průtoku vody turbínou a tlakového spádu, poté je porovnán s naměřenou hodnotou elektrického výkonu z analyzátoru sítě. Měření je provedeno pro několik frekvencí nastavených na regulátoru frekvence pro ostrovní hydroelektrárny FC4 a následně vybrána hodnota s nejvyšší účinností.</p>",
+            "<p>Tento regulátor je schopen přesně regulovat nastavené otáčky turbíny proměnným elektrodynamickým brzděním – připínáním a odpínáním vzduchem chlazené odporové zátěže generátoru.</p>",
+            "<h2>Automatické nastavení pracovního bodu</h2><p>V režimu automatického nastavení pracovního bodu si systém pro aktuální hodnotu tlakového spádu nejprve určí nahrubo vhodný bod nastavení regulátoru, poté nastaví přesněji v závislosti na skutečných otáčkách soustrojí výstup pro setpoint žádané frekvence pro regulator SHC-FC4. Touto technikou nastavení ve dvou krocích se eliminují nelinearity v závislosti výstupu na regulátor a skutečnými otáčkami. Teprve po tomto přesném sladění výstupu a vstupu regulátoru pak v třicetisekundových intervalech bodu až po +15 % od tabulkového bodu, s krokem 3 %. Na základě provedených měření je pak na obrazovku PLC vykreslena křivka XY závislosti účinnosti na procentech výstupu pro regulátor SHC-FC4, a dále automaticky vybrána nejvhodnější hodnota:</p>",
+            "<p>Pokud se za provozu změní hodnota tlakového spádu o více než 10 % výchozí hodnoty, je proveden nový výběr pracovního bodu na základě nové dvojice dat z tabulky.</p>",
+            "<h2>Regulace napětí</h2><p>Nastavení otáček je však jen jedním z požadavků na řídicí algoritmus. Druhým požadavkem je, v závislosti na nastavených otáčkách, regulovat též napětí soustavy. Po prvotních zkouškách byla zvolena lineární závislost U/f = const, kde f je frekvence otáček soustrojí v Hz (tedy např. pro 30 Hz bylo nastaveno 250 V). Protože ostrovní systém nemá k dispozici vnější síť, musí si nastavit pracovní napětí generátoru pomocí postupně připínané sady kompenzačních kondenzátorů. Nejlepší výsledky (reprodukovatelné stabilní napětí) dávala sada kondenzátorů, jejichž kapacity v kVAr se lišily vždy přibližně dvojnásobkem (např. 1, 2, 4, 8, 16) a spínáním jejich kombinace bylo možno zajistit libovolnou žádanou hodnotu od 1 do 63 kVAr.</p>"
+        ],
         "gallery": [
             {
-                "src": "images/2008626132642339108.jpg",
+                "src": "images/ThetaTeam.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp1.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp2.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp3.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp4.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp5.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp6.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp7.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie2.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec2.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
             }
@@ -1076,12 +1155,91 @@
         "route": "solutions/other-projects",
         "kind": "service",
         "service": "other",
-        "title": "Other projects",
-        "lead": "Automated urban parking systems",
-        "body": "<p>In recent years, the company has focused on the developing field of automated urban parking systems. We offer a complete solution for managing and monitoring underground or above-ground parking facilities for any number of vehicles. We can provide a full hardware and software package, including a SCADA system for managing automated parking cards.</p>",
+        "title": "Program THÉTA",
+        "lead": "Design and Construction of a Control Unit for Off-Grid Operation with a META 13 Pump in Turbine Mode",
+        "body": [
+            "<p>The control system configuration was designed based on the technical specifications of the induction motor and the turbine unit's sensors. An FC4 frequency controller and a static voltage controller were developed and manufactured for testing. The FC4 frequency controller was tested and its correct operation verified at the Rotava small hydropower plant, equipped with a BÁNKI turbine.</p>",
+            "<p>Based on tests at the site with the BÁNKI turbine, a control concept was developed for an induction generator coupled to a pump operating as a turbine in islanded mode.</p>",
+            "<p>During islanded operation, two parameters of the generating unit must be controlled: frequency and voltage.</p>",
+            "<p>A six-stage SHC-FC4 frequency controller was developed with the ability to adjust the frequency setpoint according to the pressure in the pipeline. The controller uses ballast loads, switching individual load stages at zero crossings, to maintain the generating unit's frequency with high precision.</p>",
+            "<p>Voltage control is implemented using a five-stage static capacitor bank and is integrated into the control system software. To prevent the external islanded network from affecting the response and accuracy of the generating unit's voltage regulation, the network was separated from the unit's power output using a rectifier, an industrial DC/DC converter with a 24 V DC output, and a DC/AC inverter.</p>",
+            "<h2>Control system</h2><p>A control system based on the UniStream USP-104-x10 PLC was selected for automatic control, with the following functional modules:</p><ul><li>UID-0808 THS (digital input/output module with high-speed inputs)</li><li>UIA-0402 N (analog input/output module)</li><li>UIS-04 PTN (Pt100 temperature measurement module)</li></ul>",
+            "<h2>User interface</h2><p>The human-machine interface uses a color touchscreen with a diagonal of 10.4 inches (264 mm) and a resolution of 780×600 pixels. To make the system easy to operate, a set of screens was developed, each covering a particular aspect of the application:</p>",
+            "<ul><li>application overview screen</li></ul>",
+            "<ul><li>generating unit details</li></ul>",
+            "<ul><li>measurement of electrical quantities</li></ul>",
+            "<ul><li>PLC input and output status</li></ul>",
+            "<ul><li>screen for analyzing measurement data</li></ul>",
+            "<ul><li>and a graphical output screen with an XY graph</li></ul>",
+            "<h2>Data acquisition</h2><p>Application data is acquired via Ethernet (from a Circutor electrical power analyzer) and through three Snap-In input/output modules:</p><ul><li>UID-0808THS (digital inputs/outputs with high-speed acquisition)</li><li>UIA-0402N (standard module for processing analog inputs and outputs)</li><li>UIS-04PTN (specialized module for connecting temperature sensors)</li></ul>",
+            "<p>The program monitors input states and detects any fault conditions. Using a newly developed algorithm, it adjusts the output signal sent to the frequency converter according to the input pressure and water flow through the turbine, with the aim of finding the most efficient operating point. Continuous measurement data is displayed on the screen and simultaneously stored in the PLC's working memory.</p>",
+            "<h2>Monitored inputs</h2><h3>Binary signals</h3><ul><li>Start / Stop switch</li><li>generator overcurrent protection status</li><li>supersynchronous speed monitoring</li><li>voltage and frequency protection status</li><li>main circuit breaker status</li><li>frequency converter operating status (OK / fault)</li></ul>",
+            "<h3>Analog signals</h3><ul><li>pressure in the supply pipe</li><li>negative pressure in the discharge pipe</li><li>water flow through the turbine</li><li>turbine speed</li></ul>",
+            "<h3>Data received via communications</h3><ul><li>phase voltages in phases L1, L2, L3</li><li>line-to-line voltages L1L2, L2L3, L3L1</li><li>currents in phases L1, L2, L3</li><li>active power in phases L1, L2, L3</li><li>reactive power in phases L1, L2, L3</li><li>apparent power in phases L1, L2, L3</li><li>power factor and the Power Factor parameter in phases L1, L2, L3</li><li>total active power</li><li>total reactive power</li><li>total inductive component of reactive power</li><li>total capacitive component of reactive power</li><li>overall power factor and the Power Factor parameter</li></ul>",
+            "<h2>Generating unit efficiency evaluation</h2><p>Using these variables, the algorithm determines the generating unit's overall efficiency and displays it on the PLC screen. It first calculates the theoretically available hydraulic power as the product of the water flow through the turbine and the pressure differential, then compares it with the electrical power measured by the power analyzer. Measurements are taken at several frequency settings of the FC4 frequency controller for islanded hydropower plants, and the setting with the highest efficiency is then selected.</p>",
+            "<p>This controller can precisely maintain the selected turbine speed through variable electrodynamic braking, switching an air-cooled resistive load connected to the generator on and off.</p>",
+            "<h2>Automatic operating-point adjustment</h2><p>In automatic operating-point adjustment mode, the system first determines an approximate controller setting for the current pressure differential. It then fine-tunes the output signal for the SHC-FC4 frequency setpoint according to the generating unit's actual speed. This two-stage adjustment compensates for nonlinearities between the output signal sent to the controller and the actual speed. Only after this precise alignment of the controller's output and input, at thirty-second intervals … up to +15% relative to the tabulated operating point, in 3% steps. Based on the measurements, an XY curve showing efficiency against the percentage output signal to the SHC-FC4 controller is displayed on the PLC screen, and the most suitable value is selected automatically:</p>",
+            "<p>If, during operation, the pressure differential changes by more than 10% of its initial value, a new operating point is selected using a new pair of data values from the table.</p>",
+            "<h2>Voltage control</h2><p>Speed adjustment is only one of the requirements for the control algorithm. The second requirement is to regulate the system voltage according to the selected speed. Following initial tests, a linear relationship U/f = const was selected, where f is the rotational frequency of the generating unit in Hz (for example, 250 V was set for 30 Hz). Since the islanded system has no external grid available, the generator's operating voltage must be established by progressively switching in a bank of compensation capacitors. The best results (repeatable, stable voltage) were obtained with a capacitor bank whose ratings in kVAr approximately doubled from one stage to the next (e.g. 1, 2, 4, 8, 16). By switching combinations of these stages, any required value from 1 to 63 kVAr could be obtained.</p>"
+        ],
         "gallery": [
             {
-                "src": "images/2008626132642339108.jpg",
+                "src": "images/ThetaTeam.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp1.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp2.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp3.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp4.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp5.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp6.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp7.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie2.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec2.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
             }
@@ -1995,12 +2153,91 @@
         "route": "solutions/other-projects",
         "kind": "service",
         "service": "other",
-        "title": "Другие проекты",
-        "lead": "Автоматизация городских парковочных систем",
-        "body": "\n<p>В последние годы компания сосредоточила свою деятельность на прогрессивном направлении в области автоматизации систем парковки в городах. Здесь мы можем предложить комплексное решение управления и конроля паркинга (подземного или надземного) с произвольным количеством автомобилей. Мы спсобны обеспечить комплексную поставку  hardware, включая программное обеспечение, а также систему SCADA для обслуживания карт автоматической парковки. </p>\n\n\t",
+        "title": "Программа THETA",
+        "lead": "Проектирование и изготовление блока управления для автономной работы насоса META 13 в режиме турбины.",
+        "body": [
+            "<p>На основании технических характеристик асинхронного двигателя и датчиков турбинной установки была разработана конфигурация системы управления. Для проведения испытаний были разработаны и изготовлены регулятор частоты FC4 и статический регулятор напряжения. Работоспособность регулятора частоты FC4 была проверена на малой ГЭС Rotava с турбиной BÁNKI.</p>",
+            "<p>На основании испытаний на площадке с турбиной BÁNKI была разработана концепция управления асинхронным генератором, соединённым с насосом, работающим в режиме турбины, для автономной работы.</p>",
+            "<p>При автономной работе необходимо регулировать два параметра гидроагрегата: частоту и напряжение.</p>",
+            "<p>Был разработан шестиступенчатый регулятор частоты SHC-FC4 с возможностью изменять уставку частоты в зависимости от давления в трубопроводе. Регулятор работает по принципу балластной нагрузки, подключая отдельные ступени нагрузки при переходе через ноль, и позволяет с высокой точностью поддерживать частоту гидроагрегата.</p>",
+            "<p>Регулятор напряжения реализован с помощью пятиступенчатой статической конденсаторной батареи и интегрирован в программное обеспечение системы управления. Чтобы исключить влияние внешней автономной сети на процесс и точность регулирования напряжения гидроагрегата, внешняя автономная сеть отделена от силового выхода гидроагрегата с помощью выпрямителя, промышленного преобразователя DC/DC с выходом 24 В постоянного тока и инвертора DC/AC.</p>",
+            "<h2>Система управления</h2><p>Для автоматического управления была выбрана система на базе ПЛК UniStream USP-104-x10 со следующими функциональными модулями:</p><ul><li>UID-0808 THS (модуль цифрового ввода-вывода, оснащённый высокоскоростными входами)</li><li>UIA-0402 N (модуль аналогового ввода-вывода)</li><li>UIS-04 PTN (модуль измерения температуры с помощью датчиков Pt100)</li></ul>",
+            "<h2>Пользовательский интерфейс</h2><p>Человеко-машинный интерфейс реализован на цветном сенсорном дисплее с диагональю 10,4 дюйма (264 мм) и разрешением 780×600 пикселей. Для удобства оператора разработан набор экранов, тематически объединяющих различные области контроля:</p>",
+            "<ul><li>обзорный экран приложения</li></ul>",
+            "<ul><li>подробная информация о гидроагрегате</li></ul>",
+            "<ul><li>измерение электрических величин</li></ul>",
+            "<ul><li>состояние входов и выходов ПЛК</li></ul>",
+            "<ul><li>экран анализа измеренных данных</li></ul>",
+            "<ul><li>и экран графического представления данных в виде графика XY</li></ul>",
+            "<h2>Сбор данных</h2><p>Данные приложения поступают по сети Ethernet (данные анализатора электрических параметров Circutor), а также через три модуля ввода-вывода Snap-In:</p><ul><li>UID-0808THS (цифровые входы/выходы с высокой скоростью опроса)</li><li>UIA-0402N (стандартный модуль обработки аналоговых входов и выходов)</li><li>UIS-04PTN (специализированный модуль подключения датчиков температуры)</li></ul>",
+            "<p>Программа самостоятельно отслеживает состояния входов и выявляет возможные неисправности. Затем по вновь разработанному алгоритму она настраивает выходной сигнал, подаваемый на частотный преобразователь, в зависимости от входных значений давления и расхода воды через турбину, чтобы найти рабочую точку с наилучшим КПД. Данные текущих измерений отображаются на дисплее и одновременно сохраняются в рабочей памяти ПЛК.</p>",
+            "<h2>Перечень контролируемых входных сигналов</h2><h3>Дискретные сигналы</h3><ul><li>переключатель Start / Stop</li><li>состояние максимальной токовой защиты генератора</li><li>контроль частоты вращения выше синхронной</li><li>состояние защиты по напряжению и частоте</li><li>состояние главного автоматического выключателя</li><li>рабочее состояние частотного преобразователя (OK / неисправность)</li></ul>",
+            "<h3>Аналоговые сигналы</h3><ul><li>давление в подводящем трубопроводе</li><li>разрежение в отводящем трубопроводе</li><li>расход воды через турбину</li><li>частота вращения турбины</li></ul>",
+            "<h3>Данные, поступающие по каналам связи</h3><ul><li>фазные напряжения в фазах L1, L2, L3</li><li>линейные напряжения L1L2, L2L3, L3L1</li><li>токи в фазах L1, L2, L3</li><li>активная мощность в фазах L1, L2, L3</li><li>реактивная мощность в фазах L1, L2, L3</li><li>полная мощность в фазах L1, L2, L3</li><li>коэффициент мощности и параметр Power Factor в фазах L1, L2, L3</li><li>суммарная активная мощность</li><li>суммарная реактивная мощность</li><li>суммарная индуктивная составляющая реактивной мощности</li><li>суммарная ёмкостная составляющая реактивной мощности</li><li>общий коэффициент мощности и параметр Power Factor</li></ul>",
+            "<h2>Определение КПД гидроагрегата</h2><p>На основании этих величин алгоритм определяет общий КПД гидроагрегата и отображает его на дисплее ПЛК. Сначала рассчитывается теоретически достижимая гидродинамическая мощность как произведение расхода воды через турбину и перепада давления, затем она сравнивается с измеренным значением электрической мощности, полученным от анализатора электрической сети. Измерения проводятся для нескольких значений частоты, заданных на регуляторе частоты FC4 для автономных гидроэлектростанций, после чего выбирается значение, обеспечивающее наибольший КПД.</p>",
+            "<p>Этот регулятор позволяет точно поддерживать заданную частоту вращения турбины посредством изменяемого электродинамического торможения — подключения и отключения резистивной нагрузки генератора с воздушным охлаждением.</p>",
+            "<h2>Автоматическая настройка рабочей точки</h2><p>В режиме автоматической настройки рабочей точки система сначала приблизительно определяет подходящую настройку регулятора для текущего перепада давления, а затем уточняет выходной сигнал задания требуемой частоты для регулятора SHC-FC4 в зависимости от фактической частоты вращения гидроагрегата. Такая настройка в два этапа устраняет нелинейность зависимости между выходным сигналом, подаваемым на регулятор, и фактической частотой вращения. Лишь после такого точного согласования выхода и входа регулятора — далее с интервалами 30 секунд … до +15 % от табличной точки, с шагом 3 %. На основании выполненных измерений на экране ПЛК строится график XY зависимости КПД от выходного сигнала на регулятор SHC-FC4, выраженного в процентах, и автоматически выбирается наиболее подходящее значение:</p>",
+            "<p>Если во время работы перепад давления изменяется более чем на 10 % от исходного значения, рабочая точка выбирается заново на основании новой пары данных из таблицы.</p>",
+            "<h2>Регулирование напряжения</h2><p>Настройка частоты вращения — лишь одно из требований к алгоритму управления. Второе требование заключается в регулировании напряжения системы в зависимости от заданной частоты вращения. После первоначальных испытаний была выбрана линейная зависимость U/f = const, где f — частота вращения гидроагрегата в Гц (например, для 30 Гц было задано 250 В). Поскольку автономная система не подключена к внешней сети, рабочее напряжение генератора необходимо устанавливать с помощью поэтапного подключения компенсационных конденсаторов. Наилучшие результаты (воспроизводимое стабильное напряжение) обеспечивал набор конденсаторов, номиналы которых в kVAr различались приблизительно вдвое (например, 1, 2, 4, 8, 16). Переключением их комбинаций можно было обеспечить любое требуемое значение от 1 до 63 kVAr.</p>"
+        ],
         "gallery": [
             {
-                "src": "images/2008626132642339108.jpg",
+                "src": "images/ThetaTeam.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp1.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp2.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp3.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp4.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp5.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp6.png",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaDisp7.jpeg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaTechnologie2.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
+            },
+            {
+                "src": "images/ThetaRozvadec2.jpg",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008626132642339108.jpg"
             }

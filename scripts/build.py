@@ -415,7 +415,29 @@ def solution_other_projects(current, page):
     """Build Other projects; also provide a default for new service types."""
     locale = page["locale"]
     u = UI[locale]
-    body, headings = rich_body(page, current)
+
+    photos = page.get("gallery") or []
+    source_body = page.get("body", "")
+    blocks = list(source_body) if isinstance(source_body, list) else [source_body]
+    if len(photos) > 1:
+        blocks.insert(5, gallery_figure(page, current, photos[1]))
+    if len(photos) > 2:
+        blocks.insert(9, gallery_figure(page, current, photos[2]))
+    if len(photos) > 3:
+        blocks.insert(11, gallery_figure(page, current, photos[3]))
+    if len(photos) > 4:
+        blocks.insert(13, gallery_figure(page, current, photos[4]))
+    if len(photos) > 5:
+        blocks.insert(15, gallery_figure(page, current, photos[5]))
+    if len(photos) > 6:
+        blocks.insert(17, gallery_figure(page, current, photos[6]))
+    if len(photos) > 7:
+        blocks.insert(19, gallery_figure(page, current, photos[7]))
+    if len(photos) > 8:
+        blocks.insert(28, gallery_figure(page, current, photos[8]))
+
+    body, headings = rich_body({**page, "body": blocks}, current)
+    remaining_gallery = gallery({**page, "gallery": photos[9:]}, current)
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
@@ -430,7 +452,7 @@ def solution_other_projects(current, page):
     return (
         head
         + '<div class="wrap content-layout">'
-        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'<article class="prose">{body}{remaining_gallery}</article>'
         + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
