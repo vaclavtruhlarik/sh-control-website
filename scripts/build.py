@@ -336,7 +336,15 @@ def solution_power_engineering(current, page):
     """Build the Power engineering solution page."""
     locale = page["locale"]
     u = UI[locale]
-    body, headings = rich_body(page, current)
+
+    photos = page.get("gallery") or []
+    source_body = page.get("body", "")
+    blocks = list(source_body) if isinstance(source_body, list) else [source_body]
+    if len(photos) > 1:
+        blocks.insert(2, gallery_figure(page, current, photos[1]))
+
+    body, headings = rich_body({**page, "body": blocks}, current)
+    remaining_gallery = gallery({**page, "gallery": photos[2:]}, current)
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
@@ -351,7 +359,7 @@ def solution_power_engineering(current, page):
     return (
         head
         + '<div class="wrap content-layout">'
-        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'<article class="prose">{body}{remaining_gallery}</article>'
         + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )

@@ -46,10 +46,25 @@
         "service": "energy",
         "title": "Energetika",
         "lead": "Řízení elektráren a tepláren",
-        "body": "\n<p>Hlavní náplní firmy SH Control pro tento obor jsou:</p><ul><li>Vývoj a implementace software    </li><li>Komplexní řešení v oblasti návrhu, realizace a dodávek řídících systémů se zaměřením na energetiku. </li><li>specializované systémové služby, servis, metodická a technická podpora</li><li>analýzy, příprava a řízení projektů, zpracování dokumentace, školení, konzultační a poradenské služby</li></ul>\n\n<p>Dodávaná řešení jsou implementována jako redundantní  distribuované řídící systémy firmy Honeywell s vysokou spolehlivosti a vysokou mírou zabezpečení dat. Spolehlivost našich produktů je prověřena několikaletým provozem v náročném prostředí elektráren a tepláren v ČR a zahraničí . </p><p>Etapy vývoje a dodávky:</p><ul><li>analýza řešení  </li><li>projektová dokumentace (model navrženého řešení v logické a fyzické rovině)</li><li>realizace,</li><li>zavedení systému do provozu (integrační a systémové testování), zajištění uživatelských a odborných školení</li><li>dokumentace skutečného provedení (analytické a systémově provozní příručky, uživatelské manuály) a průvodně technická dokumentace (záznamy o jakosti, prohlášení o shodě, certifikáty)</li><li>provozování, zajištění servisu, technické a metodické podpory a dalšího rozvoje</li></ul><p>Naši  zákaznici, kde tyto systémy pracují jsou :</p><ul><li>teplárna Dalkia Trmice, </li><li>teplárna Michle, </li><li>teplárna Plzeň, </li><li>ocelárna US Steel Smeděrevo (Srbsko),</li><li>tepelná elektrárna BERt Kelenföld (Maďarsko).</li></ul>\n\t",
+        "body": [
+            "<p>Hlavní náplní firmy SH Control pro tento obor jsou:</p><ul><li>Vývoj a implementace software</li><li>Komplexní řešení v oblasti návrhu, realizace a dodávek řídících systémů se zaměřením na energetiku.</li><li>specializované systémové služby, servis, metodická a technická podpora</li><li>analýzy, příprava a řízení projektů, zpracování dokumentace, školení, konzultační a poradenské služby</li></ul>",
+            "<p>Dodávaná řešení jsou implementována jako redundantní  distribuované řídící systémy firmy Honeywell s vysokou spolehlivosti a vysokou mírou zabezpečení dat. Spolehlivost našich produktů je prověřena několikaletým provozem v náročném prostředí elektráren a tepláren v ČR a zahraničí.</p>",
+            "<p>Etapy vývoje a dodávky:</p><ul><li>analýza řešení</li><li>projektová dokumentace (model navrženého řešení v logické a fyzické rovině)</li><li>realizace,</li><li>zavedení systému do provozu (integrační a systémové testování), zajištění uživatelských a odborných školení</li><li>dokumentace skutečného provedení (analytické a systémově provozní příručky, uživatelské manuály) a průvodně technická dokumentace (záznamy o jakosti, prohlášení o shodě, certifikáty)</li><li>provozování, zajištění servisu, technické a metodické podpory a dalšího rozvoje</li></ul>",
+            "<p>Naši  zákaznici, kde tyto systémy pracují jsou:</p><ul><li>teplárna Dalkia Trmice,</li><li>teplárna Michle,</li><li>teplárna Plzeň,</li><li>ocelárna US Steel Smeděrevo (Srbsko),</li><li>tepelná elektrárna BERt Kelenföld (Maďarsko).</li></ul>"
+        ],
         "gallery": [
             {
-                "src": "images/2008624153611637310.jpg",
+                "src": "images/Energ1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergPrerov.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergMartin.png",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
             }
@@ -910,10 +925,25 @@
         "service": "energy",
         "title": "Power engineering",
         "lead": "Power and heating plant control",
-        "body": "\n<p>Main activities of our company in this field:</p><ul><li>Development testing and implementation of software</li><li>Comprehensive solutions from design to delivery and realization of control systems in wide range of energetic facilities</li><li>Specialized system services, technical support, commissioning of the operating units</li><li>Project analysis, preparing of documents, training of technical staff, consultations and advisory services</li></ul>\n\n<p>Our solutions are based on HONEYWELL redundant distributed control systems with high level of performance and excellent data protection. Reliability of our products is approved in rugged environment of heat plants and power plants in Czech Republic and abroad.</p><p>Main stages of development and realization:</p><ul><li>solution analysis</li><li>project documentation (model of proposed solution both in logical and in physical level)</li></ul><p>realization</p><ul><li>comissioning (system integration and testing), providing of user and expert training</li><li>documentation of real state of equipment (analysis and operation manuals, user manuals), project documentation (testimonials, declarations of conformity)</li><li>operation, providing of service, technical support and support of consequential development</li></ul>\n<p>Our valid customers:<br>Heat plant Dalkia Trmice<br>Heat plant Michle<br>Heat plant Plzeň (Pilsen)<br>Steel works US Steel Smederevo (Serbia)<br>Power Plant BERt Kelenföld (Hungary)</p>\n\t",
+        "body": [
+            "<p>SH Control's main activities in this sector include:</p><ul><li>software development and implementation</li><li>comprehensive solutions for the design, implementation and supply of control systems for the energy sector</li><li>specialized system services, maintenance, methodological and technical support</li><li>analysis, project preparation and management, documentation, training, consulting and advisory services</li></ul>",
+            "<p>Our solutions are implemented using redundant distributed control systems from Honeywell, offering high reliability and a high level of data security. The reliability of our products has been proven through years of operation in the demanding environments of power and heating plants in the Czech Republic and abroad.</p>",
+            "<p>Development and delivery stages:</p><ul><li>solution analysis</li><li>design documentation (a model of the proposed solution at the logical and physical levels)</li><li>implementation</li><li>system commissioning (integration and system testing), including user and specialist training</li><li>as-built documentation (analysis documentation, system operation guides and user manuals) and accompanying technical documentation (quality records, declarations of conformity and certificates)</li><li>operation, maintenance, technical and methodological support, and ongoing development</li></ul>",
+            "<p>These systems are in operation at the following customers' facilities:</p><ul><li>Dalkia Trmice heating plant</li><li>Michle heating plant</li><li>Plzeň heating plant</li><li>US Steel Smeděrevo steelworks (Serbia)</li><li>BERt Kelenföld thermal power plant (Hungary)</li></ul>"
+        ],
         "gallery": [
             {
-                "src": "images/2008624153611637310.jpg",
+                "src": "images/Energ1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergPrerov.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergMartin.png",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
             }
@@ -1774,10 +1804,25 @@
         "service": "energy",
         "title": "Энергетика",
         "lead": "Управление электростанциями и ТЭЦ",
-        "body": "\n<p>Основными направлениями деятельности SH Control в  области энергетики являются следующие направления :</p>\n<ul><li>Разработка и внедрение программного обеспечения</li><li>Комплексные решения для проектирования, и поставок систем управления.</li><li>специализированные услуги системного обеспечения, обслуживание, методическую и техническую поддержку</li><li>анализ, подготовка и управление проектами, оформление документов, обучение, консалтинг </li></ul>\n\n<p>Предлагаемые решения реализованы в виде редундантных распределенных систем управления Honeywell с высокой надежности и высоким уровенем безопасности данных. Надежность наших продуктов испытаны годами  работы в сложных условиях на  электростанциях и ТЭЦ в стране и за рубежом.</p>\n<p>Этапы реализации проектов:</p><ul><li>Анализ решений</li><li>Проектная документация (модель предлагаемого управления в логическом и физическом уровнях)</li><li>реализация</li><li>введение системы в эксплуатацию (внедрение в технологию и тестирования системы), обучение  пользователей и технического персонала</li><li>as-built документация (операционные и системные руководства по эксплуатации, руководства по эксплуатации для пользователей) и сопроводительной технической документации (декларации о соответствии, сертификаты)</li><li>эксплуатация и предоставления услуг´по технической и методической поддержке </li></ul>\n<p>Нашими клиентами, у которых эти системы реализованы и успешно эксплуатируются:</p><ul><li>Далкиа Трмице ТЭЦ (Чехия)</li><li>ТЭЦ Михле (Чехия)</li><li>ТЭЦ Пльзень (Чехия)</li><li>US Steel  Смедерево (Сербия)</li><li>BERT Келенфель ТЭЦ (Венгрия).</li></ul>\n\t",
+        "body": [
+            "<p>Основные направления деятельности компании SH Control в этой отрасли:</p><ul><li>разработка и внедрение программного обеспечения</li><li>комплексные решения в области проектирования, реализации и поставки систем управления для энергетики</li><li>специализированные системные услуги, сервисное обслуживание, методическая и техническая поддержка</li><li>анализ, подготовка и управление проектами, разработка документации, обучение и консультационные услуги</li></ul>",
+            "<p>Наши решения реализуются на базе распределённых систем управления Honeywell с резервированием, обеспечивающих высокую надёжность и высокий уровень защиты данных. Надёжность наших продуктов подтверждена многолетней эксплуатацией в сложных условиях электростанций и теплоцентралей в Чехии и за рубежом.</p>",
+            "<p>Этапы разработки и поставки:</p><ul><li>анализ решения</li><li>проектная документация (модель предлагаемого решения на логическом и физическом уровнях)</li><li>реализация</li><li>ввод системы в эксплуатацию (интеграционное и системное тестирование), организация обучения пользователей и специалистов</li><li>исполнительная документация (аналитическая документация, руководства по эксплуатации системы и руководства пользователя) и сопроводительная техническая документация (документы по качеству, декларации соответствия и сертификаты)</li><li>эксплуатация, сервисное обслуживание, техническая и методическая поддержка, а также дальнейшее развитие</li></ul>",
+            "<p>Наши заказчики, на предприятиях которых работают эти системы:</p><ul><li>теплоцентраль Dalkia Trmice</li><li>теплоцентраль Michle</li><li>теплоцентраль Plzeň</li><li>сталелитейный завод US Steel Smeděrevo (Сербия)</li><li>тепловая электростанция BERt Kelenföld (Венгрия)</li></ul>"
+        ],
         "gallery": [
             {
-                "src": "images/2008624153611637310.jpg",
+                "src": "images/Energ1.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergPrerov.jpg",
+                "alt": "",
+                "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
+            },
+            {
+                "src": "images/EnergMartin.png",
                 "alt": "",
                 "source": "http://shcontrol.cz/apollo/pictures/2008624153611637310.jpg"
             }
