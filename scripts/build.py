@@ -369,7 +369,23 @@ def solution_small_hydropower(current, page):
     """Build the Small hydropower solution, including its capabilities strip."""
     locale = page["locale"]
     u = UI[locale]
-    body, headings = rich_body(page, current)
+
+    photos = page.get("gallery") or []
+    source_body = page.get("body", "")
+    blocks = list(source_body) if isinstance(source_body, list) else [source_body]
+    if len(photos) > 1:
+        blocks.insert(2, gallery_figure(page, current, photos[1]))
+    if len(photos) > 2:
+        blocks.insert(7, gallery_figure(page, current, photos[2]))
+    if len(photos) > 3:
+        blocks.insert(10, gallery_figure(page, current, photos[3]))
+    if len(photos) > 4:
+        blocks.insert(14, gallery_figure(page, current, photos[4]))
+    if len(photos) > 5:
+        blocks.insert(16, gallery_figure(page, current, photos[5]))
+
+    body, headings = rich_body({**page, "body": blocks}, current)
+    remaining_gallery = gallery({**page, "gallery": photos[6:]}, current)
     photo, photo_alt = solution_main_image(page)
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
@@ -389,7 +405,7 @@ def solution_small_hydropower(current, page):
     return (
         head
         + '<div class="wrap content-layout">'
-        + f'<article class="prose">{body}{gallery(page,current)}</article>'
+        + f'<article class="prose">{body}{remaining_gallery}</article>'
         + f"{side_panel(current,locale,headings)}</div>"
         + cta(current, locale)
     )
