@@ -885,6 +885,123 @@
     },
     {
         "locale": "cz",
+        "id": "reference-zevo-melnik",
+        "route": "references/zevo-melnik",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "ZEVO Mělník",
+        "lead": "Kompletní dodávka aplikačního softwaru a inženýrských služeb pro novostavbu Zařízení pro energetické využití odpadů (ZEVO).",
+        "body": [
+            "<p><strong>Investor / Klient:</strong> Skupina ČEZ (Elektrárna Mělník / Horní Počaply)</p>",
+            "<h2>Parametry zdroje</h2><p><strong>Kapacita spalování:</strong> 320 000 t/rok tuhého komunálního odpadu (TKO) – 2× 160 kt/rok</p>",
+            "<p><strong>Tepelný příkon:</strong> 110 MWt</p>",
+            "<p><strong>Výroba energie:</strong> 1 400 TJ tepla a 160 GWh elektřiny ročně (zásobování pro cca 230 tisíc domácností)</p>",
+            "<p><strong>Logistika:</strong> Z 80 % zajištěna železniční dopravou (vlastní vlečka a kontejnerové překladiště)</p>",
+            "<p><strong>Řídicí systém:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3)</p>",
+            "<p><strong>Harmonogram:</strong> Výstavba 2024–2028, zkušební provoz od roku 2028</p>",
+            "<h2>Popis projektu a rozsah prací</h2><p>Kompletní dodávka aplikačního softwaru a inženýrských služeb pro novostavbu Zařízení pro energetické využití odpadů (ZEVO).</p>",
+            "<p><strong>DCS Experion® PKS:</strong> Vývoj komplexní SW architektury pro 2 kotlové linky spalování, čištění spalin, parní turbínu a pomocné provozy.</p>",
+            "<p><strong>ESD Safety Manager (SIL3):</strong> Návrh a realizace bezpečnostní logiky havarijního odstavení v přísném souladu s normou IEC 61511.</p>",
+            "<p><strong>Procesní regulace:</strong> Odladění složitých smyček (spalovací proces, hladina v bubnu, parní cyklus) pro stabilní a bezpečný provoz.</p>",
+            "<p><strong>Uvádění do provozu:</strong> Realizace studených a teplých zkoušek (SZ/TZ), provádění testů FAT/SAT a odborná účast při garančních měřeních.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/ZEVO.jpg",
+                "alt": "ZEVO Mělník"
+            }
+        ],
+        "date": "",
+        "translated": false
+    },
+    {
+        "locale": "cz",
+        "id": "reference-t700-litvinov",
+        "route": "references/t700-litvinov",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "Teplárna T700 – ORLEN Unipetrol Litvínov",
+        "lead": "Inženýring a integrace nových technologických celků při přechodu z uhlí na plynná paliva bez přerušení nepřetržitého provozu rafinerie.",
+        "body": [
+            "<p><strong>Investor / Klient:</strong> ORLEN Unipetrol RPA s.r.o. (Areál litvínovské rafinerie)</p>",
+            "<h2>Parametry zdroje</h2><p><strong>Plynofikace:</strong> Kompletní náhrada spalování 1,1 mil. tun hnědého uhlí ročně v historickém zdroji</p>",
+            "<p><strong>Tepelný výkon:</strong> 270 MWt (dvojice nových plynových kotlů)</p>",
+            "<p><strong>Palivová základna:</strong> Zemní plyn, rafinérský odpadní plyn a až 20% příměs vodíku (H₂)</p>",
+            "<p><strong>Řídicí systém:</strong> Honeywell Experion® PKS | TDC® 3000 | Safety Manager (SIL3)</p>",
+            "<h2>Popis projektu a rozsah prací</h2><p>Inženýring a integrace nových technologických celků při přechodu z uhlí na plynná paliva bez přerušení nepřetržitého provozu rafinerie.</p>",
+            "<p><strong>Migrace DCS za provozu:</strong> Bezpečný a postupný přechod řídicí logiky ze starší platformy Honeywell TDC® 3000 na nejnovější architekturu Experion® PKS.</p>",
+            "<p><strong>SW logika plynofikace:</strong> Vývoj programové logiky pro hořákový systém, denitrifikaci spalin (SCR/SNCR) a systém odsíření.</p>",
+            "<p><strong>Řízení parního cyklu:</strong> Úpravy a optimalizace aplikačního SW pro vysokotlaké parní rozvody a turbosoustrojí.</p>",
+            "<p><strong>Uvádění do provozu:</strong> Odborná asistence při integraci během plánovaných technologických odstávek a realizace studených i teplých zkoušek (SZ/TZ).</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/OrlenUnipetrol.jpg",
+                "alt": "ORLEN Unipetrol"
+            }
+        ],
+        "date": "",
+        "translated": false
+    },
+    {
+        "locale": "cz",
+        "id": "reference-teplarna-prerov",
+        "route": "references/teplarna-prerov",
+        "kind": "case",
+        "status": "completed",
+        "title": "Teplárna Přerov – Veolia Energie ČR",
+        "lead": "Implementace aplikačního SW při přechodu teplárenského provozu na ekologické zdroje a zapojení do systému podpůrných služeb.",
+        "body": [
+            "<p><strong>Investor / Klient:</strong> Veolia Energie ČR, a.s. (Závod Teplárna Přerov)</p>",
+            "<h2>Parametry zdroje</h2><p><strong>Modernizace:</strong> Ekologizace zdroje s kombinovanou výrobou tepla a elektřiny (KVET)</p>",
+            "<p><strong>Služby výkonové rovnováhy (SVR):</strong> Využití pružných kapacit pro stabilizaci přenosové soustavy ČEPS</p>",
+            "<p><strong>Palivová základna:</strong> Přechod na multipalivový provoz (zemní plyn, biomasa, kogenerační jednotky)</p>",
+            "<p><strong>Řídicí systém:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | TDC® 3000</p>",
+            "<h2>Popis projektu a rozsah prací</h2><p>Implementace aplikačního SW při přechodu teplárenského provozu na ekologické zdroje a zapojení do systému podpůrných služeb.</p>",
+            "<p><strong>Inženýring Experion® PKS:</strong> Tvorba řídicí logiky pro nové kotelní jednotky a napojení kogeneračních modulů.</p>",
+            "<p><strong>Bezpečnostní systém (SIL3):</strong> Návrh a naprogramování Burner Management Systému (BMS) pro plynové hořáky dle normy SIL3.</p>",
+            "<p><strong>Optimalizace SVR pro ČEPS:</strong> Odladění rychlé odezvy regulace pro poskytování certifikovaných služeb výkonové rovnováhy.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Prerov.jpg",
+                "alt": "Teplárna Přerov"
+            }
+        ],
+        "date": "2025-01-01",
+        "translated": false
+    },
+    {
+        "locale": "cz",
+        "id": "reference-teplarna-martin",
+        "route": "references/teplarna-martin",
+        "kind": "case",
+        "status": "completed",
+        "title": "Teplárna Martin – MH Teplárenský holding",
+        "lead": "Vývoj aplikačního SW řídicího a bezpečnostního systému v rámci ekologizace spalování biomasy.",
+        "body": [
+            "<p><strong>Investor / Klient:</strong> MH Teplárenský holding, a.s. (závod Martin)</p>",
+            "<h2>Parametry zdroje</h2><p><strong>Dosah:</strong> Zásobování tepla pro více než 26 000 domácností, krajskou nemocnici a průmyslové podniky v regionu Turiec</p>",
+            "<p><strong>Palivová základna:</strong> Ekologizované kotle na biomasu (dřevní štěpka) v kombinaci se zemním plynem</p>",
+            "<p><strong>Technologie:</strong> Vysoce účinná výroba tepla a elektřiny (KVET)</p>",
+            "<p><strong>Řídicí systém:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | HC900</p>",
+            "<h2>Popis projektu a rozsah prací</h2><p>Vývoj aplikačního SW řídicího a bezpečnostního systému v rámci ekologizace spalování biomasy.</p>",
+            "<p><strong>Řízení biomasového kotle:</strong> Vývoj SW pro podávání paliva, roštové spalování a vzduchotechnické trasy.</p>",
+            "<p><strong>Pokročilá regulace:</strong> Odladění multivariabilních smyček pro stabilizaci spalování štěpky a udržování stabilního tlaku páry.</p>",
+            "<p><strong>CEMS &amp; HMI:</strong> Integrace kontinuálního systému měření emisí (CEMS) do DCS a vytvoření přehledných operátorských vizualizací.</p>",
+            "<p><strong>Uvádění do provozu:</strong> Odborný dohled při studených a teplých zkouškách (SZ/TZ) a najíždění technologie do trvalého provozu.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Martin.png",
+                "alt": "Teplárna Martin"
+            }
+        ],
+        "date": "2024-01-01",
+        "translated": false
+    },
+    {
+        "locale": "cz",
         "id": "22",
         "route": "references/archive",
         "kind": "archive",
@@ -1883,6 +2000,123 @@
     },
     {
         "locale": "en",
+        "id": "reference-zevo-melnik",
+        "route": "references/zevo-melnik",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "ZEVO Mělník",
+        "lead": "Complete supply of application software and engineering services for a new energy-from-waste facility (ZEVO).",
+        "body": [
+            "<p><strong>Investor / Client:</strong> ČEZ Group (Mělník Power Plant / Horní Počaply)</p>",
+            "<h2>Plant parameters</h2><p><strong>Incineration capacity:</strong> 320,000 t/year of municipal solid waste (MSW) – 2× 160 kt/year</p>",
+            "<p><strong>Thermal input:</strong> 110 MWt</p>",
+            "<p><strong>Energy production:</strong> 1,400 TJ of heat and 160 GWh of electricity annually (supplying approximately 230,000 households)</p>",
+            "<p><strong>Logistics:</strong> 80% provided by rail transport (dedicated rail siding and container transfer terminal)</p>",
+            "<p><strong>Control system:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3)</p>",
+            "<p><strong>Schedule:</strong> Construction 2024–2028, trial operation from 2028</p>",
+            "<h2>Project description and scope of work</h2><p>Complete supply of application software and engineering services for a new energy-from-waste facility (ZEVO).</p>",
+            "<p><strong>DCS Experion® PKS:</strong> Development of a comprehensive software architecture for 2 boiler incineration lines, flue gas cleaning, the steam turbine and auxiliary systems.</p>",
+            "<p><strong>ESD Safety Manager (SIL3):</strong> Design and implementation of emergency shutdown safety logic in strict compliance with IEC 61511.</p>",
+            "<p><strong>Process control:</strong> Tuning of complex control loops (combustion process, drum level, steam cycle) for stable and safe operation.</p>",
+            "<p><strong>Commissioning:</strong> Cold and hot testing (SZ/TZ), FAT/SAT testing and specialist participation in performance guarantee testing.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/ZEVO.jpg",
+                "alt": "ZEVO Melnik"
+            }
+        ],
+        "date": "",
+        "translated": true
+    },
+    {
+        "locale": "en",
+        "id": "reference-t700-litvinov",
+        "route": "references/t700-litvinov",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "T700 Heating Plant – ORLEN Unipetrol Litvínov",
+        "lead": "Engineering and integration of new process units during the transition from coal to gaseous fuels without interrupting continuous refinery operation.",
+        "body": [
+            "<p><strong>Investor / Client:</strong> ORLEN Unipetrol RPA s.r.o. (Litvínov refinery site)</p>",
+            "<h2>Plant parameters</h2><p><strong>Conversion to gas:</strong> Complete replacement of the combustion of 1.1 million tonnes of lignite annually in the existing plant</p>",
+            "<p><strong>Thermal output:</strong> 270 MWt (two new gas-fired boilers)</p>",
+            "<p><strong>Fuel mix:</strong> Natural gas, refinery waste gas and a hydrogen (H₂) blend of up to 20%</p>",
+            "<p><strong>Control system:</strong> Honeywell Experion® PKS | TDC® 3000 | Safety Manager (SIL3)</p>",
+            "<h2>Project description and scope of work</h2><p>Engineering and integration of new process units during the transition from coal to gaseous fuels without interrupting continuous refinery operation.</p>",
+            "<p><strong>Online DCS migration:</strong> Safe, phased migration of control logic from the older Honeywell TDC® 3000 platform to the latest Experion® PKS architecture.</p>",
+            "<p><strong>Software logic for conversion to gas:</strong> Development of software logic for the burner system, flue gas denitrification (SCR/SNCR) and the desulfurization system.</p>",
+            "<p><strong>Steam cycle control:</strong> Modification and optimization of application software for high-pressure steam distribution and turbine-generator units.</p>",
+            "<p><strong>Commissioning:</strong> Specialist assistance with integration during scheduled process shutdowns and execution of cold and hot testing (SZ/TZ).</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/OrlenUnipetrol.jpg",
+                "alt": "ORLEN Unipetrol"
+            }
+        ],
+        "date": "",
+        "translated": true
+    },
+    {
+        "locale": "en",
+        "id": "reference-teplarna-prerov",
+        "route": "references/teplarna-prerov",
+        "kind": "case",
+        "status": "completed",
+        "title": "Přerov Heating Plant – Veolia Energie ČR",
+        "lead": "Implementation of application software during the heating plant’s transition to environmentally friendly energy sources and participation in ancillary services.",
+        "body": [
+            "<p><strong>Investor / Client:</strong> Veolia Energie ČR, a.s. (Přerov Heating Plant)</p>",
+            "<h2>Plant parameters</h2><p><strong>Modernization:</strong> Environmental upgrade of a combined heat and power (CHP) plant</p>",
+            "<p><strong>Balancing services (SVR):</strong> Use of flexible capacity to stabilize the ČEPS transmission system</p>",
+            "<p><strong>Fuel mix:</strong> Transition to multi-fuel operation (natural gas, biomass, cogeneration units)</p>",
+            "<p><strong>Control system:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | TDC® 3000</p>",
+            "<h2>Project description and scope of work</h2><p>Implementation of application software during the heating plant’s transition to environmentally friendly energy sources and participation in ancillary services.</p>",
+            "<p><strong>Experion® PKS engineering:</strong> Development of control logic for new boiler units and integration of cogeneration modules.</p>",
+            "<p><strong>Safety system (SIL3):</strong> Design and programming of a Burner Management System (BMS) for gas burners in accordance with the SIL3 standard.</p>",
+            "<p><strong>Optimization of balancing services for ČEPS:</strong> Tuning of fast control response to provide certified balancing services.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Prerov.jpg",
+                "alt": "Přerov Heating Plant"
+            }
+        ],
+        "date": "2025-01-01",
+        "translated": true
+    },
+    {
+        "locale": "en",
+        "id": "reference-teplarna-martin",
+        "route": "references/teplarna-martin",
+        "kind": "case",
+        "status": "completed",
+        "title": "Martin Heating Plant – MH Teplárenský holding",
+        "lead": "Development of application software for the control and safety systems as part of the environmental upgrade of biomass combustion.",
+        "body": [
+            "<p><strong>Investor / Client:</strong> MH Teplárenský holding, a.s. (Martin plant)</p>",
+            "<h2>Plant parameters</h2><p><strong>Coverage:</strong> Heat supply to more than 26,000 households, the regional hospital and industrial enterprises in the Turiec region</p>",
+            "<p><strong>Fuel mix:</strong> Environmentally upgraded biomass boilers (wood chips) combined with natural gas</p>",
+            "<p><strong>Technology:</strong> High-efficiency combined heat and power generation (CHP)</p>",
+            "<p><strong>Control system:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | HC900</p>",
+            "<h2>Project description and scope of work</h2><p>Development of application software for the control and safety systems as part of the environmental upgrade of biomass combustion.</p>",
+            "<p><strong>Biomass boiler control:</strong> Development of software for fuel feeding, grate combustion and air-handling systems.</p>",
+            "<p><strong>Advanced control:</strong> Tuning of multivariable control loops to stabilize wood chip combustion and maintain stable steam pressure.</p>",
+            "<p><strong>CEMS &amp; HMI:</strong> Integration of the continuous emissions monitoring system (CEMS) into the DCS and development of clear operator visualizations.</p>",
+            "<p><strong>Commissioning:</strong> Specialist supervision of cold and hot testing (SZ/TZ) and bringing the plant into permanent operation.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Martin.png",
+                "alt": "Martin Heating Plant"
+            }
+        ],
+        "date": "2024-01-01",
+        "translated": true
+    },
+    {
+        "locale": "en",
         "id": "22",
         "route": "references/archive",
         "kind": "archive",
@@ -2877,6 +3111,123 @@
         ],
         "date": "2016-10-01",
         "source": "http://shcontrol.cz/art.asp?id=61&lang_id=1",
+        "translated": true
+    },
+    {
+        "locale": "ru",
+        "id": "reference-zevo-melnik",
+        "route": "references/zevo-melnik",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "ZEVO Mělník",
+        "lead": "Комплексная поставка прикладного программного обеспечения и инжиниринговых услуг для строительства нового завода энергетической утилизации отходов (ZEVO).",
+        "body": [
+            "<p><strong>Инвестор / Заказчик:</strong> Группа ČEZ (электростанция Mělník / Horní Počaply)</p>",
+            "<h2>Параметры энергоисточника</h2><p><strong>Производительность по сжиганию:</strong> 320 000 т/год твёрдых коммунальных отходов (ТКО) – 2× 160 кт/год</p>",
+            "<p><strong>Тепловая мощность по топливу:</strong> 110 МВт (тепл.)</p>",
+            "<p><strong>Выработка энергии:</strong> 1 400 ТДж тепла и 160 ГВт·ч электроэнергии в год (снабжение примерно 230 тысяч домохозяйств)</p>",
+            "<p><strong>Логистика:</strong> На 80 % обеспечивается железнодорожным транспортом (собственный подъездной путь и контейнерный перегрузочный терминал)</p>",
+            "<p><strong>Система управления:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3)</p>",
+            "<p><strong>График реализации:</strong> Строительство в 2024–2028 годах, пробная эксплуатация с 2028 года</p>",
+            "<h2>Описание проекта и объём работ</h2><p>Комплексная поставка прикладного программного обеспечения и инжиниринговых услуг для строительства нового завода энергетической утилизации отходов (ZEVO).</p>",
+            "<p><strong>DCS Experion® PKS:</strong> Разработка комплексной программной архитектуры для 2 котельных линий сжигания, очистки дымовых газов, паровой турбины и вспомогательных производств.</p>",
+            "<p><strong>ESD Safety Manager (SIL3):</strong> Проектирование и реализация логики противоаварийного останова в строгом соответствии со стандартом IEC 61511.</p>",
+            "<p><strong>Регулирование технологических процессов:</strong> Наладка сложных контуров регулирования (процесс горения, уровень в барабане, паровой цикл) для стабильной и безопасной работы.</p>",
+            "<p><strong>Ввод в эксплуатацию:</strong> Проведение холодных и горячих испытаний (SZ/TZ), испытаний FAT/SAT и участие специалистов в гарантийных измерениях.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/ZEVO.jpg",
+                "alt": "ZEVO Melnik"
+            }
+        ],
+        "date": "",
+        "translated": true
+    },
+    {
+        "locale": "ru",
+        "id": "reference-t700-litvinov",
+        "route": "references/t700-litvinov",
+        "kind": "case",
+        "status": "ongoing",
+        "title": "Теплоцентраль T700 – ORLEN Unipetrol Litvínov",
+        "lead": "Инжиниринг и интеграция новых технологических комплексов при переходе с угля на газообразное топливо без остановки непрерывного производства нефтеперерабатывающего завода.",
+        "body": [
+            "<p><strong>Инвестор / Заказчик:</strong> ORLEN Unipetrol RPA s.r.o. (территория нефтеперерабатывающего завода в Litvínov)</p>",
+            "<h2>Параметры энергоисточника</h2><p><strong>Перевод на газ:</strong> Полный отказ от сжигания 1,1 млн тонн бурого угля в год на существующем энергоисточнике</p>",
+            "<p><strong>Тепловая мощность:</strong> 270 МВт (тепл.) (два новых газовых котла)</p>",
+            "<p><strong>Топливная база:</strong> Природный газ, отходящий газ нефтепереработки и до 20% примеси водорода (H₂)</p>",
+            "<p><strong>Система управления:</strong> Honeywell Experion® PKS | TDC® 3000 | Safety Manager (SIL3)</p>",
+            "<h2>Описание проекта и объём работ</h2><p>Инжиниринг и интеграция новых технологических комплексов при переходе с угля на газообразное топливо без остановки непрерывного производства нефтеперерабатывающего завода.</p>",
+            "<p><strong>Миграция DCS без остановки производства:</strong> Безопасный поэтапный перенос логики управления с устаревшей платформы Honeywell TDC® 3000 на новейшую архитектуру Experion® PKS.</p>",
+            "<p><strong>Программная логика перевода на газ:</strong> Разработка программной логики для горелочной системы, удаления оксидов азота из дымовых газов (SCR/SNCR) и системы десульфуризации.</p>",
+            "<p><strong>Управление паровым циклом:</strong> Доработка и оптимизация прикладного ПО для паропроводов высокого давления и турбоагрегатов.</p>",
+            "<p><strong>Ввод в эксплуатацию:</strong> Помощь специалистов при интеграции во время плановых технологических остановов и проведение холодных и горячих испытаний (SZ/TZ).</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/OrlenUnipetrol.jpg",
+                "alt": "ORLEN Unipetrol"
+            }
+        ],
+        "date": "",
+        "translated": true
+    },
+    {
+        "locale": "ru",
+        "id": "reference-teplarna-prerov",
+        "route": "references/teplarna-prerov",
+        "kind": "case",
+        "status": "completed",
+        "title": "ТЭЦ Přerov – Veolia Energie ČR",
+        "lead": "Внедрение прикладного ПО при переходе теплоэнергетического предприятия на экологичные источники энергии и его подключении к системе оказания вспомогательных услуг энергосистеме.",
+        "body": [
+            "<p><strong>Инвестор / Заказчик:</strong> Veolia Energie ČR, a.s. (предприятие Teplárna Přerov)</p>",
+            "<h2>Параметры энергоисточника</h2><p><strong>Модернизация:</strong> Экологическая модернизация источника комбинированной выработки тепла и электроэнергии (когенерация)</p>",
+            "<p><strong>Услуги по балансированию мощности (SVR):</strong> Использование маневренных мощностей для стабилизации передающей сети ČEPS</p>",
+            "<p><strong>Топливная база:</strong> Переход на многотопливный режим работы (природный газ, биомасса, когенерационные установки)</p>",
+            "<p><strong>Система управления:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | TDC® 3000</p>",
+            "<h2>Описание проекта и объём работ</h2><p>Внедрение прикладного ПО при переходе теплоэнергетического предприятия на экологичные источники энергии и его подключении к системе оказания вспомогательных услуг энергосистеме.</p>",
+            "<p><strong>Инжиниринг Experion® PKS:</strong> Разработка логики управления новыми котельными установками и подключение когенерационных модулей.</p>",
+            "<p><strong>Система безопасности (SIL3):</strong> Проектирование и программирование системы управления горелками (BMS) для газовых горелок в соответствии со стандартом SIL3.</p>",
+            "<p><strong>Оптимизация SVR для ČEPS:</strong> Наладка быстродействия регулирования для предоставления сертифицированных услуг по балансированию мощности.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Prerov.jpg",
+                "alt": "ТЭЦ Přerov"
+            }
+        ],
+        "date": "2025-01-01",
+        "translated": true
+    },
+    {
+        "locale": "ru",
+        "id": "reference-teplarna-martin",
+        "route": "references/teplarna-martin",
+        "kind": "case",
+        "status": "completed",
+        "title": "ТЭЦ Martin – MH Teplárenský holding",
+        "lead": "Разработка прикладного ПО системы управления и системы безопасности в рамках экологической модернизации процесса сжигания биомассы.",
+        "body": [
+            "<p><strong>Инвестор / Заказчик:</strong> MH Teplárenský holding, a.s. (предприятие Martin)</p>",
+            "<h2>Параметры энергоисточника</h2><p><strong>Охват:</strong> Теплоснабжение более 26 000 домохозяйств, краевой больницы и промышленных предприятий региона Turiec</p>",
+            "<p><strong>Топливная база:</strong> Экологически модернизированные котлы на биомассе (древесная щепа) в сочетании с природным газом</p>",
+            "<p><strong>Технология:</strong> Высокоэффективная комбинированная выработка тепла и электроэнергии (когенерация)</p>",
+            "<p><strong>Система управления:</strong> Honeywell Experion® PKS | Honeywell Safety Manager (SIL3) | HC900</p>",
+            "<h2>Описание проекта и объём работ</h2><p>Разработка прикладного ПО системы управления и системы безопасности в рамках экологической модернизации процесса сжигания биомассы.</p>",
+            "<p><strong>Управление котлом на биомассе:</strong> Разработка ПО для подачи топлива, слоевого сжигания на колосниковой решётке и воздухоподающих трактов.</p>",
+            "<p><strong>Усовершенствованное регулирование:</strong> Наладка многопараметрических контуров для стабилизации сжигания щепы и поддержания стабильного давления пара.</p>",
+            "<p><strong>CEMS &amp; HMI:</strong> Интеграция системы непрерывного измерения выбросов (CEMS) в DCS и создание наглядных операторских экранов.</p>",
+            "<p><strong>Ввод в эксплуатацию:</strong> Технический надзор специалистов при холодных и горячих испытаниях (SZ/TZ) и выводе оборудования в постоянную эксплуатацию.</p>"
+        ],
+        "gallery": [
+            {
+                "src": "images/Martin.png",
+                "alt": "ТЭЦ Martin"
+            }
+        ],
+        "date": "2024-01-01",
         "translated": true
     },
     {

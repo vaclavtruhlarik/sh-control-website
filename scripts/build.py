@@ -280,44 +280,48 @@ def rich_body(page, current):
 
 def gallery_figure(page, current, im):
     """Render one gallery image, also usable between body paragraphs."""
+    src = (im.get("src") or "").strip()
+    if not src:
+        return ""
     u = UI[page["locale"]]
     description = im.get("alt", "")
     label = description or u["photo"] + " — " + page["title"]
     caption = f"<figcaption>{esc(description)}</figcaption>" if description else ""
-    return f'<figure><a href="{asset(current,im["src"])}"><img src="{asset(current,im["src"])}" loading="lazy" decoding="async" alt="{esc(label)}"></a>{caption}</figure>'
+    return f'<figure><a href="{asset(current,src)}"><img src="{asset(current,src)}" loading="lazy" decoding="async" alt="{esc(label)}"></a>{caption}</figure>'
 
 
 def gallery(page, current):
-    photos = page.get("gallery", [])
-    if not photos:
-        return ""
-    return (
-        '<div class="gallery">'
-        + "".join(gallery_figure(page, current, im) for im in photos)
-        + "</div>"
+    figures = "".join(
+        gallery_figure(page, current, im)
+        for im in (page.get("gallery") or [])
     )
+    return f'<div class="gallery">{figures}</div>' if figures else ""
 
 
 def project_image(page):
     if page["id"] == "53":
         return TURBINE
-    return (
-        page.get("gallery", [{}])[0].get("src", TURBINE)
-        if page.get("gallery")
-        else TURBINE
-    )
+    photos = page.get("gallery") or []
+    if photos:
+        return (photos[0].get("src") or "").strip() or None
+    return TURBINE
 
 
 def project_cards(current, locale, pages):
     cards = []
     for p in pages:
+        photo = project_image(p)
+        image = (
+            f'<img src="{asset(current,photo)}" width="560" height="420" loading="lazy" alt="{esc(p["title"])}">'
+            if photo else ""
+        )
         meta = (
             f'<time datetime="{esc(p["date"])}">{esc(p["date"])}</time>'
             if p.get("date")
             else ""
         )
         cards.append(
-            f'<article class="project-card"><a href="{href(current,locale,p["route"])}"><img src="{asset(current,project_image(p))}" width="560" height="420" loading="lazy" alt="{esc(p["title"])}"><p class="meta">{meta}</p><h3>{esc(p["title"])}</h3><p>{esc(p["lead"])}</p></a></article>'
+            f'<article class="project-card"><a href="{href(current,locale,p["route"])}">{image}<p class="meta">{meta}</p><h3>{esc(p["title"])}</h3><p>{esc(p["lead"])}</p></a></article>'
         )
     return '<div class="project-grid">' + "".join(cards) + "</div>"
 
@@ -563,8 +567,84 @@ def solution_other_projects(current, page):
     )
 
 
+def reference_layout(current, page, photos_after):
+    """Photo 1 is the header. Map body-block numbers to photo numbers (both start at 1)."""
+    locale = page["locale"]
+    u = UI[locale]
+    photos = page.get("gallery") or []
+    source_body = page.get("body", "")
+    blocks = source_body if isinstance(source_body, list) else [source_body]
+    parts = []
+    used_photos = {1}
+
+    for block_number, block in enumerate(blocks, start=1):
+        parts.append(block)
+        photo_number = photos_after.get(block_number)
+        if (
+            photo_number is not None
+            and 1 <= photo_number <= len(photos)
+            and photo_number not in used_photos
+        ):
+            parts.append(gallery_figure(page, current, photos[photo_number - 1]))
+            used_photos.add(photo_number)
+
+    body, headings = rich_body({**page, "body": parts}, current)
+    if page.get("date"):
+        body = (
+            f'<p class="eyebrow">{esc(u["projectDate"])} · '
+            f'<time datetime="{esc(page["date"])}">{esc(page["date"])}</time></p>'
+            + body
+        )
+
+    remaining = [
+        photo for number, photo in enumerate(photos, start=1)
+        if number not in used_photos
+    ]
+    bottom_gallery = gallery({**page, "gallery": remaining}, current)
+    label = u["currentProjects"] if page.get("status") == "ongoing" else u["project"]
+    first = photos[0] if photos else {}
+    head = breadcrumbs(current, locale, page["route"], page["title"])
+    head += page_head(
+        current, locale, esc(page["title"]), "", label,
+        (first.get("src") or "").strip() or None, first.get("alt", "")
+    )
+    return (
+        head
+        + f'<div class="wrap content-layout"><article class="prose">{body}{bottom_gallery}</article>'
+        + side_panel(current, locale, headings)
+        + '</div>'
+        + cta(current, locale)
+    )
+
+
+def reference_zevo_melnik(current, page):
+    return reference_layout(current, page, photos_after={7: 2, 10: 3})
+
+
+def reference_t700_litvinov(current, page):
+    return reference_layout(current, page, photos_after={5: 2, 8: 3})
+
+
+def reference_teplarna_prerov(current, page):
+    return reference_layout(current, page, photos_after={5: 2, 7: 3})
+
+
+def reference_teplarna_martin(current, page):
+    return reference_layout(current, page, photos_after={5: 2, 8: 3})
+
+
 def detail(current, page):
     locale, route, kind = page["locale"], page["route"], page["kind"]
+    if kind == "case":
+        reference_pages = {
+            "references/zevo-melnik": reference_zevo_melnik,
+            "references/t700-litvinov": reference_t700_litvinov,
+            "references/teplarna-prerov": reference_teplarna_prerov,
+            "references/teplarna-martin": reference_teplarna_martin,
+        }
+        if route in reference_pages:
+            return reference_pages[route](current, page)
+
     if kind == "service":
         solution_pages = {
             "chemistry": solution_petrochemicals,
