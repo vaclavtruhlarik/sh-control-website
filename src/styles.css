@@ -1436,3 +1436,34 @@ tbody tr:nth-child(even) {
 .mobile-menu .nav-home-label {
     display: inline;
 }
+
+.page-head-photo {
+    margin: 0;
+    min-width: 0;
+}
+
+.page-head-photo img {
+    display: block;
+}
+
+.page-head-photo figcaption {
+    margin-top: 0.65rem;
+    font-size: 0.81rem;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+}
+
+.photo-credit {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.81rem;
+    line-height: 1.5;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+}
+
+.photo-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}

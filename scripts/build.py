@@ -98,8 +98,10 @@ def reference_projects(locale, status):
     """Use the same status filter and date order for menus and category pages."""
     return sorted(
         [
-            p for p in PAGES
-            if p["locale"] == locale and p["kind"] == "case"
+            p
+            for p in PAGES
+            if p["locale"] == locale
+            and p["kind"] == "case"
             and p.get("status", "completed") == status
         ],
         key=lambda p: p.get("date", ""),
@@ -120,19 +122,25 @@ def reference_menu(current, locale, route):
         current_page = ' aria-current="page"' if route == target else ""
         heading = (
             f'<a class="nav-category{active}" href="{href(current,locale,target)}"{current_page}>'
-            f'<strong>{esc(u[key])}</strong></a>'
+            f"<strong>{esc(u[key])}</strong></a>"
         )
         projects = reference_projects(locale, status)
         if projects:
             links = []
             for page in projects[:MENU_PROJECT_LIMIT]:
-                active_page = ' class="is-current" aria-current="page"' if route == page["route"] else ""
+                active_page = (
+                    ' class="is-current" aria-current="page"'
+                    if route == page["route"]
+                    else ""
+                )
                 links.append(
                     f'<li><a href="{href(current,locale,page["route"])}"{active_page}>{esc(page["title"])}</a></li>'
                 )
-            content = '<ul class="nav-projects">' + "".join(links) + '</ul>'
+            content = '<ul class="nav-projects">' + "".join(links) + "</ul>"
             if len(projects) > MENU_PROJECT_LIMIT:
-                content += page_link(current, locale, target, u["viewAllProjects"], "nav-all")
+                content += page_link(
+                    current, locale, target, u["viewAllProjects"], "nav-all"
+                )
         else:
             content = f'<p class="nav-empty">{esc(u["noPublishedProjects"])}</p>'
         columns.append(f'<div class="nav-column">{heading}{content}</div>')
@@ -221,7 +229,11 @@ def breadcrumbs(current, locale, route, title):
         group = route.split("/")[0]
         if group == "references" and route != "references/current":
             section = reference_section(locale, route)
-            label = u["currentProjects"] if section == "references/current" else u["completedProjects"]
+            label = (
+                u["currentProjects"]
+                if section == "references/current"
+                else u["completedProjects"]
+            )
             parts.append(page_link(current, locale, section, label))
         else:
             parts.append(page_link(current, locale, group, u[group]))
@@ -233,12 +245,28 @@ def breadcrumbs(current, locale, route, title):
     )
 
 
-def page_head(current, locale, title, lead="", eyebrow="", photo=None, photo_alt=""):
+def page_head(
+    current,
+    locale,
+    title,
+    lead="",
+    eyebrow="",
+    photo=None,
+    photo_alt="",
+    photo_credit_html="",
+):
     pic = (
         f'<img src="{asset(current,photo)}" alt="{esc(photo_alt or title)}" width="560" height="420">'
         if photo
         else ""
     )
+    if pic and photo_credit_html:
+        pic = (
+            f'<figure class="page-head-photo">'
+            f"{pic}"
+            f"<figcaption>{photo_credit_html}</figcaption>"
+            f"</figure>"
+        )
     eyebrow_html = f'<p class="eyebrow">{esc(eyebrow)}</p>' if eyebrow else ""
     lead_html = f'<p class="lead">{esc(lead)}</p>' if lead else ""
     return f'<section class="page-head {"has-photo" if pic else ""}"><div class="wrap"><div>{eyebrow_html}<h1>{title}</h1>{lead_html}</div>{pic}</div></section>'
@@ -278,6 +306,28 @@ def rich_body(page, current):
     return body, headings
 
 
+def photo_credit(locale, image):
+    credit = (image.get("credit") or "").strip()
+    url = (image.get("credit_url") or "").strip()
+
+    if not credit:
+        return ""
+
+    labels = {
+        "cz": "Zdroj",
+        "en": "Source",
+        "ru": "Источник",
+    }
+    label = labels.get(locale, "Source")
+
+    text = esc(credit)
+
+    if url.lower().startswith(("https://", "http://")):
+        text = f'<a href="{esc(url)}">{text}</a>'
+
+    return f'<span class="photo-credit">' f"{esc(label)}: {text}" f"</span>"
+
+
 def gallery_figure(page, current, im):
     """Render one gallery image, also usable between body paragraphs."""
     src = (im.get("src") or "").strip()
@@ -286,14 +336,18 @@ def gallery_figure(page, current, im):
     u = UI[page["locale"]]
     description = im.get("alt", "")
     label = description or u["photo"] + " — " + page["title"]
-    caption = f"<figcaption>{esc(description)}</figcaption>" if description else ""
+    credit = photo_credit(page["locale"], im)
+    caption = (
+        f"<figcaption>{esc(description)}{credit}</figcaption>"
+        if description or credit
+        else ""
+    )
     return f'<figure><a href="{asset(current,src)}"><img src="{asset(current,src)}" loading="lazy" decoding="async" alt="{esc(label)}"></a>{caption}</figure>'
 
 
 def gallery(page, current):
     figures = "".join(
-        gallery_figure(page, current, im)
-        for im in (page.get("gallery") or [])
+        gallery_figure(page, current, im) for im in (page.get("gallery") or [])
     )
     return f'<div class="gallery">{figures}</div>' if figures else ""
 
@@ -313,7 +367,8 @@ def project_cards(current, locale, pages):
         photo = project_image(p)
         image = (
             f'<img src="{asset(current,photo)}" width="560" height="420" loading="lazy" alt="{esc(p["title"])}">'
-            if photo else ""
+            if photo
+            else ""
         )
         meta = (
             f'<time datetime="{esc(p["date"])}">{esc(p["date"])}</time>'
@@ -382,7 +437,11 @@ def index_page(current, locale, route):
     else:
         status = "ongoing" if route == "references/current" else "completed"
         projects = reference_projects(locale, status)
-        content = project_cards(current, locale, projects) if projects else f'<p class="lead">{esc(u["noPublishedProjects"])}</p>'
+        content = (
+            project_cards(current, locale, projects)
+            if projects
+            else f'<p class="lead">{esc(u["noPublishedProjects"])}</p>'
+        )
         if status == "completed":
             content += f'<div class="section-title" style="margin-top:3rem"><h2>{esc(u["history"])}</h2>{page_link(current,locale,"references/archive",u["referenceArchive"],"text-link")}</div>'
     return (
@@ -597,7 +656,8 @@ def reference_layout(current, page, photos_after):
         )
 
     remaining = [
-        photo for number, photo in enumerate(photos, start=1)
+        photo
+        for number, photo in enumerate(photos, start=1)
         if number not in used_photos
     ]
     bottom_gallery = gallery({**page, "gallery": remaining}, current)
@@ -605,14 +665,20 @@ def reference_layout(current, page, photos_after):
     first = photos[0] if photos else {}
     head = breadcrumbs(current, locale, page["route"], page["title"])
     head += page_head(
-        current, locale, esc(page["title"]), "", label,
-        (first.get("src") or "").strip() or None, first.get("alt", "")
+        current,
+        locale,
+        esc(page["title"]),
+        "",
+        label,
+        (first.get("src") or "").strip() or None,
+        first.get("alt", ""),
+        photo_credit_html=photo_credit(locale, first),
     )
     return (
         head
         + f'<div class="wrap content-layout"><article class="prose">{body}{bottom_gallery}</article>'
         + side_panel(current, locale, headings)
-        + '</div>'
+        + "</div>"
         + cta(current, locale)
     )
 
@@ -711,7 +777,9 @@ def detail(current, page):
                 </div>
             """ + cta(current, locale)
     elif kind == "case":
-        label = u["currentProjects"] if page.get("status") == "ongoing" else u["project"]
+        label = (
+            u["currentProjects"] if page.get("status") == "ongoing" else u["project"]
+        )
         head += page_head(
             current, locale, esc(page["title"]), "", label, project_image(page)
         )

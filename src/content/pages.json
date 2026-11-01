@@ -908,7 +908,8 @@
         "gallery": [
             {
                 "src": "images/ZEVO.jpg",
-                "alt": "ZEVO Mělník"
+                "alt": "ZEVO Mělník",
+                "credit": "ZEVO Mělník, Skupina ČEZ"
             }
         ],
         "date": "",
@@ -937,7 +938,8 @@
         "gallery": [
             {
                 "src": "images/OrlenUnipetrol.jpg",
-                "alt": "ORLEN Unipetrol"
+                "alt": "ORLEN Unipetrol",
+                "credit": "ORLEN Unipetrol, Litvínov"
             }
         ],
         "date": "",
@@ -965,7 +967,8 @@
         "gallery": [
             {
                 "src": "images/Prerov.jpg",
-                "alt": "Teplárna Přerov"
+                "alt": "Teplárna Přerov",
+                "credit": "Teplárna Přerov, Veolia Energie ČR"
             }
         ],
         "date": "2025-01-01",
@@ -994,7 +997,8 @@
         "gallery": [
             {
                 "src": "images/Martin.png",
-                "alt": "Teplárna Martin"
+                "alt": "Teplárna Martin",
+                "credit": "MH Teplárenský holding, a.s. (závod Martin)"
             }
         ],
         "date": "2024-01-01",
@@ -2023,7 +2027,8 @@
         "gallery": [
             {
                 "src": "images/ZEVO.jpg",
-                "alt": "ZEVO Melnik"
+                "alt": "ZEVO Melnik",
+                "credit": "ZEVO Mělník, Skupina ČEZ"
             }
         ],
         "date": "",
@@ -2052,7 +2057,8 @@
         "gallery": [
             {
                 "src": "images/OrlenUnipetrol.jpg",
-                "alt": "ORLEN Unipetrol"
+                "alt": "ORLEN Unipetrol",
+                "credit": "ORLEN Unipetrol, Litvínov"
             }
         ],
         "date": "",
@@ -2080,7 +2086,8 @@
         "gallery": [
             {
                 "src": "images/Prerov.jpg",
-                "alt": "Přerov Heating Plant"
+                "alt": "Přerov Heating Plant",
+                "credit": "Teplárna Přerov, Veolia Energie ČR"
             }
         ],
         "date": "2025-01-01",
@@ -2109,7 +2116,8 @@
         "gallery": [
             {
                 "src": "images/Martin.png",
-                "alt": "Martin Heating Plant"
+                "alt": "Martin Heating Plant",
+                "credit": "MH Teplárenský holding, a.s. (závod Martin)"
             }
         ],
         "date": "2024-01-01",
@@ -3138,7 +3146,8 @@
         "gallery": [
             {
                 "src": "images/ZEVO.jpg",
-                "alt": "ZEVO Melnik"
+                "alt": "ZEVO Melnik",
+                "credit": "ZEVO Mělník, Skupina ČEZ"
             }
         ],
         "date": "",
@@ -3167,7 +3176,8 @@
         "gallery": [
             {
                 "src": "images/OrlenUnipetrol.jpg",
-                "alt": "ORLEN Unipetrol"
+                "alt": "ORLEN Unipetrol",
+                "credit": "ORLEN Unipetrol, Litvínov"
             }
         ],
         "date": "",
@@ -3195,7 +3205,8 @@
         "gallery": [
             {
                 "src": "images/Prerov.jpg",
-                "alt": "ТЭЦ Přerov"
+                "alt": "ТЭЦ Přerov",
+                "credit": "Teplárna Přerov, Veolia Energie ČR"
             }
         ],
         "date": "2025-01-01",
@@ -3224,7 +3235,8 @@
         "gallery": [
             {
                 "src": "images/Martin.png",
-                "alt": "ТЭЦ Martin"
+                "alt": "ТЭЦ Martin",
+                "credit": "MH Teplárenský holding, a.s. (závod Martin)"
             }
         ],
         "date": "2024-01-01",
