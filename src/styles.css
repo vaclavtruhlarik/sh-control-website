@@ -129,10 +129,13 @@ h3 {
     top: 1rem;
 }
 .site-header {
+    position: relative;
+    z-index: 20;
     border-bottom: 1px solid var(--line);
     background: var(--paper);
 }
 .header-inner {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -171,6 +174,136 @@ h3 {
 }
 .desktop-nav a[aria-current="page"] {
     color: var(--accent);
+}
+.nav-group {
+    position: relative;
+}
+.desktop-nav .nav-group {
+    position: static;
+}
+.nav-group > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.55rem 0;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-group > summary::-webkit-details-marker {
+    display: none;
+}
+.nav-group > summary:hover,
+.nav-group.is-current > summary {
+    color: var(--accent);
+}
+.nav-chevron {
+    width: 0.45em;
+    height: 0.45em;
+    flex-shrink: 0;
+    margin-top: -0.25em;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg);
+}
+.nav-group[open] > summary .nav-chevron {
+    margin-top: 0.2em;
+    transform: rotate(225deg);
+}
+.nav-submenu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+.nav-group:not([open]) > .nav-submenu {
+    display: none;
+}
+.nav-column {
+    min-width: 0;
+}
+.nav-submenu a {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+}
+.nav-submenu a:hover,
+.nav-submenu a:focus-visible,
+.nav-submenu a.is-current {
+    color: var(--accent);
+    background: var(--soft);
+    text-decoration: none;
+}
+.nav-submenu a:focus-visible {
+    outline-offset: -2px;
+}
+.nav-category {
+    font-weight: 600;
+}
+.nav-category strong {
+    font-weight: inherit;
+}
+.nav-projects {
+    list-style: none;
+    margin: 0.35rem 0 0;
+    padding: 0;
+}
+.nav-projects a {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.nav-submenu .nav-all {
+    margin-top: 0.5rem;
+    color: var(--accent);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.nav-empty {
+    margin: 0.35rem 0.75rem 0.65rem;
+    color: var(--muted);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.desktop-nav .nav-submenu {
+    position: absolute;
+    top: calc(100% - 8px);
+    right: 0;
+    left: auto;
+    z-index: 30;
+    width: min(680px, 100%);
+    max-height: min(70vh, 36rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 1.25rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--brand);
+    border-radius: 0 0 6px 6px;
+    box-shadow: var(--shadow);
+}
+.mobile-menu .nav-group > summary {
+    justify-content: space-between;
+    padding: 0.65rem 0;
+    border-top: 1px solid var(--line);
+}
+.mobile-menu .nav-submenu {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+    margin: 0 0 0.5rem 0.6rem;
+    padding: 0.25rem 0 0.25rem 0.85rem;
+    border-left: 2px solid var(--brand);
+}
+.mobile-menu .nav-submenu a {
+    padding: 0.65rem 0.5rem;
+    border-top: 0;
+}
+.mobile-menu .nav-column + .nav-column {
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--line);
+}
+.mobile-menu .nav-empty {
+    margin-inline: 0.5rem;
 }
 .languages {
     display: flex;
@@ -929,21 +1062,21 @@ tbody tr:nth-child(even) {
         border-top: 1px solid var(--line);
         padding-top: 0.6rem;
     }
-    .mobile-menu summary {
+    .mobile-menu > summary {
         list-style: none;
         padding: 0.5rem 0;
         font-weight: 500;
         font-size: 0.94rem;
     }
-    .mobile-menu summary::-webkit-details-marker {
+    .mobile-menu > summary::-webkit-details-marker {
         display: none;
     }
-    .mobile-menu summary:after {
+    .mobile-menu > summary:after {
         content: "+";
         float: right;
         font-size: 1.3rem;
     }
-    .mobile-menu[open] summary:after {
+    .mobile-menu[open] > summary:after {
         content: "−";
     }
     .mobile-menu nav {
@@ -1243,21 +1376,21 @@ tbody tr:nth-child(even) {
         border-top: 1px solid var(--line);
         padding-top: 0.6rem;
     }
-    .mobile-menu summary {
+    .mobile-menu > summary {
         list-style: none;
         padding: 0.5rem 0;
         font-weight: 500;
         font-size: 0.94rem;
     }
-    .mobile-menu summary::-webkit-details-marker {
+    .mobile-menu > summary::-webkit-details-marker {
         display: none;
     }
-    .mobile-menu summary:after {
+    .mobile-menu > summary:after {
         content: "+";
         float: right;
         font-size: 1.3rem;
     }
-    .mobile-menu[open] summary:after {
+    .mobile-menu[open] > summary:after {
         content: "−";
     }
     .mobile-menu nav {

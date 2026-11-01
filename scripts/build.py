@@ -6,6 +6,7 @@ from html import escape, unescape
 from urllib.parse import quote
 from datetime import date
 import json, os, re, shutil, argparse
+from hashlib import sha256
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC, DIST = ROOT / "src", ROOT / "dist"
@@ -14,6 +15,12 @@ PAGES = json.loads((SRC / "content/pages.json").read_text(encoding="utf-8"))
 CONTENT = {(p["locale"], p["route"]): p for p in PAGES}
 LANG_NAMES = {"cz": "Čeština", "en": "English", "ru": "Русский"}
 MAIN_ROUTES = ["solutions", "products", "references", "about", "contact"]
+MENU_PROJECT_LIMIT = 6
+# Updated CSS/JS receive new URLs, avoiding cached navigation code after deployment.
+ASSET_VERSIONS = {
+    name: sha256((SRC / name).read_bytes()).hexdigest()[:12]
+    for name in ("styles.css", "site.js")
+}
 HERO = "images/homepage_hero.jpg"
 TURBINE = "images/2020114131224604687.jpg"
 # FAVICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="5" fill="#a1003a"/><text x="32" y="43" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="34" font-weight="bold">SH</text></svg>'
@@ -68,18 +75,85 @@ def asset(current, name):
     return relative(current, "assets/" + name)
 
 
+def versioned_asset(current, name):
+    return asset(current, name) + "?v=" + ASSET_VERSIONS[name]
+
+
 def page_link(current, locale, route, label, cls="", arrow=False):
     arr = '<span class="arrow" aria-hidden="true">↗</span>' if arrow else ""
     return f'<a href="{href(current,locale,route)}" class="{cls}">{esc(label)}{arr}</a>'
 
 
-def nav(current, locale, route):
-    return "".join(
-        f'<a href="{href(current,locale,r)}"'
-        + (' aria-current="page"' if route == r else "")
-        + f">{esc(UI[locale][r])}</a>"
-        for r in MAIN_ROUTES
+def reference_section(locale, route):
+    """Return the reference listing that owns this route."""
+    page = CONTENT.get((locale, route), {})
+    if route == "references/current" or (
+        page.get("kind") == "case" and page.get("status") == "ongoing"
+    ):
+        return "references/current"
+    return "references"
+
+
+def reference_projects(locale, status):
+    """Use the same status filter and date order for menus and category pages."""
+    return sorted(
+        [
+            p for p in PAGES
+            if p["locale"] == locale and p["kind"] == "case"
+            and p.get("status", "completed") == status
+        ],
+        key=lambda p: p.get("date", ""),
+        reverse=True,
     )
+
+
+def reference_menu(current, locale, route):
+    u = UI[locale]
+    in_references = route == "references" or route.startswith("references/")
+    section = reference_section(locale, route)
+    columns = []
+    for target, key, status in [
+        ("references/current", "currentProjects", "ongoing"),
+        ("references", "completedProjects", "completed"),
+    ]:
+        active = " is-current" if in_references and section == target else ""
+        current_page = ' aria-current="page"' if route == target else ""
+        heading = (
+            f'<a class="nav-category{active}" href="{href(current,locale,target)}"{current_page}>'
+            f'<strong>{esc(u[key])}</strong></a>'
+        )
+        projects = reference_projects(locale, status)
+        if projects:
+            links = []
+            for page in projects[:MENU_PROJECT_LIMIT]:
+                active_page = ' class="is-current" aria-current="page"' if route == page["route"] else ""
+                links.append(
+                    f'<li><a href="{href(current,locale,page["route"])}"{active_page}>{esc(page["title"])}</a></li>'
+                )
+            content = '<ul class="nav-projects">' + "".join(links) + '</ul>'
+            if len(projects) > MENU_PROJECT_LIMIT:
+                content += page_link(current, locale, target, u["viewAllProjects"], "nav-all")
+        else:
+            content = f'<p class="nav-empty">{esc(u["noPublishedProjects"])}</p>'
+        columns.append(f'<div class="nav-column">{heading}{content}</div>')
+    active = " is-current" if in_references else ""
+    return (
+        f'<details class="nav-group{active}"><summary>{esc(u["references"])}'
+        '<span class="nav-chevron" aria-hidden="true"></span></summary>'
+        f'<div class="nav-submenu">{"".join(columns)}</div></details>'
+    )
+
+
+def nav(current, locale, route, submenus=False):
+    u = UI[locale]
+    links = []
+    for r in MAIN_ROUTES:
+        if r == "references" and submenus:
+            links.append(reference_menu(current, locale, route))
+        else:
+            active = ' aria-current="page"' if route == r else ""
+            links.append(f'<a href="{href(current,locale,r)}"{active}>{esc(u[r])}</a>')
+    return "".join(links)
 
 
 def brand(current, locale):
@@ -119,9 +193,9 @@ def header(current, locale, route):
     u = UI[locale]
     return f"""<a class="skip-link" href="#main">{esc(u['skip'])}</a>
     <header class="site-header"><div class="wrap header-inner">{brand(current,locale)}
-      <nav class="desktop-nav" aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route)}</nav>
+      <nav class="desktop-nav" aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route,submenus=True)}</nav>
       <nav class="languages" aria-label="Language">{language_links(current,locale,route)}</nav>
-      <details class="mobile-menu"><summary>{esc(u['menu'])}</summary><nav aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route)}</nav></details>
+      <details class="mobile-menu"><summary>{esc(u['menu'])}</summary><nav aria-label="{esc(u['menu'])}">{home_link(current,locale,route)}{nav(current,locale,route,submenus=True)}</nav></details>
     </div></header>"""
 
 
@@ -145,7 +219,12 @@ def breadcrumbs(current, locale, route, title):
     parts = [page_link(current, locale, "", u["home"])]
     if "/" in route:
         group = route.split("/")[0]
-        parts.append(page_link(current, locale, group, u[group]))
+        if group == "references" and route != "references/current":
+            section = reference_section(locale, route)
+            label = u["currentProjects"] if section == "references/current" else u["completedProjects"]
+            parts.append(page_link(current, locale, section, label))
+        else:
+            parts.append(page_link(current, locale, group, u[group]))
     parts.append(esc(title))
     return (
         '<nav class="wrap" aria-label="Breadcrumb"><ol class="breadcrumbs">'
@@ -255,6 +334,7 @@ def home(current, locale):
         next(p for p in PAGES if p["locale"] == locale and p["id"] == ident)
         for ident in ["57", "53", "52"]
     ]
+    selected = [p for p in selected if p.get("status", "completed") == "completed"]
     return f"""<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow">{esc(u['heroEyebrow'])}</p><h1>{u['heroTitle']}</h1><p class="lead">{esc(u['heroLead'])}</p><div class="actions">{page_link(current,locale,'solutions',u['ourSolutions'],'button',True)}{page_link(current,locale,'about',u['meetUs'],'text-link')}</div></div></div>
     <figure class="hero-photo"><img src="{asset(current,HERO)}" width="560" height="420" alt="" fetchpriority="high"><figcaption><strong>Name_of_plant</strong>{'Place_of_plant' if locale=='cz' else 'Place_of_plant' if locale=='en' else 'Place_of_plant'}</figcaption></figure></section>
     <section class="sectors" aria-label="{esc(u['solutions'])}"><div class="wrap sector-grid">{''.join(sectors)}</div></section>
@@ -262,10 +342,21 @@ def home(current, locale):
     <section class="section muted-section"><div class="wrap"><div class="section-title"><h2>{esc(u['selectedProjects'])}</h2>{page_link(current,locale,'references',u['allProjects'],'text-link')}</div>{project_cards(current,locale,selected)}</div></section>{cta(current,locale)}"""
 
 
+def index_page_text(locale, route):
+    """Keep page headings and metadata in sync with the reference submenu."""
+    u = UI[locale]
+    if route == "references/current":
+        return u["currentProjects"], u["currentProjectsLead"]
+    if route == "references":
+        return u["completedProjects"], u["referencesLead"]
+    return u[route], u[route + "Lead"]
+
+
 def index_page(current, locale, route):
     u = UI[locale]
-    head = breadcrumbs(current, locale, route, u[route]) + page_head(
-        current, locale, esc(u[route]), u[route + "Lead"]
+    title, lead = index_page_text(locale, route)
+    head = breadcrumbs(current, locale, route, title) + page_head(
+        current, locale, esc(title), lead
     )
     if route == "solutions":
         cards = []
@@ -285,15 +376,11 @@ def index_page(current, locale, route):
             )
         content = '<div class="product-grid">' + "".join(cards) + "</div>"
     else:
-        projects = sorted(
-            [p for p in PAGES if p["locale"] == locale and p["kind"] == "case"],
-            key=lambda p: p.get("date", ""),
-            reverse=True,
-        )
-        content = (
-            project_cards(current, locale, projects)
-            + f'<div class="section-title" style="margin-top:3rem"><h2>{esc(u["history"])}</h2>{page_link(current,locale,"references/archive",u["referenceArchive"],"text-link")}</div>'
-        )
+        status = "ongoing" if route == "references/current" else "completed"
+        projects = reference_projects(locale, status)
+        content = project_cards(current, locale, projects) if projects else f'<p class="lead">{esc(u["noPublishedProjects"])}</p>'
+        if status == "completed":
+            content += f'<div class="section-title" style="margin-top:3rem"><h2>{esc(u["history"])}</h2>{page_link(current,locale,"references/archive",u["referenceArchive"],"text-link")}</div>'
     return (
         head
         + f'<section class="section"><div class="wrap">{content}</div></section>'
@@ -544,8 +631,9 @@ def detail(current, page):
                 </div>
             """ + cta(current, locale)
     elif kind == "case":
+        label = u["currentProjects"] if page.get("status") == "ongoing" else u["project"]
         head += page_head(
-            current, locale, esc(page["title"]), "", u["project"], project_image(page)
+            current, locale, esc(page["title"]), "", label, project_image(page)
         )
         body = (
             f'<p class="eyebrow">{esc(u["projectDate"])} · <time datetime="{page["date"]}">{page["date"]}</time></p>'
@@ -645,8 +733,8 @@ def document(current, locale, route, title, description, body, base_url):
 <title>{esc(title)}</title><meta name="description" content="{esc(plain(description)[:170])}">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme:light)"><meta name="theme-color" content="#14171c" media="(prefers-color-scheme:dark)">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{quote(FAVICON,safe='')}">
-<link rel="stylesheet" href="{asset(current,'fonts/fonts.css')}"><link rel="stylesheet" href="{asset(current,'styles.css')}">{canonical}{lang_links}
-<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script><script src="{asset(current,'site.js')}" defer></script>
+<link rel="stylesheet" href="{asset(current,'fonts/fonts.css')}"><link rel="stylesheet" href="{versioned_asset(current,'styles.css')}">{canonical}{lang_links}
+<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script><script src="{versioned_asset(current,'site.js')}" defer></script>
 </head><body>{header(current,locale,route)}<main id="main">{body}</main>{footer(current,locale)}</body></html>"""
 
 
@@ -662,6 +750,7 @@ def build(base_url=""):
             "solutions",
             "products",
             "references",
+            "references/current",
             "contact",
             "contact/directions",
         ] + [p["route"] for p in PAGES if p["locale"] == locale]
@@ -672,10 +761,9 @@ def build(base_url=""):
                 body = home(current, locale)
                 title = "SH Control"
                 description = u["heroLead"]
-            elif route in ["solutions", "products", "references"]:
+            elif route in ["solutions", "products", "references", "references/current"]:
                 body = index_page(current, locale, route)
-                title = u[route]
-                description = u[route + "Lead"]
+                title, description = index_page_text(locale, route)
             elif route.startswith("contact"):
                 body = contact(current, locale, route.endswith("directions"))
                 title = (

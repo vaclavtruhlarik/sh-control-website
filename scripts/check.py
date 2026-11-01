@@ -117,8 +117,11 @@ for locale in ["cz", "en", "ru"]:
         f"Product count {locale}",
     )
     require(
-        sum(p["locale"] == locale and p["kind"] == "case" for p in pages) == 11,
-        f"Case count {locale}",
+        all(
+            p.get("status", "completed") in {"completed", "ongoing"}
+            for p in pages if p["locale"] == locale and p["kind"] == "case"
+        ),
+        f"Invalid project status {locale}: use completed or ongoing",
     )
     archive = next(p for p in pages if p["locale"] == locale and p["kind"] == "archive")
     require(len(archive["rows"]) == 103, f"Archive rows {locale}")
