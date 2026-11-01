@@ -557,39 +557,48 @@
         "body": "\n\n<p>Dosud největší realizace v oboru vodních elektráren byla dokončena na jaře letošního roku. Úplně nové vodní dílo v pohoří Rodopy bylo navrženo velkoryse a od začátku dávalo naději na dobrý výsledek. Navíc naše firma byla tentokrát generálním dodavatelem celé technologie „na klíč“. <br>Parametry vodního díla: Betonová hráz o maximální výšce 26m  a délce koruny 97m. Nádrž má vodní plochu 4,06 hektaru. Voda pro elektrárnu je přiváděna raženým tunelem o délce 660m a o průřezu 2,6m×3m. Turbosoustrojí pracují s rozsahem zpracovatelných průtoků 0,5m3/s÷5,5m3/s a celkovým čistým spádem 37m.<br></p>\n<h2>Fotografie z výstavby přehrady:</h2>\n\n\n<h2>…a dokončené dílo:   </h2>\n\n\n<p><br>Budova elektrárny je osazena trojicí turbosoustrojí se spirálními Francisovými turbínami s letmo uloženým oběžným kolem na hřídelích synchronních generátorů o výkonech  480kW + 660kW + 660kW.</p>\n<h2>Montáž turbosoustrojí ve výrobním závodě společností  TES Vsetín:</h2>\n\n<p>Konstrukce strojní části byla zahájena v roce 2011. Poté, v listopadu 2011 proběhla doprava strojních celků na místo a jejich usazení a připojení na potrubí přívodu a savek. Současně byla zahájena i příprava elektrické výzbroje, byly osazeny již hotové rozvodné skříně VN, NN i MaR a postupně kompletován a testován řídicí systém. <br></p>\n<h2>Pohled do dokončené strojovny: </h2>\n<p>Jako řídicí systém elektrárny je použit HONEYWELL Experion PKS R300, se kterým mají naši pracovníci rozsáhlé zkušenosti z jiných oborů (energetika, chemický průmysl), ale na poli vodních elektráren byl použit poprvé. Byla použita sestava kontroleru se 128 digitálními vstupy, 96 analogovými vstupy (včetně měření teplot) a 128 digitálními výstupy. Sestavu doplňuje server, operátorská stanice Windows s jedním monitorem a HMI rozhraní realizované programovatelným automatem UNITRONICS Vision 1040. <br></p>\n<h2>Část informačního displeje řídicího systému: </h2>\n\n<p>Elektrárna je doplněna nepřetržitým sledováním pomocí kamerového systému sestávajícího z jedné otočné kamery Axis 214PTZ a pevných kamer Vivotek IP8331.<br>Vzdálený dohled nad technologií je řešen přes internet pomocí až 32 souběžných kanálů VPN zprostředkovaných širokopásmovým firewall-routerem DrayTek Vigor 2820.</p>\n\t",
         "gallery": [
             {
-                "src": "images/2012925161856698162.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856698162.jpg"
+                "src": "images/Chladilnik/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354380882.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354380882.jpg"
+                "src": "images/Chladilnik/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354160619.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354160619.jpg"
+                "src": "images/Chladilnik/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925161856615303.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856615303.jpg"
+                "src": "images/Chladilnik/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354370201.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354370201.jpg"
+                "src": "images/Chladilnik/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154512168469.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154512168469.jpg"
+                "src": "images/Chladilnik/06.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201292515451285609.png",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201292515451285609.png"
+                "src": "images/Chladilnik/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/11.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-09-25",
@@ -606,34 +615,28 @@
         "body": "\n<p>V jihosrbských horách nedaleko města Trgovište byla dokončena další z našich zahraničních realizací, malá vodní elektrárna Pročovci 1. </p>\n<p>Vodní dílo je tvořeno odběrovým objektem a plastovým přivaděčem DN 1300 do objektu elektrárny. Zde jsou instalována dvě turbosoustrojí s Francisovými spirálními turbínami o výkonech 700kW a 300kW. Oba stroje jsou osazeny synchronními generátory TES Vsetín. </p>\n<h2>Technická přejímka turbín ve výrobním závodě:</h2>\n\n<p>Stavební část díla byla dokončena letos na jaře a ihned bylo započato s instalací turbosoustrojí a zařízení rozvodů elektrické energie, měření a regulace, takže předání díla proběhlo ještě v létě tohoto roku.</p>\n<h2>Usazování turbíny po přepravě do budovy MVE:</h2>\n\n<p><strong></strong><br>Jako řídicí systém zde byl použit hybridní kontrolér HONEYWELL HC900, který se už osvědčil na předchozích zakázkách MVE Bakov nad Jizerou a MVE Ptýrov. <br>Elektrická výzbroj je doplněna párem kombinovaných ochran WOODWARD MFR13. Bezpečné připojení generátorů do veřejné elektrorozvodné sítě zajišťují synchronizátory SY2 vlastní výroby, doplněné synchrocheckem CIRCUTOR SYNCHROMAX.</p>\n<p>Zobrazování provozních dat uživateli a jejich archivaci zajišťuje software HONEYWELL Experion HS R400. Uživatel tak může nejenom sledovat aktuální stav technologie pomocí přehledových obrazovek, ale i prohlížet a analyzovat historická data pomocí rozsáhlé sady nástrojů pro vykreslování grafů a tabulkových výpisů provozních událostí.<br>Pro vizualizací stavu technologie slouží programovatelný kontrolér UNITRONICS V570 s barevným dotykovým displejem o úhlopříčce 5,7“ umístěný na dveřích rozváděče MaR.</p>\n<h2>Pohled do strojovny MVE během provozních testů soustrojí:</h2>\n\n<h2>Pracoviště programátora během provozních zkoušek:</h2>\n\n<p><br>Objekt MVE je trvale monitorován pomocí digitálního kamerového systému s automatickým záznamem obrazu v případě narušení monitorované zóny nepovolanou osobou. <br>Vzdálený přístup k technologii je zajištěn pomocí technologie VPN přes internet. Rychlá informovanost provozovatele elektrárny, správce objektu a servisních pracovníků VN rozvodu je řešena pomocí rozsáhlého systému varovných a informačních SMS rozesílaných automaticky z GSM modemu Cinterion TC65i.</p>\n<h2>Pohled do rozvodny VN:</h2>\n\n<h2>Pohled na budovu MVE krátce před dokončením. Zprava je patrný vstup potrubí přivaděče:</h2>\n\n\t",
         "gallery": [
             {
-                "src": "images/2012102164913693931.JPG",
-                "alt": "Inspekce turbíny před expedicí",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913693931.JPG"
+                "src": "images/Procovci1/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913473668.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913473668.jpg"
+                "src": "images/Procovci1/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913868877.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913868877.JPG"
+                "src": "images/Procovci1/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519272560.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519272560.JPG"
+                "src": "images/Procovci1/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519355419.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519355419.JPG"
+                "src": "images/Procovci1/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913683250.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913683250.JPG"
+                "src": "images/Procovci1/06.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-10-04",
@@ -650,29 +653,64 @@
         "body": "\n<p>Investorem byla společnost Pure energy d.o.o Kotor Varoš, pro kterou naše firma dodala celou technologii \"na klíč\". </p>\n<p>Voda pro elektrárnu je přiváděna s čistým spádem 42 m. Turbosoustrojí pracuje s průtokem 0,72 m<sup>3</sup>/s.</p>\n\n<p>Budova elektrárny je osazena turbosoustrojím se spirální horizontální Francisovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru s výkonem 250 kW.</p>\n\n\n<p>Jako řídící systém elektrárny je použit programovatelný automat UNITRONICS UniStream 15,6\" s HMI rozhraním na dveřích rozvaděče. Sestavu doplňuje operátorská stanice Windows, která je  pomocí SCADA systému HONEYWELL Experion PKS HS propojena s automatem UniStream. Tato Malá vodní Elektrárna je přístupná pro vzdálené operátory přes TeamViewer nebo VNC Viewer.<br>Elektrárna je doplněna nepřetržitým sledováním pomocí kamerového systému sestávajícího z šesti pevných kamer. Tyto kamery jsou umístěny uvnitř a zvenku strojovny, ale také na zařízeních přívodu vody.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/2020114104034552986.jpg",
-                "alt": "Práce na jezu a vtoku vody",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034552986.jpg"
+                "src": "images/Krusevo/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020102916911558682.JPG",
-                "alt": "Přidělávání přívodního potrubí",
-                "source": "http://shcontrol.cz/apollo/pictures/2020102916911558682.JPG"
+                "src": "images/Krusevo/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034635845.jpg",
-                "alt": "Konfigurování turbíny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034635845.jpg"
+                "src": "images/Krusevo/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034332723.jpg",
-                "alt": "Budova elektrárny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034332723.jpg"
+                "src": "images/Krusevo/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029112048635845.png",
-                "alt": "Lokace elektrárny Kruševo",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029112048635845.png"
+                "src": "images/Krusevo/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2018-12-01",
@@ -689,34 +727,44 @@
         "body": "\n<p>Investorem pro Malou Vodní Elektrárnu na Kasindolské řece byla společnost BUK d.o.o, Eastern Sarajevo. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\".</p>\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 128,4 m. Průtok elektrárnou 0,95 m<sup>3</sup>/s je rozdělen do dvou turbosoustrojí na 0,475 m<sup>3</sup>/s a 0,475 m<sup>3</sup>/s.</p>\n\n<p>Budova elektrárny je osazena dvěmi turbosoustrojími se spirálními horizontálními Francisovými turbínami s letmo uloženým oběžným kolem na hřídelích synchronních generátorů o celkovém výkonu 995 kW.</p>\n\n\n<p>Programovatelný automat UNITRONICS UniStream 15,6\" je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem UniStream pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Podivić je pro vzdálené operátory možno ovládat a kontrolovat pomocí TeamViewer nebo VNC Viewer. Systém také posílá alarmní události na vzdálené zařízení operátorů.</p>\n\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající se ze čtyřech kamer umístěných uvnitř a vně strojovny. Další dvě kamery budou následně umístěny na zařízení vtoku vody.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/2020114131224511146.jpg",
-                "alt": "Jez s vtokem do elektrárny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224511146.jpg"
+                "src": "images/Podivic/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224604687.jpg",
-                "alt": "Horizontální Francisova turbína",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224604687.jpg"
+                "src": "images/Podivic/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224521827.jpg",
-                "alt": "Pohled do strojovny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224521827.jpg"
+                "src": "images/Podivic/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224301565.jpg",
-                "alt": "Konzultace u rozvaděčů",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224301565.jpg"
+                "src": "images/Podivic/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224696774.jpg",
-                "alt": "Budova elektrárny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224696774.jpg"
+                "src": "images/Podivic/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029134815761944.png",
-                "alt": "Lokace elektrárny Podivić",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029134815761944.png"
+                "src": "images/Podivic/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/10.jpg",
+                "alt": ""
             }
         ],
         "date": "2019-01-01",
@@ -762,29 +810,64 @@
         "body": "\n<p>Investorem pro elektrárnu v Antalieptes byla společnost VAIZGA UAB, Mazeikiai, a naše firma pro ni dodala strojní technologii, elektro rozvaděče 0,4 a 6 kV a kompletní řídící systém pro řízení soustavy všech čtyř turbín jako řešení \"na klíč\".<br>Celkový instalovaný výkon elektrárny je 3400 kW (1000 kW + 1000 kW + 1050 kW + 350 kW).</p>\n\n\n<p>Jako řídicí systém elektrárny je použit HONEYWELL Experion PKS R300, se kterým mají naši pracovníci rozsáhlé zkušenosti z jiných oborů (energetika, chemický průmysl), ale také na poli vodních elektráren. Sestavu doplňuje server, operátorská stanice Windows s jedním monitorem a HMI rozhraní realizované programovatelným automatem UNITRONICS Vision 1040. </p>\n\n<p>Elektrárna je doplněna nepřetržitým sledováním pomocí kamerového systému sestávajícího z jedné otočné kamery Axis 214PTZ a pevných kamer Vivotek IP8331.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/202011491658699627.jpg",
-                "alt": "Zapojení nově přidané turbíny",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658699627.jpg"
+                "src": "images/Antalieptes/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020103011411027524.jpg",
-                "alt": "Dříve zapojené trubíny",
-                "source": "http://shcontrol.cz/apollo/pictures/2020103011411027524.jpg"
+                "src": "images/Antalieptes/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658616767.jpg",
-                "alt": "Stanoviště programátorů",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658616767.jpg"
+                "src": "images/Antalieptes/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658396505.jpg",
-                "alt": "Budova elektrárny",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658396505.jpg"
+                "src": "images/Antalieptes/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201030163235542370.png",
-                "alt": "Lokace elektrárny Antalieptes",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030163235542370.png"
+                "src": "images/Antalieptes/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-03-01",
@@ -801,24 +884,12 @@
         "body": "\n<p>Investorem pro Malou Vodní Elektrárnu na řece Jadar byla společnost Elektro-Jovana, Milići. Naše firma pro ni dodala veškerou technologii a řídící systém v řešení \"na klíč\".</p>\n\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 27 m. Průtok skrze celou MVE je 4,2 m3/s a je rozdělen mezi dvě turbosoustrojí. První turbosoustrojí má průtok 2,55 m3/s a druhé má průtok zbývající 1,65 m3/s.<br>Turbosoustrojí jsou umístěna v hlavní strojovně a každé znich je vybaveno horizontální spirální Francisovou turbínou. Turbíny mají volně uložená oběžná kola na hřídelích synchroních generátorů o celkovém výkonu 960 kW.</p>\n\n<p>Jako řídící systém je použit HONEYWELL Experion PKS HC900 se SCADA serverem Experion PKS HS. Samozřejmostí je vzdálený přístup přes TeamViewer a zasílání alarmních událostí na vzdálené zařízení operátora.</p>\n\n<p>Součástí dohledu nad elektrárnou je kamerový systém, který je umístěn jak ve strojovně, tak na přehradě.</p>\n\n\t",
         "gallery": [
             {
-                "src": "images/20201141022943835.jpg",
-                "alt": "Dovážka techniky",
-                "source": "http://shcontrol.cz/apollo/pictures/20201141022943835.jpg"
+                "src": "images/Jovana/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011410229960975.jpg",
-                "alt": "Ukládání Francisových turbín",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229960975.jpg"
-            },
-            {
-                "src": "images/202011410229740712.jpg",
-                "alt": "Kontrola řídícího panelu na rozvaděči",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229740712.jpg"
-            },
-            {
-                "src": "images/20201030143938807949.png",
-                "alt": "Lokace elektrárny Jovana",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030143938807949.png"
+                "src": "images/Jovana/02.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-07-01",
@@ -835,19 +906,76 @@
         "body": "\n<p>Projekt, ve kterém se jednalo o výměnu několia řídících systémů na odlišných lokalitách, investovala společnost Vaizga Mažeikiai, která vlasní 9 z 10 stanovišť, na kterých se systém měnil.<br>Výměna probíhala v těchto lokalitách: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai a Kaulakiai, kterou vlastní jiný majitel.</p>\n\n<p>Hlavním cílem bylo zapojení nových řídících systému UNITRONICS Vision 1040 s HMI rozhraními pro operátory. Každý systém je připojen k internetu pomocí nově instalovaných 3G modemů.<br>K řídícímu panelu Vision je připojeno Mini PC s instalovanou aplikací TeamViewer, pomocí které mohou operátoři spravovat stanoviště vzdáleně.<br>Součástí systému je fukncionalita odesílání informačních a alarmních SMS operátorům pomocí GSM modemu.</p>\n\n<p>Výměna všech 10 systémů proběhla během pouhých 30 dnů dvoučlenným týmem.</p>\n\n\t",
         "gallery": [
             {
-                "src": "images/20201119822944663.jpg",
-                "alt": "Zařízení elektrárny",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822944663.jpg"
+                "src": "images/LitvaRS/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201119822724401.jpg",
-                "alt": "Nové vnitční rozvody",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822724401.jpg"
+                "src": "images/LitvaRS/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020111982227524.jpg",
-                "alt": "Pohled od stanoviště k vodě",
-                "source": "http://shcontrol.cz/apollo/pictures/2020111982227524.jpg"
+                "src": "images/LitvaRS/03.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/04.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/15.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/16.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/17.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/18.jpg",
+                "alt": ""
             }
         ],
         "date": "2020-11-04",
@@ -1676,39 +1804,48 @@
         "body": "\n<p>Our biggest hydroelectric power station project was completed in spring this year. The brand new water project in the Rhodope Mountains was designed on a grand scale and promised good results right from the start. Moreover, this time our firm was the general contractor of the entire turnkey technology.<br>Parameters of the hydro-electric plant: Concrete dam with a maximum height of 26m and crest length of 97m. The reservoir has a water surface of 4.06 hectares. The water for the power station is supplied through a bored tunnel 660m long and 2.6m×3m in cross section. The turbine generator works with a workable flow range of 0.5m3/s÷5.5m3/s and a total net gradient of 37m.<br></p>\n<h2>Photographs from the construction of the dam: </h2>\n\n\n<h2>…and the completed work:</h2>\n\n\n<p>The power station building is equipped with three turbine generators with spiral Francis turbines with an overhung runner on shafts for synchronous generators with an output of 480kW + 660kW + 660kW. </p>\n<h2>Installation of the turbine generators in the production plant of TES Vsetín:</h2>\n\n<p>The construction of the machinery part was started in 2011. Then, in November 2011 the machine units were transported to the site, fitted in place and connected to the supply and suction pipes. At the same time work began to prepare the electrical equipment and  the high-voltage, low-voltage and measurement and regulation switchboard cabinets, and the control system was gradually completed and tested.</p>\n<h2>View of the completed engine room:</h2>\n\n<p>The control system for the power station is the HONEYWELL Experion PKSR300, with which our staff have extensive experience from other fields (the energy and chemical industries) but which was used for the first time for a hydroelectric power station. A set of controllers was used with 128 digital inputs, 96 analogue inputs (including temperature measurement) and 128 digital outputs. The set also features a server, Windows operator station with one monitor and an HMI interface using a programmable UNITRONICS Vision 1040.</p>\n<h2>Part of the information display of the control system:</h2>\n\n<p>The power station is constantly monitored via a camera system consisting of one Axis 214PTZ rotating camera and Vivotek fixed IP cameras.<br>Remote supervision of the technology is via internet using up to 32 parallel VPN channels mediated by a DrayTek Vigor 2820 broadband firewall-router.</p>\n\t",
         "gallery": [
             {
-                "src": "images/2012925161856698162.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856698162.jpg"
+                "src": "images/Chladilnik/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354380882.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354380882.jpg"
+                "src": "images/Chladilnik/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354160619.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354160619.jpg"
+                "src": "images/Chladilnik/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925161856615303.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856615303.jpg"
+                "src": "images/Chladilnik/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354370201.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354370201.jpg"
+                "src": "images/Chladilnik/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154512168469.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154512168469.jpg"
+                "src": "images/Chladilnik/06.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201292515451285609.png",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201292515451285609.png"
+                "src": "images/Chladilnik/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/11.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-09-25",
@@ -1725,34 +1862,28 @@
         "body": "\n<p>In the south-serbia mountains near the town Trgovište, another of our foreign realizations was finished there, project of the Small Hydro Power Plant Pročovci 1.</p>\n<p>Water facility consists of the water intake facility and DN 1300 plastic feeder to the power plant building. There are two turbosets instaled with spiral Francis turbines with an output of 700 kW and 300 kW. Both machines are equipped with synchronous generators TES Vsetín.</p>\n<h2>Acceptence of turbines in the production plant:</h2>\n\n<p>The building part of the power plant was finished this spring and instalation of the turbosets and equipment for electricity distribution, measurement and regulation started immediately. So the handover of the power plant has already taken place in symmer this year.</p>\n<h2>Placing the turbine to the machine room of the SHPP:</h2>\n\n<p>Hybrid controller HONEYWELL HC900 proved itself in previous SHPPs such as SHPP Bakov upon Jizera, SHPP Ptýrov as well as previous SHPP on the river Tripušnica SHPP Pročovci 1. Here it is used as the main control system.<br>It is acompanied by a pair of combined protections WOODWARD MFR13. Selfmade synchronizers SY2 complemented by a synchrocheck CIRCUTOR SYNCHROMAX provide safe connection of generators to the power grid.</p>\n<p>Software HONEYWELL Experion HS R400 provides displaying of operating data to the user and their archiving. Operator can not only wath current state of the machinery but he can also walk through and analyze historical data thanks to the extensive set of the tools for graph drawing and for creating of tabular statements from operational events.<br>Programmable control unit UNITRONICS V570 with 5.7\" color touch screen placed on the door of the MaR switchboard is used for vizualization of the current state of the machinery.</p>\n<h2>View to the machine room of the SHPP during operational tests of the unit:</h2>\n\n<h2>Working place of the programmator during operational tests: </h2>\n\n<p>Area of the SHPP is continuously monitored by digital camera system with automatic image recording in case of violation of the monitored zone by an unauthorized person.<br>Remote access to the current state of the machinery is supported via VPN technology through internet. GSM modem Cinterion TC65i automaticaly sends alarm and information SMS to the power plant operator, facility manger and to the HV distribution service staff for fast informing about current state of the SHPP.</p>\n<h2>View to the HV substation:</h2>\n\n<h2>View of the SHPP building shortly before completion. From the right side there is visible water feeder pipeline:</h2>\n\n\t",
         "gallery": [
             {
-                "src": "images/2012102164913693931.JPG",
-                "alt": "Technical inspection of the turbine",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913693931.JPG"
+                "src": "images/Procovci1/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913473668.jpg",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913473668.jpg"
+                "src": "images/Procovci1/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913868877.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913868877.JPG"
+                "src": "images/Procovci1/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519272560.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519272560.JPG"
+                "src": "images/Procovci1/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519355419.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519355419.JPG"
+                "src": "images/Procovci1/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913683250.JPG",
-                "alt": "",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913683250.JPG"
+                "src": "images/Procovci1/06.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-10-04",
@@ -1769,29 +1900,64 @@
         "body": "\n<p>Company Pure energy d.o.o Kotor Varoš was the investror to whom our company supplied all machinery and a control system as a 'turnkey' solution.</p>\n<p>Water running to the power plant is fed with net head of 42 m. The turboset works with a flow of 0.72 m<sup>3</sup>/s.</p>\n\n<p>In the machine room, there is a horizontally placed Francis turbine with an overhung runner on the shaft of the generator with an output of 250 kW.</p>\n\n\n<p>The programmable control unit is a UNITRONICS UniStream 15,6\" with HMI interface. This unit is used as a control system for the power plant and it is placed on the door of the switchboard. It is accompanied with a Windows operating system, which is connected to the UniStream via SCADA system HONEYWELL Experion PKS HS. This Small Hydro Power Plant is accessable for remote operators via TeamViewer or VNC Viewer.<br>The power plant is complemented by continuous monitoring via a camera system of six fixed cameras. These cameras are placed in and outside of the machine room as well as on water intake facilities.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/2020114104034552986.jpg",
-                "alt": "Work on weir and water intake",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034552986.jpg"
+                "src": "images/Krusevo/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020102916911558682.JPG",
-                "alt": "Implementing the water input pipeline",
-                "source": "http://shcontrol.cz/apollo/pictures/2020102916911558682.JPG"
+                "src": "images/Krusevo/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034635845.jpg",
-                "alt": "Configuration of the turbine",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034635845.jpg"
+                "src": "images/Krusevo/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034332723.jpg",
-                "alt": "Bulding of the power plant",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034332723.jpg"
+                "src": "images/Krusevo/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029112048635845.png",
-                "alt": "Location of the powe plant Kruševo",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029112048635845.png"
+                "src": "images/Krusevo/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2018-12-01",
@@ -1808,34 +1974,44 @@
         "body": "\n<p>The investor in the Small Hydro Power Plant on the Kasindolska river was the company BUK d.o.o, Eastern Sarajevo. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water from the river is fed to the power plant with net head of 128.4 m. The flow through the power plant is 0.95 m<sup>3</sup>/s and is divided to two turbosets. Each turboset has a flow of 0.475 m<sup>3</sup>/s.</p>\n\n<p>In the machine room there are two horizontal spiral Francis turbines with an overhung runner on shafts for synchronous generators with an overall output of 995 kW.</p>\n\n\n<p>The control system of the power plant is a programmable UNITRONICS UniStream 15.6\" with HMI interface, and it is placed on the door of the switchboard. It is accompanied with Windows operating system, which is connected to the UniStream via SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Podivić is accessible for remote operators via TeamViewer or VNC Viewer. The UniStream control system also sends alarm messages to the operator's remote devices.</p>\n\n<p>The power plant is complemented with continuous monitoring via camera system. These cameras are situated in and outside of the machine room, and two new cameras will be implemented on the water intake facilities.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/2020114131224511146.jpg",
-                "alt": "Weir with water intake",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224511146.jpg"
+                "src": "images/Podivic/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224604687.jpg",
-                "alt": "Horizontal Francis turbine",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224604687.jpg"
+                "src": "images/Podivic/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224521827.jpg",
-                "alt": "Peek to the machine room",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224521827.jpg"
+                "src": "images/Podivic/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224301565.jpg",
-                "alt": "Konzultation by switchboards",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224301565.jpg"
+                "src": "images/Podivic/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224696774.jpg",
-                "alt": "Building of hte power plant",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224696774.jpg"
+                "src": "images/Podivic/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029134815761944.png",
-                "alt": "Location of the powe plant Podivić",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029134815761944.png"
+                "src": "images/Podivic/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/10.jpg",
+                "alt": ""
             }
         ],
         "date": "2019-01-01",
@@ -1881,29 +2057,64 @@
         "body": "\n<p>The investor of the power plant in Antalieptes was the company VAIZGA UAB, Mazeikiai. For them our company prepared machinery, electrical switchboard 0.4 and 6 kV and a complete control system for system management of all four turbines as a 'turnkey' solution.<br>Overall installed output of the SHPP is 3400 kW (1000 kW + 1000 kW + 1050 kW + 350 kW).</p>\n\n\n<p>The control system for the power station is the HONEYWELL Experion PKSR300, with which our staff have extensive experience from other fields (the energy and chemical industries) and also was used for for a hydroelectric power station. The set also features a server, Windows operator station with one monitor and an HMI interface using a programmable UNITRONICS Vision 1040.</p>\n\n<p>The power station is constantly monitored via a camera system consisting of one Axis 214PTZ rotating camera and Vivotek fixed IP cameras.</p>\n\n\n\t",
         "gallery": [
             {
-                "src": "images/202011491658699627.jpg",
-                "alt": "Connection of the new turbine",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658699627.jpg"
+                "src": "images/Antalieptes/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020103011411027524.jpg",
-                "alt": "Previous connected turbines",
-                "source": "http://shcontrol.cz/apollo/pictures/2020103011411027524.jpg"
+                "src": "images/Antalieptes/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658616767.jpg",
-                "alt": "Programmers' station",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658616767.jpg"
+                "src": "images/Antalieptes/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658396505.jpg",
-                "alt": "Building of the power plant",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658396505.jpg"
+                "src": "images/Antalieptes/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201030163235542370.png",
-                "alt": "Location of the power plant Antalieptes",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030163235542370.png"
+                "src": "images/Antalieptes/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-03-01",
@@ -1920,24 +2131,12 @@
         "body": "\n<p>The investor in the Small Hydro Power Plant on the river Jadar was the company Elektro-Jovana, Milići. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n\n<p>Water from the river is fed to the power plant with net head of 27 m. A flow through the whole SHPP is 4.2 m<sup>3</sup>/s and is divided between two turbosets. The first turboset has a flow of 2.55 m<sup>3</sup>/s and the second one has remaining flow of 1.65 m<sup>3</sup>/s.<br>Turbosets are placed in the main machine room and each of them is equipped with horizontally placed spiral Francis turbines. The Turbines have an overhung runner on shafts for synchronous generators with overall output of 960 kW.</p>\n\n<p>HONEYWELL Experion PKS HC900 is used as the control system. It is complemented with a SCADA server Experion PKS HS. Remote control is possible via TeamViewer. Alarm messages are also sent automatically to the operator's remote devices.</p>\n\n<p>As part of the controling there is continuous monitoring via a camera system, which is placed in the machine room and on the dam.</p>\n\n\t",
         "gallery": [
             {
-                "src": "images/20201141022943835.jpg",
-                "alt": "Delivery of the machinery",
-                "source": "http://shcontrol.cz/apollo/pictures/20201141022943835.jpg"
+                "src": "images/Jovana/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011410229960975.jpg",
-                "alt": "Placing of the Frnacis turbines",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229960975.jpg"
-            },
-            {
-                "src": "images/202011410229740712.jpg",
-                "alt": "Control of the control panel on the switchboard",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229740712.jpg"
-            },
-            {
-                "src": "images/20201030143938807949.png",
-                "alt": "Location of the power plant Jovana",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030143938807949.png"
+                "src": "images/Jovana/02.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-07-01",
@@ -1954,19 +2153,76 @@
         "body": "\n<p>The project, which involved the replacement of several control systems in different locations, was invested by the company Vaizga Mažeikiai, which owns 9 of the 10 sites where the system was changed.<br>The exchange took place in the following locations: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai and Kaulakiai, owned by another owner.</p>\n\n<p>The main goal was to implement the new UNITRONICS Vision 1040 control systems with HMI interfaces for operators. Each system is connected to the Internet using newly installed 3G modems.<br>A Mini PC with the TeamViewer application installed is connected to the Vision control panel, with which operators can manage stations remotely.<br>Part of the system is the functionality of sending information and alarm SMS to operators using a GSM modem.</p>\n\n<p>All 10 systems were replaced in just 30 days by a two-member team.</p>\n\n\t",
         "gallery": [
             {
-                "src": "images/20201119822944663.jpg",
-                "alt": "Facilities of the power plant",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822944663.jpg"
+                "src": "images/LitvaRS/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201119822724401.jpg",
-                "alt": "New wireing insie the switchboard",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822724401.jpg"
+                "src": "images/LitvaRS/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020111982227524.jpg",
-                "alt": "View form the station to the nearby water",
-                "source": "http://shcontrol.cz/apollo/pictures/2020111982227524.jpg"
+                "src": "images/LitvaRS/03.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/04.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/15.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/16.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/17.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/18.jpg",
+                "alt": ""
             }
         ],
         "date": "2020-11-04",
@@ -2795,39 +3051,48 @@
         "body": "<p>Крупнейший на тот момент проект нашей компании в области гидроэлектростанций был завершён весной 2012 года. Новое гидротехническое сооружение в горах Родопы было задумано с большим размахом и с самого начала обещало хороший результат. В этом проекте наша компания выступила генеральным подрядчиком по поставке всего технологического оборудования «под ключ».</p><p>Параметры гидроузла: бетонная плотина максимальной высотой 26 м и длиной гребня 97 м; площадь водной поверхности водохранилища — 4,06 га. Вода подводится к электростанции по проходческому туннелю длиной 660 м с поперечным сечением 2,6 × 3 м. Гидроагрегаты работают при расходах от 0,5 до 5,5 м³/с и суммарном чистом напоре 37 м.</p><p>В здании электростанции установлены три гидроагрегата со спиральными турбинами Френсиса, рабочие колёса которых консольно установлены на валах синхронных генераторов мощностью 480 кВт + 660 кВт + 660 кВт.</p><p>Изготовление механической части началось в 2011 году. В ноябре 2011 года агрегаты доставили на площадку, установили и подключили к подводящим трубопроводам и отсасывающим трубам. Одновременно началась подготовка электрооборудования: были установлены готовые шкафы высокого и низкого напряжения, а также шкафы контрольно-измерительных приборов и автоматики. Система управления постепенно комплектовалась и испытывалась.</p><p>Для управления электростанцией применена система HONEYWELL Experion PKS R300. Наши специалисты имеют большой опыт её использования в энергетике и химической промышленности, однако в гидроэнергетике она применялась нами впервые. Конфигурация контроллера включает 128 дискретных входов, 96 аналоговых входов, в том числе для измерения температуры, и 128 дискретных выходов. Комплект дополнен сервером, операторской станцией Windows с одним монитором и интерфейсом HMI на базе программируемого контроллера UNITRONICS Vision 1040.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система видеонаблюдения с одной поворотной камерой Axis 214PTZ и стационарными камерами Vivotek IP8331.</p><p>Удалённый контроль оборудования осуществляется через интернет с использованием до 32 одновременных VPN-каналов, предоставляемых широкополосным маршрутизатором с межсетевым экраном DrayTek Vigor 2820.</p>",
         "gallery": [
             {
-                "src": "images/2012925161856698162.jpg",
-                "alt": "Строительство плотины",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856698162.jpg"
+                "src": "images/Chladilnik/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354380882.jpg",
-                "alt": "Строительство плотины",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354380882.jpg"
+                "src": "images/Chladilnik/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354160619.jpg",
-                "alt": "Завершённое гидротехническое сооружение",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354160619.jpg"
+                "src": "images/Chladilnik/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925161856615303.jpg",
-                "alt": "Завершённое гидротехническое сооружение",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925161856615303.jpg"
+                "src": "images/Chladilnik/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154354370201.jpg",
-                "alt": "Монтаж гидроагрегатов на заводе TES Vsetín",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154354370201.jpg"
+                "src": "images/Chladilnik/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012925154512168469.jpg",
-                "alt": "Вид готового машинного зала",
-                "source": "http://shcontrol.cz/apollo/pictures/2012925154512168469.jpg"
+                "src": "images/Chladilnik/06.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201292515451285609.png",
-                "alt": "Фрагмент информационного экрана системы управления",
-                "source": "http://shcontrol.cz/apollo/pictures/201292515451285609.png"
+                "src": "images/Chladilnik/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Chladilnik/11.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-09-25",
@@ -2844,34 +3109,28 @@
         "body": "<p>В горах южной Сербии, недалеко от города Trgovište, завершён ещё один наш зарубежный проект — малая гидроэлектростанция Pročovci 1.</p><p>Гидротехническое сооружение состоит из водозабора и пластикового подводящего трубопровода DN 1300, ведущего к зданию электростанции. В нём установлены два гидроагрегата со спиральными турбинами Френсиса мощностью 700 кВт и 300 кВт. Оба агрегата оснащены синхронными генераторами TES Vsetín.</p><p>Строительная часть была завершена весной 2012 года. Сразу после этого начался монтаж гидроагрегатов, оборудования распределения электроэнергии, измерения и регулирования, поэтому передача объекта состоялась уже летом того же года.</p><p>В качестве системы управления применён гибридный контроллер HONEYWELL HC900, хорошо зарекомендовавший себя на предыдущих объектах — малых ГЭС Bakov nad Jizerou и Ptýrov.</p><p>Электрооборудование дополнено двумя комбинированными устройствами защиты WOODWARD MFR13. Безопасное подключение генераторов к общей электрической сети обеспечивают синхронизаторы SY2 собственного производства, дополненные устройством контроля синхронизма CIRCUTOR SYNCHROMAX.</p><p>Программное обеспечение HONEYWELL Experion HS R400 отображает эксплуатационные данные для пользователя и обеспечивает их архивирование. Пользователь может следить за текущим состоянием оборудования на обзорных экранах, а также просматривать и анализировать исторические данные с помощью обширного набора средств построения графиков и табличных отчётов о событиях.</p><p>Для визуализации состояния оборудования используется программируемый контроллер UNITRONICS V570 с цветным сенсорным дисплеем диагональю 5,7 дюйма, установленный на двери шкафа контрольно-измерительных приборов и автоматики.</p><p>Объект постоянно контролируется цифровой системой видеонаблюдения с автоматической записью изображения при проникновении постороннего лица в наблюдаемую зону.</p><p>Удалённый доступ к оборудованию обеспечивается через интернет с помощью VPN. Для оперативного информирования оператора электростанции, управляющего объектом и обслуживающего персонала высоковольтной распределительной сети используется система предупредительных и информационных SMS, автоматически отправляемых GSM-модемом Cinterion TC65i.</p>",
         "gallery": [
             {
-                "src": "images/2012102164913693931.JPG",
-                "alt": "Осмотр турбины перед отправкой",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913693931.JPG"
+                "src": "images/Procovci1/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913473668.jpg",
-                "alt": "Установка турбины после доставки в здание малой ГЭС",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913473668.jpg"
+                "src": "images/Procovci1/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913868877.JPG",
-                "alt": "Машинный зал малой ГЭС во время эксплуатационных испытаний агрегата",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913868877.JPG"
+                "src": "images/Procovci1/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519272560.JPG",
-                "alt": "Рабочее место программиста во время эксплуатационных испытаний",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519272560.JPG"
+                "src": "images/Procovci1/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/201210216519355419.JPG",
-                "alt": "Высоковольтное распределительное устройство",
-                "source": "http://shcontrol.cz/apollo/pictures/201210216519355419.JPG"
+                "src": "images/Procovci1/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2012102164913683250.JPG",
-                "alt": "Здание малой ГЭС незадолго до завершения строительства; справа виден ввод подводящего трубопровода",
-                "source": "http://shcontrol.cz/apollo/pictures/2012102164913683250.JPG"
+                "src": "images/Procovci1/06.jpg",
+                "alt": ""
             }
         ],
         "date": "2012-10-04",
@@ -2888,29 +3147,64 @@
         "body": "<p>Инвестором выступила компания Pure energy d.o.o Kotor Varoš, для которой наша компания поставила всё технологическое оборудование «под ключ».</p><p>Вода подводится к электростанции с чистым напором 42 м. Гидроагрегат работает при расходе 0,72 м³/с.</p><p>В здании электростанции установлен гидроагрегат с горизонтальной спиральной турбиной Френсиса, рабочее колесо которой консольно расположено на валу генератора мощностью 250 кВт.</p><p>Система управления электростанцией построена на программируемом контроллере UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI на двери распределительного шкафа. Комплект дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Для удалённых операторов доступ к малой ГЭС предоставляется через TeamViewer или VNC Viewer.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система из шести стационарных камер. Они установлены внутри и снаружи машинного зала, а также на сооружениях подвода воды.</p>",
         "gallery": [
             {
-                "src": "images/2020114104034552986.jpg",
-                "alt": "Работы на плотине и водозаборе",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034552986.jpg"
+                "src": "images/Krusevo/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020102916911558682.JPG",
-                "alt": "Монтаж подводящего трубопровода",
-                "source": "http://shcontrol.cz/apollo/pictures/2020102916911558682.JPG"
+                "src": "images/Krusevo/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034635845.jpg",
-                "alt": "Настройка турбины",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034635845.jpg"
+                "src": "images/Krusevo/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114104034332723.jpg",
-                "alt": "Здание электростанции",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114104034332723.jpg"
+                "src": "images/Krusevo/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029112048635845.png",
-                "alt": "Расположение электростанции Kruševo",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029112048635845.png"
+                "src": "images/Krusevo/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Krusevo/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2018-12-01",
@@ -2927,34 +3221,44 @@
         "body": "<p>Инвестором малой гидроэлектростанции на реке Kasindolska выступила компания BUK d.o.o, Eastern Sarajevo. Наша компания поставила для электростанции всё технологическое оборудование «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 128,4 м. Общий расход 0,95 м³/с распределяется между двумя гидроагрегатами по 0,475 м³/с на каждый.</p><p>В здании электростанции установлены два гидроагрегата с горизонтальными спиральными турбинами Френсиса. Рабочие колёса консольно расположены на валах синхронных генераторов общей мощностью 995 кВт.</p><p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Удалённые операторы могут управлять малой ГЭС Podivić и контролировать её через TeamViewer или VNC Viewer. Система также передаёт аварийные сообщения на удалённые устройства операторов.</p><p>В систему наблюдения за электростанцией входят четыре камеры, установленные внутри и снаружи машинного зала. Ещё две камеры планировалось позднее установить на водозаборе.</p>",
         "gallery": [
             {
-                "src": "images/2020114131224511146.jpg",
-                "alt": "Плотина с водозабором электростанции",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224511146.jpg"
+                "src": "images/Podivic/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224604687.jpg",
-                "alt": "Горизонтальная турбина Френсиса",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224604687.jpg"
+                "src": "images/Podivic/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224521827.jpg",
-                "alt": "Вид машинного зала",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224521827.jpg"
+                "src": "images/Podivic/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224301565.jpg",
-                "alt": "Консультация у распределительных шкафов",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224301565.jpg"
+                "src": "images/Podivic/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020114131224696774.jpg",
-                "alt": "Здание электростанции",
-                "source": "http://shcontrol.cz/apollo/pictures/2020114131224696774.jpg"
+                "src": "images/Podivic/05.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201029134815761944.png",
-                "alt": "Расположение электростанции Podivić",
-                "source": "http://shcontrol.cz/apollo/pictures/20201029134815761944.png"
+                "src": "images/Podivic/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Podivic/10.jpg",
+                "alt": ""
             }
         ],
         "date": "2019-01-01",
@@ -3000,29 +3304,64 @@
         "body": "<p>Инвестором электростанции в Antalieptes выступила компания VAIZGA UAB, Mazeikiai. Наша компания поставила для неё механическое оборудование, распределительные устройства 0,4 и 6 кВ, а также полную систему управления всеми четырьмя турбинами в составе решения «под ключ».</p><p>Общая установленная мощность электростанции составляет 3400 кВт: 1000 кВт + 1000 кВт + 1050 кВт + 350 кВт.</p><p>Для управления электростанцией применена система HONEYWELL Experion PKS R300, с которой наши специалисты имеют обширный опыт работы в энергетике, химической промышленности и гидроэнергетике. Комплект дополнен сервером, операторской станцией Windows с одним монитором и интерфейсом HMI на базе программируемого контроллера UNITRONICS Vision 1040.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система видеонаблюдения с одной поворотной камерой Axis 214PTZ и стационарными камерами Vivotek IP8331.</p>",
         "gallery": [
             {
-                "src": "images/202011491658699627.jpg",
-                "alt": "Подключение новой турбины",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658699627.jpg"
+                "src": "images/Antalieptes/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020103011411027524.jpg",
-                "alt": "Ранее подключённые турбины",
-                "source": "http://shcontrol.cz/apollo/pictures/2020103011411027524.jpg"
+                "src": "images/Antalieptes/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658616767.jpg",
-                "alt": "Рабочее место программистов",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658616767.jpg"
+                "src": "images/Antalieptes/03.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011491658396505.jpg",
-                "alt": "Здание электростанции",
-                "source": "http://shcontrol.cz/apollo/pictures/202011491658396505.jpg"
+                "src": "images/Antalieptes/04.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201030163235542370.png",
-                "alt": "Расположение электростанции Antalieptes",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030163235542370.png"
+                "src": "images/Antalieptes/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/Antalieptes/15.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-03-01",
@@ -3039,24 +3378,12 @@
         "body": "<p>Инвестором малой гидроэлектростанции на реке Jadar выступила компания Elektro-Jovana, Milići. Наша компания поставила для неё всё технологическое оборудование и систему управления «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 27 м. Общий расход через малую ГЭС составляет 4,2 м³/с и распределяется между двумя гидроагрегатами: 2,55 м³/с через первый и оставшиеся 1,65 м³/с через второй.</p><p>Гидроагрегаты размещены в главном машинном зале. Каждый оснащён горизонтальной спиральной турбиной Френсиса с консольным рабочим колесом на валу синхронного генератора. Общая мощность генераторов составляет 960 кВт.</p><p>В качестве системы управления используется HONEYWELL Experion PKS HC900 со SCADA-сервером Experion PKS HS. Предусмотрены удалённый доступ через TeamViewer и передача аварийных сообщений на удалённое устройство оператора.</p><p>В систему наблюдения за электростанцией входят камеры, установленные как в машинном зале, так и на плотине.</p>",
         "gallery": [
             {
-                "src": "images/20201141022943835.jpg",
-                "alt": "Доставка оборудования",
-                "source": "http://shcontrol.cz/apollo/pictures/20201141022943835.jpg"
+                "src": "images/Jovana/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/202011410229960975.jpg",
-                "alt": "Установка турбин Френсиса",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229960975.jpg"
-            },
-            {
-                "src": "images/202011410229740712.jpg",
-                "alt": "Проверка панели управления на распределительном шкафу",
-                "source": "http://shcontrol.cz/apollo/pictures/202011410229740712.jpg"
-            },
-            {
-                "src": "images/20201030143938807949.png",
-                "alt": "Расположение электростанции Jovana",
-                "source": "http://shcontrol.cz/apollo/pictures/20201030143938807949.png"
+                "src": "images/Jovana/02.jpg",
+                "alt": ""
             }
         ],
         "date": "2016-07-01",
@@ -3073,19 +3400,76 @@
         "body": "<p>Проект по замене систем управления на нескольких объектах финансировала компания Vaizga Mažeikiai, которой принадлежат 9 из 10 площадок, где проводилась замена.</p><p>Работы прошли на объектах Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai и Kaulakiai. Последний объект принадлежит другому владельцу.</p><p>Главной задачей было внедрение новых систем управления UNITRONICS Vision 1040 с интерфейсами HMI для операторов. Каждая система подключена к интернету через вновь установленные 3G-модемы.</p><p>К панели управления Vision подключён мини-ПК с установленным приложением TeamViewer, позволяющим операторам управлять объектами удалённо.</p><p>Система также отправляет операторам информационные и аварийные SMS через GSM-модем.</p><p>Замена всех 10 систем была выполнена командой из двух человек всего за 30 дней.</p>",
         "gallery": [
             {
-                "src": "images/20201119822944663.jpg",
-                "alt": "Оборудование электростанции",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822944663.jpg"
+                "src": "images/LitvaRS/01.jpg",
+                "alt": ""
             },
             {
-                "src": "images/20201119822724401.jpg",
-                "alt": "Новая внутренняя электропроводка",
-                "source": "http://shcontrol.cz/apollo/pictures/20201119822724401.jpg"
+                "src": "images/LitvaRS/02.jpg",
+                "alt": ""
             },
             {
-                "src": "images/2020111982227524.jpg",
-                "alt": "Вид от объекта в сторону воды",
-                "source": "http://shcontrol.cz/apollo/pictures/2020111982227524.jpg"
+                "src": "images/LitvaRS/03.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/04.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/05.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/06.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/07.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/08.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/09.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/10.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/11.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/12.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/13.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/14.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/15.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/16.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/17.jpg",
+                "alt": ""
+            },
+            {
+                "src": "images/LitvaRS/18.jpg",
+                "alt": ""
             }
         ],
         "date": "2020-11-04",

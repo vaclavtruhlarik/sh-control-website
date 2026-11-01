@@ -710,6 +710,8 @@ def detail(current, page):
         }
         if route in reference_pages:
             return reference_pages[route](current, page)
+        else:
+            return reference_layout(current, page, photos_after={})
 
     if kind == "service":
         solution_pages = {
