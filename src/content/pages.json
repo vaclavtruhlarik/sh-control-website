@@ -561,19 +561,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/02.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/05.jpg",
                 "alt": ""
             },
             {
@@ -581,19 +569,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/07.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/10.jpg",
                 "alt": ""
             },
             {
@@ -631,10 +607,6 @@
                 "alt": ""
             },
             {
-                "src": "images/Procovci1/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Procovci1/06.jpg",
                 "alt": ""
             }
@@ -650,18 +622,10 @@
         "kind": "case",
         "title": "MVE Kruševo Brdo, Bosna a Hercegovina",
         "lead": "Investorem pro malou vodní elektrárnu Kruševo Brdo byla společnost Pure energy d.o.o Kotor Varoš. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\". Voda je do…",
-        "body": "<p>Investorem pro malou vodní elektrárnu Kruševo Brdo byla společnost Pure energy d.o.o Kotor Varoš. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna s čistým spádem 42 m. Turbosoustrojí pracuje s průtokem 0,72 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím se spirální horizontální Francisovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 250 kW.</p>\n<p>Programovatelný automat UNITRONICS UniStream 15,6\" je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem UniStream pomocí SCADA systému HONEYWELL Experion PKS HS. Malá vodní elektrárna Kruševo Brdo je pro vzdálené operátory přístupná přes TeamViewer nebo VNC Viewer.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze šesti pevných kamer umístěných uvnitř a vně strojovny a také na zařízení vtoku vody.</p>",
+        "body": "<p>Investorem pro malou vodní elektrárnu Kruševo Brdo byla společnost Pure energy d.o.o Kotor Varoš. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna s čistým spádem 42 m. Turbosoustrojí pracuje s průtokem 0,72 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím se spirální horizontální Francisovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 250 kW.</p>\n<p>Programovatelný automat UNITRONICS UniStream 15,6\" je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem UniStream pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Kruševo Brdo je možné ovládat a kontrolovat také vzdáleně.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze šesti pevných kamer umístěných uvnitř a vně strojovny a také na zařízení vtoku vody.</p>",
         "gallery": [
             {
                 "src": "images/Krusevo/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/03.jpg",
                 "alt": ""
             },
             {
@@ -673,43 +637,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Krusevo/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/10.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Krusevo/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/15.jpg",
                 "alt": ""
             }
         ],
@@ -724,30 +652,14 @@
         "kind": "case",
         "title": "MVE Podivić, Bosna a Hercegovina",
         "lead": "Investorem pro Malou Vodní Elektrárnu na Kasindolské řece byla společnost BUK d.o.o, Eastern Sarajevo. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\". Voda z řeky je…",
-        "body": "\n<p>Investorem pro Malou Vodní Elektrárnu na Kasindolské řece byla společnost BUK d.o.o, Eastern Sarajevo. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\".</p>\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 128,4 m. Průtok elektrárnou 0,95 m<sup>3</sup>/s je rozdělen do dvou turbosoustrojí na 0,475 m<sup>3</sup>/s a 0,475 m<sup>3</sup>/s.</p>\n\n<p>Budova elektrárny je osazena dvěmi turbosoustrojími se spirálními horizontálními Francisovými turbínami s letmo uloženým oběžným kolem na hřídelích synchronních generátorů o celkovém výkonu 995 kW.</p>\n\n\n<p>Programovatelný automat UNITRONICS UniStream 15,6\" je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem UniStream pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Podivić je pro vzdálené operátory možno ovládat a kontrolovat pomocí TeamViewer nebo VNC Viewer. Systém také posílá alarmní události na vzdálené zařízení operátorů.</p>\n\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající se ze čtyřech kamer umístěných uvnitř a vně strojovny. Další dvě kamery budou následně umístěny na zařízení vtoku vody.</p>\n\n\n\t",
+        "body": "\n<p>Investorem pro Malou Vodní Elektrárnu na Kasindolské řece byla společnost BUK d.o.o, Eastern Sarajevo. Naše firma dodala pro elektrárnu veškerou technologii \"na klíč\".</p>\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 128,4 m. Průtok elektrárnou 0,95 m<sup>3</sup>/s je rozdělen do dvou turbosoustrojí na 0,475 m<sup>3</sup>/s a 0,475 m<sup>3</sup>/s.</p>\n\n<p>Budova elektrárny je osazena dvěmi turbosoustrojími se spirálními horizontálními Francisovými turbínami s letmo uloženým oběžným kolem na hřídelích synchronních generátorů o celkovém výkonu 995 kW.</p>\n\n\n<p>Programovatelný automat UNITRONICS UniStream 15,6\" je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem UniStream pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Podivić je možné ovládat a kontrolovat také vzdáleně. Systém také posílá alarmní události na vzdálené zařízení operátorů.</p>\n\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající se ze čtyřech kamer umístěných uvnitř a vně strojovny. Další dvě kamery budou následně umístěny na zařízení vtoku vody.</p>\n\n\n\t",
         "gallery": [
             {
                 "src": "images/Podivic/01.jpg",
                 "alt": ""
             },
             {
-                "src": "images/Podivic/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/03.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Podivic/05.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/07.jpg",
                 "alt": ""
             },
             {
@@ -766,7 +678,7 @@
         "kind": "case",
         "title": "MVE Djordjine, Srbská republika",
         "lead": "Investorem pro malou vodní elektrárnu Djordjine byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\". Voda…",
-        "body": "<p>Investorem pro malou vodní elektrárnu Djordjine byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna potrubím s čistým spádem 140,7 m. Průtok elektrárnou je 0,25 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím s horizontální dvoudýzovou Peltonovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 320 kW.</p>\n<p>Programovatelný automat UNITRONICS Vision 1040 je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem Vision pomocí SCADA systému HONEYWELL Experion PKS HS. Malá vodní elektrárna Djordjine je pro vzdálené operátory přístupná přes TeamViewer nebo VNC Viewer.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze čtyř pevných kamer umístěných uvnitř a vně strojovny.</p>",
+        "body": "<p>Investorem pro malou vodní elektrárnu Djordjine byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna potrubím s čistým spádem 140,7 m. Průtok elektrárnou je 0,25 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím s horizontální dvoudýzovou Peltonovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 320 kW.</p>\n<p>Programovatelný automat UNITRONICS Vision 1040 je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem Vision pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Djordjine je možné ovládat a kontrolovat také vzdáleně.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze čtyř pevných kamer umístěných uvnitř a vně strojovny.</p>",
         "gallery": [
             {
                 "src": "images/202011410951745632.jpg",
@@ -798,59 +710,15 @@
         "body": "<p>Investorem pro malou vodní elektrárnu Antalieptes byla společnost VAIZGA UAB, Mazeikiai. Naše firma pro ni dodala strojní technologii, elektro rozvaděče 0,4 a 6 kV a kompletní řídící systém pro řízení soustavy všech čtyř turbín jako řešení \"na klíč\".</p>\n<p>Elektrárna je osazena čtyřmi turbínami o celkovém instalovaném výkonu 3400 kW (1000 kW + 1000 kW + 1050 kW + 350 kW).</p>\n<p>Jako řídicí systém elektrárny je použit HONEYWELL Experion PKS R300, se kterým mají naši pracovníci rozsáhlé zkušenosti z jiných oborů (energetika, chemický průmysl), ale také na poli vodních elektráren. Sestavu doplňuje server, operátorská stanice Windows s jedním monitorem a HMI rozhraní realizované programovatelným automatem UNITRONICS Vision 1040.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající z jedné otočné kamery Axis 214PTZ a pevných kamer Vivotek IP8331.</p>",
         "gallery": [
             {
-                "src": "images/Antalieptes/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Antalieptes/06.jpg",
                 "alt": ""
             },
             {
-                "src": "images/Antalieptes/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/09.jpg",
+                "src": "images/Antalieptes/01.jpg",
                 "alt": ""
             },
             {
                 "src": "images/Antalieptes/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/14.jpg",
                 "alt": ""
             },
             {
@@ -869,7 +737,7 @@
         "kind": "case",
         "title": "MVE Jovana, Bosna a Hercegovina",
         "lead": "Investorem pro malou vodní elektrárnu na řece Jadar byla společnost Elektro-Jovana, Milići. Naše firma pro ni dodala veškerou technologii a řídící systém \"na klíč\". Voda z řeky je…",
-        "body": "<p>Investorem pro malou vodní elektrárnu na řece Jadar byla společnost Elektro-Jovana, Milići. Naše firma pro ni dodala veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 27 m. Průtok elektrárnou 4,2 m<sup>3</sup>/s je rozdělen do dvou turbosoustrojí na 2,55 m<sup>3</sup>/s a 1,65 m<sup>3</sup>/s.</p>\n<p>Hlavní strojovna elektrárny je osazena dvěma turbosoustrojími s horizontálními spirálními Francisovými turbínami s letmo uloženými oběžnými koly na hřídelích synchronních generátorů o celkovém výkonu 960 kW.</p>\n<p>Jako řídící systém elektrárny je použit HONEYWELL Experion PKS HC900, doplněný SCADA serverem Experion PKS HS. Malá vodní elektrárna Jovana je pro vzdálené operátory přístupná přes TeamViewer. Systém také posílá alarmní události na vzdálené zařízení operátorů.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém s kamerami umístěnými ve strojovně a na přehradě.</p>",
+        "body": "<p>Investorem pro malou vodní elektrárnu na řece Jadar byla společnost Elektro-Jovana, Milići. Naše firma pro ni dodala veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda z řeky je do elektrárny přiváděna s čistým spádem 27 m. Průtok elektrárnou 4,2 m<sup>3</sup>/s je rozdělen do dvou turbosoustrojí na 2,55 m<sup>3</sup>/s a 1,65 m<sup>3</sup>/s.</p>\n<p>Hlavní strojovna elektrárny je osazena dvěma turbosoustrojími s horizontálními spirálními Francisovými turbínami s letmo uloženými oběžnými koly na hřídelích synchronních generátorů o celkovém výkonu 960 kW.</p>\n<p>Jako řídící systém elektrárny je použit HONEYWELL Experion PKS HC900, doplněný SCADA serverem Experion PKS HS. Malou vodní elektrárnu Jovana je možné ovládat a kontrolovat také vzdáleně. Systém také posílá alarmní události na vzdálené zařízení operátorů.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém s kamerami umístěnými ve strojovně a na přehradě.</p>",
         "gallery": [
             {
                 "src": "images/Jovana/01.jpg",
@@ -891,18 +759,10 @@
         "kind": "case",
         "title": "Výměna řídících systémů na 10 lokalitách, Litva",
         "lead": "Projekt, ve kterém se jednalo o výměnu několia řídících systémů na odlišných lokalitách, investovala společnost Vaizga Mažeikiai, která vlasní 9 z 10 stanovišť, na kterých se systém…",
-        "body": "\n<p>Projekt, ve kterém se jednalo o výměnu několia řídících systémů na odlišných lokalitách, investovala společnost Vaizga Mažeikiai, která vlasní 9 z 10 stanovišť, na kterých se systém měnil.<br>Výměna probíhala v těchto lokalitách: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai a Kaulakiai, kterou vlastní jiný majitel.</p>\n\n<p>Hlavním cílem bylo zapojení nových řídících systému UNITRONICS Vision 1040 s HMI rozhraními pro operátory. Každý systém je připojen k internetu pomocí nově instalovaných 3G modemů.<br>K řídícímu panelu Vision je připojeno Mini PC s instalovanou aplikací TeamViewer, pomocí které mohou operátoři spravovat stanoviště vzdáleně.<br>Součástí systému je fukncionalita odesílání informačních a alarmních SMS operátorům pomocí GSM modemu.</p>\n\n<p>Výměna všech 10 systémů proběhla během pouhých 30 dnů dvoučlenným týmem.</p>\n\n\t",
+        "body": "\n<p>Projekt, ve kterém se jednalo o výměnu několia řídících systémů na odlišných lokalitách, investovala společnost Vaizga Mažeikiai, která vlasní 9 z 10 stanovišť, na kterých se systém měnil.<br>Výměna probíhala v těchto lokalitách: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai a Kaulakiai, kterou vlastní jiný majitel.</p>\n\n<p>Hlavním cílem bylo zapojení nových řídících systému UNITRONICS Vision 1040 s HMI rozhraními pro operátory. Každý systém je připojen k internetu pomocí nově instalovaných 3G modemů.<br>K řídícímu panelu Vision je připojeno Mini PC, pomocí kterého mohou operátoři spravovat stanoviště vzdáleně.<br>Součástí systému je fukncionalita odesílání informačních a alarmních SMS operátorům pomocí GSM modemu.</p>\n\n<p>Výměna všech 10 systémů proběhla během pouhých 30 dnů dvoučlenným týmem.</p>\n\n\t",
         "gallery": [
             {
                 "src": "images/LitvaRS/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/03.jpg",
                 "alt": ""
             },
             {
@@ -922,47 +782,7 @@
                 "alt": ""
             },
             {
-                "src": "images/LitvaRS/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/15.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/LitvaRS/16.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/17.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/18.jpg",
                 "alt": ""
             }
         ],
@@ -977,7 +797,7 @@
         "kind": "case",
         "title": "MVE Prodanca, Srbsko",
         "lead": "Investorem pro malou vodní elektrárnu Prodanca byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\". Voda…",
-        "body": "<p>Investorem pro malou vodní elektrárnu Prodanca byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna potrubím s čistým spádem 141 m. Průtok elektrárnou je 0,25 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím s horizontální dvoudýzovou Peltonovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 190 kW.</p>\n<p>Programovatelný automat UNITRONICS Vision 1040 je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem Vision pomocí SCADA systému HONEYWELL Experion PKS HS. Malá vodní elektrárna Prodanca je pro vzdálené operátory přístupná přes TeamViewer nebo VNC Viewer.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze čtyř pevných kamer umístěných uvnitř a vně strojovny.</p>",
+        "body": "<p>Investorem pro malou vodní elektrárnu Prodanca byla společnost VLASINA ECO ENERGY d.o.o Beograd. Naše firma pro ni připravila veškerou technologii a řídící systém \"na klíč\".</p>\n<p>Voda je do elektrárny přiváděna potrubím s čistým spádem 141 m. Průtok elektrárnou je 0,25 m<sup>3</sup>/s.</p>\n<p>Budova elektrárny je osazena turbosoustrojím s horizontální dvoudýzovou Peltonovou turbínou s letmo uloženým oběžným kolem na hřídeli generátoru o výkonu 190 kW.</p>\n<p>Programovatelný automat UNITRONICS Vision 1040 je použit jako řídící systém elektrárny a s jeho HMI rozhraním je umístěn na dveřích rozvaděče. Doplněn je operátorskou stanicí Windows, která je spojena s automatem Vision pomocí SCADA systému HONEYWELL Experion PKS HS. Malou vodní elektrárnu Prodanca je možné ovládat a kontrolovat také vzdáleně.</p>\n<p>Součástí dohledu nad elektrárnou je kamerový systém sestávající ze čtyř pevných kamer umístěných uvnitř a vně strojovny.</p>",
         "gallery": [
             {
                 "src": "images/202011593911542370.jpg",
@@ -1740,7 +1560,7 @@
         "route": "references/favorit",
         "kind": "case",
         "title": "Favorit Small Hydropower Plant",
-        "lead": "The reconstruction of another small hydropower plant has been completed near Favorit château, within the municipality of Šindelová in the Karlovy Vary Region.Our company is already…",
+        "lead": "The reconstruction of another small hydropower plant has been completed near Favorit château, within the municipality of Šindelová in the Karlovy Vary Region. Our company is already…",
         "body": "<p>The reconstruction of another small hydropower plant has been completed near Favorit château, within the municipality of Šindelová in the Karlovy Vary Region.</p><p>Our company is already familiar with this small hydropower plant, which has two Bánki turbines on the Skřiváň stream near the rococo Favorit hunting château.</p><p>The plant, with a total output of 120 kW, had already undergone reconstruction in the early 1990s. The current customer needed to meet the requirements of the Czech Energy Regulatory Office (ERÚ) for a higher purchase tariff, so a further partial reconstruction of the electrical equipment was undertaken. Elektro Kotouč s.r.o. of Sokolov designed the project and served as the general contractor. Our company supplied the control system and debugged the associated software.</p><p>The control system is based on the UNITRONICS Vision 570 PLC with a 5.7-inch colour touchscreen. The processing unit has enough capacity to control and optimise both turbines and to record all operating values on an external SD card at ten-minute intervals. The project also allows for a future addition of a trash rack cleaning machine.</p><p>External communication is provided, as usual, by a CINTERION MC35i GSM modem. Owing to the weak signal at the site, it is supplemented by a directional Yagi 12 dB antenna.</p>",
         "gallery": [
             {
@@ -1796,19 +1616,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/02.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/05.jpg",
                 "alt": ""
             },
             {
@@ -1816,19 +1624,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/07.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/10.jpg",
                 "alt": ""
             },
             {
@@ -1866,10 +1662,6 @@
                 "alt": ""
             },
             {
-                "src": "images/Procovci1/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Procovci1/06.jpg",
                 "alt": ""
             }
@@ -1885,18 +1677,10 @@
         "kind": "case",
         "title": "SHPP Kruševo Brdo, Bosnia & Herzegovina",
         "lead": "The investor in the Small Hydro Power Plant Kruševo Brdo was the company Pure energy d.o.o Kotor Varoš. Our company supplied all machinery and the control system as a 'turnkey'…",
-        "body": "<p>The investor in the Small Hydro Power Plant Kruševo Brdo was the company Pure energy d.o.o Kotor Varoš. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant with net head of 42 m. The turboset works with a flow of 0.72 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal spiral Francis turbine with an overhung runner on the shaft of the generator with an output of 250 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS UniStream 15.6\" with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the UniStream via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Kruševo Brdo is accessible for remote operators via TeamViewer or VNC Viewer.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of six fixed cameras. These cameras are situated in and outside of the machine room and on the water intake facilities.</p>",
+        "body": "<p>The investor in the Small Hydro Power Plant Kruševo Brdo was the company Pure energy d.o.o Kotor Varoš. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant with net head of 42 m. The turboset works with a flow of 0.72 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal spiral Francis turbine with an overhung runner on the shaft of the generator with an output of 250 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS UniStream 15.6\" with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the UniStream via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Kruševo Brdo can also be monitored and controlled remotely.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of six fixed cameras. These cameras are situated in and outside of the machine room and on the water intake facilities.</p>",
         "gallery": [
             {
                 "src": "images/Krusevo/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/03.jpg",
                 "alt": ""
             },
             {
@@ -1908,43 +1692,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Krusevo/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/10.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Krusevo/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/15.jpg",
                 "alt": ""
             }
         ],
@@ -1959,22 +1707,10 @@
         "kind": "case",
         "title": "SHPP Podivić, Bosnia & Herzegovina",
         "lead": "The investor in the Small Hydro Power Plant on the Kasindolska river was the company BUK d.o.o, Eastern Sarajevo. Our company supplied all machinery and the control system as a…",
-        "body": "\n<p>The investor in the Small Hydro Power Plant on the Kasindolska river was the company BUK d.o.o, Eastern Sarajevo. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water from the river is fed to the power plant with net head of 128.4 m. The flow through the power plant is 0.95 m<sup>3</sup>/s and is divided to two turbosets. Each turboset has a flow of 0.475 m<sup>3</sup>/s.</p>\n\n<p>In the machine room there are two horizontal spiral Francis turbines with an overhung runner on shafts for synchronous generators with an overall output of 995 kW.</p>\n\n\n<p>The control system of the power plant is a programmable UNITRONICS UniStream 15.6\" with HMI interface, and it is placed on the door of the switchboard. It is accompanied with Windows operating system, which is connected to the UniStream via SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Podivić is accessible for remote operators via TeamViewer or VNC Viewer. The UniStream control system also sends alarm messages to the operator's remote devices.</p>\n\n<p>The power plant is complemented with continuous monitoring via camera system. These cameras are situated in and outside of the machine room, and two new cameras will be implemented on the water intake facilities.</p>\n\n\n\t",
+        "body": "\n<p>The investor in the Small Hydro Power Plant on the Kasindolska river was the company BUK d.o.o, Eastern Sarajevo. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water from the river is fed to the power plant with net head of 128.4 m. The flow through the power plant is 0.95 m<sup>3</sup>/s and is divided to two turbosets. Each turboset has a flow of 0.475 m<sup>3</sup>/s.</p>\n\n<p>In the machine room there are two horizontal spiral Francis turbines with an overhung runner on shafts for synchronous generators with an overall output of 995 kW.</p>\n\n\n<p>The control system of the power plant is a programmable UNITRONICS UniStream 15.6\" with HMI interface, and it is placed on the door of the switchboard. It is accompanied with Windows operating system, which is connected to the UniStream via SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Podivić can also be monitored and controlled remotely. The UniStream control system also sends alarm messages to the operator's remote devices.</p>\n\n<p>The power plant is complemented with continuous monitoring via camera system. These cameras are situated in and outside of the machine room, and two new cameras will be implemented on the water intake facilities.</p>\n\n\n\t",
         "gallery": [
             {
                 "src": "images/Podivic/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/04.jpg",
                 "alt": ""
             },
             {
@@ -1982,23 +1718,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Podivic/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/07.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Podivic/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/10.jpg",
                 "alt": ""
             }
         ],
@@ -2013,7 +1733,7 @@
         "kind": "case",
         "title": "SHPP Djordjine, Republic of Serbia",
         "lead": "The investor in the Small Hydro Power Plant Djordjine was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey'…",
-        "body": "<p>The investor in the Small Hydro Power Plant Djordjine was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant by pipeline with net head of 140.7 m. The flow through the power plant is 0.25 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal two-nozzle Pelton turbine with an overhung runner on the shaft of the generator with an output of 320 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS Vision 1040 with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the Vision 1040 via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Djordjine is accessible for remote operators via TeamViewer or VNC Viewer.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of four fixed cameras. These cameras are situated in and outside of the machine room.</p>",
+        "body": "<p>The investor in the Small Hydro Power Plant Djordjine was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant by pipeline with net head of 140.7 m. The flow through the power plant is 0.25 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal two-nozzle Pelton turbine with an overhung runner on the shaft of the generator with an output of 320 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS Vision 1040 with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the Vision 1040 via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Djordjine can also be monitored and controlled remotely.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of four fixed cameras. These cameras are situated in and outside of the machine room.</p>",
         "gallery": [
             {
                 "src": "images/202011410951745632.jpg",
@@ -2045,59 +1765,15 @@
         "body": "<p>The investor in the Small Hydro Power Plant Antalieptes was the company VAIZGA UAB, Mazeikiai. Our company supplied the machinery, the 0.4 kV and 6 kV switchboards and a complete control system for all four turbines as a 'turnkey' solution.</p>\n<p>The power plant has four turbines with an overall installed output of 3400 kW (1000 kW + 1000 kW + 1050 kW + 350 kW).</p>\n<p>The control system of the power plant is HONEYWELL Experion PKS R300, with which our staff have extensive experience from other fields (the energy and chemical industries) as well as from hydroelectric power plants. It is accompanied by a server, a Windows operator station with one monitor and an HMI interface using a programmable UNITRONICS Vision 1040.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system consisting of one Axis 214PTZ rotating camera and Vivotek IP8331 fixed IP cameras.</p>",
         "gallery": [
             {
-                "src": "images/Antalieptes/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Antalieptes/06.jpg",
                 "alt": ""
             },
             {
-                "src": "images/Antalieptes/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/09.jpg",
+                "src": "images/Antalieptes/01.jpg",
                 "alt": ""
             },
             {
                 "src": "images/Antalieptes/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/14.jpg",
                 "alt": ""
             },
             {
@@ -2116,7 +1792,7 @@
         "kind": "case",
         "title": "SHPP Jovana, Bosnia & Herzegovina",
         "lead": "The investor in the Small Hydro Power Plant on the river Jadar was the company Elektro-Jovana, Milići. Our company supplied all machinery and the control system as a 'turnkey'…",
-        "body": "<p>The investor in the Small Hydro Power Plant on the river Jadar was the company Elektro-Jovana, Milići. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water from the river is fed to the power plant with net head of 27 m. The flow through the power plant is 4.2 m<sup>3</sup>/s and is divided between two turbosets. The first turboset has a flow of 2.55 m<sup>3</sup>/s and the second one the remaining 1.65 m<sup>3</sup>/s.</p>\n<p>In the main machine room there are two horizontal spiral Francis turbines with an overhung runner on shafts for synchronous generators with an overall output of 960 kW.</p>\n<p>The control system of the power plant is HONEYWELL Experion PKS HC900, complemented by the SCADA server Experion PKS HS. Small Hydro Power Plant Jovana is accessible for remote operators via TeamViewer. The control system also sends alarm messages to the operator's remote devices.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system. These cameras are situated in the machine room and on the dam.</p>",
+        "body": "<p>The investor in the Small Hydro Power Plant on the river Jadar was the company Elektro-Jovana, Milići. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water from the river is fed to the power plant with net head of 27 m. The flow through the power plant is 4.2 m<sup>3</sup>/s and is divided between two turbosets. The first turboset has a flow of 2.55 m<sup>3</sup>/s and the second one the remaining 1.65 m<sup>3</sup>/s.</p>\n<p>In the main machine room there are two horizontal spiral Francis turbines with an overhung runner on shafts for synchronous generators with an overall output of 960 kW.</p>\n<p>The control system of the power plant is HONEYWELL Experion PKS HC900, complemented by the SCADA server Experion PKS HS. Small Hydro Power Plant Jovana can also be monitored and controlled remotely. The control system also sends alarm messages to the operator's remote devices.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system. These cameras are situated in the machine room and on the dam.</p>",
         "gallery": [
             {
                 "src": "images/Jovana/01.jpg",
@@ -2138,18 +1814,10 @@
         "kind": "case",
         "title": "Replacement of control systems at 10 different locations, Lithuania",
         "lead": "The project, which involved the replacement of several control systems in different locations, was invested by the company Vaizga Mažeikiai, which owns 9 of the 10 sites where the…",
-        "body": "\n<p>The project, which involved the replacement of several control systems in different locations, was invested by the company Vaizga Mažeikiai, which owns 9 of the 10 sites where the system was changed.<br>The exchange took place in the following locations: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai and Kaulakiai, owned by another owner.</p>\n\n<p>The main goal was to implement the new UNITRONICS Vision 1040 control systems with HMI interfaces for operators. Each system is connected to the Internet using newly installed 3G modems.<br>A Mini PC with the TeamViewer application installed is connected to the Vision control panel, with which operators can manage stations remotely.<br>Part of the system is the functionality of sending information and alarm SMS to operators using a GSM modem.</p>\n\n<p>All 10 systems were replaced in just 30 days by a two-member team.</p>\n\n\t",
+        "body": "\n<p>The project, which involved the replacement of several control systems in different locations, was invested by the company Vaizga Mažeikiai, which owns 9 of the 10 sites where the system was changed.<br>The exchange took place in the following locations: Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai and Kaulakiai, owned by another owner.</p>\n\n<p>The main goal was to implement the new UNITRONICS Vision 1040 control systems with HMI interfaces for operators. Each system is connected to the Internet using newly installed 3G modems.<br>A Mini PC is connected to the Vision control panel, allowing operators to manage the stations remotely.<br>Part of the system is the functionality of sending information and alarm SMS to operators using a GSM modem.</p>\n\n<p>All 10 systems were replaced in just 30 days by a two-member team.</p>\n\n\t",
         "gallery": [
             {
                 "src": "images/LitvaRS/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/03.jpg",
                 "alt": ""
             },
             {
@@ -2169,47 +1837,7 @@
                 "alt": ""
             },
             {
-                "src": "images/LitvaRS/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/15.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/LitvaRS/16.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/17.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/18.jpg",
                 "alt": ""
             }
         ],
@@ -2224,7 +1852,7 @@
         "kind": "case",
         "title": "SHPP Prodanca, Serbia",
         "lead": "The investor in the Small Hydro Power Plant Prodanca was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey'…",
-        "body": "<p>The investor in the Small Hydro Power Plant Prodanca was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant by pipeline with net head of 141 m. The flow through the power plant is 0.25 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal two-nozzle Pelton turbine with an overhung runner on the shaft of the generator with an output of 190 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS Vision 1040 with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the Vision 1040 via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Prodanca is accessible for remote operators via TeamViewer or VNC Viewer.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of four fixed cameras. These cameras are situated in and outside of the machine room.</p>",
+        "body": "<p>The investor in the Small Hydro Power Plant Prodanca was the company VLASINA ECO ENERGY d.o.o Beograd. Our company supplied all machinery and the control system as a 'turnkey' solution.</p>\n<p>Water is fed to the power plant by pipeline with net head of 141 m. The flow through the power plant is 0.25 m<sup>3</sup>/s.</p>\n<p>In the machine room there is a horizontal two-nozzle Pelton turbine with an overhung runner on the shaft of the generator with an output of 190 kW.</p>\n<p>The control system of the power plant is a programmable UNITRONICS Vision 1040 with HMI interface, and it is placed on the door of the switchboard. It is accompanied by a Windows operator station, which is connected to the Vision 1040 via the SCADA system HONEYWELL Experion PKS HS. Small Hydro Power Plant Prodanca can also be monitored and controlled remotely.</p>\n<p>The power plant is complemented with continuous monitoring via a camera system of four fixed cameras. These cameras are situated in and outside of the machine room.</p>",
         "gallery": [
             {
                 "src": "images/202011593911542370.jpg",
@@ -2987,7 +2615,7 @@
         "route": "references/favorit",
         "kind": "case",
         "title": "Малая ГЭС Favorit",
-        "lead": "Завершена реконструкция ещё одной малой гидроэлектростанции рядом с замком Favorit, на территории муниципалитета Šindelová в Карловарском крае.Малая ГЭС с двумя турбинами Банки на…",
+        "lead": "Завершена реконструкция ещё одной малой гидроэлектростанции рядом с замком Favorit, на территории муниципалитета Šindelová в Карловарском крае. Малая ГЭС с двумя турбинами Банки на…",
         "body": "<p>Завершена реконструкция ещё одной малой гидроэлектростанции рядом с замком Favorit, на территории муниципалитета Šindelová в Карловарском крае.</p><p>Малая ГЭС с двумя турбинами Банки на речке Skřiváň, неподалёку от охотничьего замка Favorit в стиле рококо, нашей компании уже знакома.</p><p>Эта малая ГЭС общей мощностью 120 кВт уже проходила реконструкцию в начале 1990-х годов. Поскольку нынешнему заказчику требовалось выполнить условия чешского Управления по регулированию энергетики (ERÚ) для повышения закупочного тарифа, была проведена ещё одна частичная реконструкция электрооборудования. Проект разработала компания Elektro Kotouč s.r.o. из города Sokolov, выступившая также генеральным подрядчиком. Наша компания поставила систему управления и выполнила отладку соответствующего программного обеспечения.</p><p>Основой системы управления стал ПЛК UNITRONICS Vision 570 с цветным сенсорным экраном диагональю 5,7 дюйма. Его вычислительных возможностей достаточно как для управления и оптимизации работы обеих турбин, так и для сохранения всех эксплуатационных параметров на внешнюю SD-карту с интервалом десять минут. Проект также предусматривает последующее дополнение системы машиной для очистки сороудерживающих решёток.</p><p>Связь с внешними устройствами, как обычно, обеспечивает GSM-модем CINTERION MC35i. Из-за слабого сигнала на объекте он дополнен направленной антенной Yagi 12 дБ.</p>",
         "gallery": [
             {
@@ -3043,19 +2671,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/02.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/05.jpg",
                 "alt": ""
             },
             {
@@ -3063,19 +2679,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Chladilnik/07.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Chladilnik/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Chladilnik/10.jpg",
                 "alt": ""
             },
             {
@@ -3113,10 +2717,6 @@
                 "alt": ""
             },
             {
-                "src": "images/Procovci1/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Procovci1/06.jpg",
                 "alt": ""
             }
@@ -3131,19 +2731,11 @@
         "route": "references/krusevo-brdo",
         "kind": "case",
         "title": "Малая ГЭС Kruševo Brdo, Босния и Герцеговина",
-        "lead": "Инвестором выступила компания Pure energy d.o.o Kotor Varoš, для которой наша компания поставила всё технологическое оборудование «под ключ».Вода подводится к электростанции с чистым…",
-        "body": "<p>Инвестором выступила компания Pure energy d.o.o Kotor Varoš, для которой наша компания поставила всё технологическое оборудование «под ключ».</p><p>Вода подводится к электростанции с чистым напором 42 м. Гидроагрегат работает при расходе 0,72 м³/с.</p><p>В здании электростанции установлен гидроагрегат с горизонтальной спиральной турбиной Френсиса, рабочее колесо которой консольно расположено на валу генератора мощностью 250 кВт.</p><p>Система управления электростанцией построена на программируемом контроллере UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI на двери распределительного шкафа. Комплект дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Для удалённых операторов доступ к малой ГЭС предоставляется через TeamViewer или VNC Viewer.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система из шести стационарных камер. Они установлены внутри и снаружи машинного зала, а также на сооружениях подвода воды.</p>",
+        "lead": "Инвестором выступила компания Pure energy d.o.o Kotor Varoš, для которой наша компания поставила всё технологическое оборудование «под ключ». Вода подводится к электростанции с чистым…",
+        "body": "<p>Инвестором выступила компания Pure energy d.o.o Kotor Varoš, для которой наша компания поставила всё технологическое оборудование «под ключ».</p><p>Вода подводится к электростанции с чистым напором 42 м. Гидроагрегат работает при расходе 0,72 м³/с.</p><p>В здании электростанции установлен гидроагрегат с горизонтальной спиральной турбиной Френсиса, рабочее колесо которой консольно расположено на валу генератора мощностью 250 кВт.</p><p>Система управления электростанцией построена на программируемом контроллере UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI на двери распределительного шкафа. Комплект дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Предусмотрена возможность дистанционного управления и контроля малой ГЭС Kruševo Brdo.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система из шести стационарных камер. Они установлены внутри и снаружи машинного зала, а также на сооружениях подвода воды.</p>",
         "gallery": [
             {
                 "src": "images/Krusevo/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/03.jpg",
                 "alt": ""
             },
             {
@@ -3155,43 +2747,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Krusevo/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/10.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Krusevo/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Krusevo/15.jpg",
                 "alt": ""
             }
         ],
@@ -3206,22 +2762,10 @@
         "kind": "case",
         "title": "Малая ГЭС Podivić, Босния и Герцеговина",
         "lead": "Инвестором малой гидроэлектростанции на реке Kasindolska выступила компания BUK d.o.o, Eastern Sarajevo. Наша компания поставила для электростанции всё технологическое оборудование…",
-        "body": "<p>Инвестором малой гидроэлектростанции на реке Kasindolska выступила компания BUK d.o.o, Eastern Sarajevo. Наша компания поставила для электростанции всё технологическое оборудование «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 128,4 м. Общий расход 0,95 м³/с распределяется между двумя гидроагрегатами по 0,475 м³/с на каждый.</p><p>В здании электростанции установлены два гидроагрегата с горизонтальными спиральными турбинами Френсиса. Рабочие колёса консольно расположены на валах синхронных генераторов общей мощностью 995 кВт.</p><p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Удалённые операторы могут управлять малой ГЭС Podivić и контролировать её через TeamViewer или VNC Viewer. Система также передаёт аварийные сообщения на удалённые устройства операторов.</p><p>В систему наблюдения за электростанцией входят четыре камеры, установленные внутри и снаружи машинного зала. Ещё две камеры планировалось позднее установить на водозаборе.</p>",
+        "body": "<p>Инвестором малой гидроэлектростанции на реке Kasindolska выступила компания BUK d.o.o, Eastern Sarajevo. Наша компания поставила для электростанции всё технологическое оборудование «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 128,4 м. Общий расход 0,95 м³/с распределяется между двумя гидроагрегатами по 0,475 м³/с на каждый.</p><p>В здании электростанции установлены два гидроагрегата с горизонтальными спиральными турбинами Френсиса. Рабочие колёса консольно расположены на валах синхронных генераторов общей мощностью 995 кВт.</p><p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS UniStream 15,6 дюйма с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером UniStream через SCADA-систему HONEYWELL Experion PKS HS. Предусмотрена возможность дистанционного управления и контроля малой ГЭС Podivić. Система также передаёт аварийные сообщения на удалённые устройства операторов.</p><p>В систему наблюдения за электростанцией входят четыре камеры, установленные внутри и снаружи машинного зала. Ещё две камеры планировалось позднее установить на водозаборе.</p>",
         "gallery": [
             {
                 "src": "images/Podivic/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/04.jpg",
                 "alt": ""
             },
             {
@@ -3229,23 +2773,7 @@
                 "alt": ""
             },
             {
-                "src": "images/Podivic/06.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/07.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Podivic/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Podivic/10.jpg",
                 "alt": ""
             }
         ],
@@ -3260,7 +2788,7 @@
         "kind": "case",
         "title": "Малая ГЭС Djordjine, Республика Сербия",
         "lead": "Инвестором малой ГЭС Djordjine выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему…",
-        "body": "<p>Инвестором малой ГЭС Djordjine выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему управления «под ключ».</p>\n<p>Вода подводится к электростанции по трубопроводу с чистым напором 140,7 м. Расход через электростанцию составляет 0,25 м³/с.</p>\n<p>В машинном зале установлен гидроагрегат с горизонтальной двухсопловой турбиной Пелтона, рабочее колесо которой консольно расположено на валу генератора мощностью 320 кВт.</p>\n<p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS Vision 1040 с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером Vision через SCADA-систему HONEYWELL Experion PKS HS. Удалённые операторы могут получить доступ к малой ГЭС Djordjine через TeamViewer или VNC Viewer.</p>\n<p>В систему наблюдения за электростанцией входят четыре стационарные камеры, установленные внутри и снаружи машинного зала.</p>",
+        "body": "<p>Инвестором малой ГЭС Djordjine выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему управления «под ключ».</p>\n<p>Вода подводится к электростанции по трубопроводу с чистым напором 140,7 м. Расход через электростанцию составляет 0,25 м³/с.</p>\n<p>В машинном зале установлен гидроагрегат с горизонтальной двухсопловой турбиной Пелтона, рабочее колесо которой консольно расположено на валу генератора мощностью 320 кВт.</p>\n<p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS Vision 1040 с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером Vision через SCADA-систему HONEYWELL Experion PKS HS. Предусмотрена возможность дистанционного управления и контроля малой ГЭС Djordjine.</p>\n<p>В систему наблюдения за электростанцией входят четыре стационарные камеры, установленные внутри и снаружи машинного зала.</p>",
         "gallery": [
             {
                 "src": "images/202011410951745632.jpg",
@@ -3292,59 +2820,15 @@
         "body": "<p>Инвестором электростанции в Antalieptes выступила компания VAIZGA UAB, Mazeikiai. Наша компания поставила для неё механическое оборудование, распределительные устройства 0,4 и 6 кВ, а также полную систему управления всеми четырьмя турбинами в составе решения «под ключ».</p><p>Общая установленная мощность электростанции составляет 3400 кВт: 1000 кВт + 1000 кВт + 1050 кВт + 350 кВт.</p><p>Для управления электростанцией применена система HONEYWELL Experion PKS R300, с которой наши специалисты имеют обширный опыт работы в энергетике, химической промышленности и гидроэнергетике. Комплект дополнен сервером, операторской станцией Windows с одним монитором и интерфейсом HMI на базе программируемого контроллера UNITRONICS Vision 1040.</p><p>Непрерывное наблюдение за электростанцией обеспечивает система видеонаблюдения с одной поворотной камерой Axis 214PTZ и стационарными камерами Vivotek IP8331.</p>",
         "gallery": [
             {
-                "src": "images/Antalieptes/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/03.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/04.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/05.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/Antalieptes/06.jpg",
                 "alt": ""
             },
             {
-                "src": "images/Antalieptes/07.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/09.jpg",
+                "src": "images/Antalieptes/01.jpg",
                 "alt": ""
             },
             {
                 "src": "images/Antalieptes/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/Antalieptes/14.jpg",
                 "alt": ""
             },
             {
@@ -3363,7 +2847,7 @@
         "kind": "case",
         "title": "Малая ГЭС Jovana, Босния и Герцеговина",
         "lead": "Инвестором малой гидроэлектростанции на реке Jadar выступила компания Elektro-Jovana, Milići. Наша компания поставила для неё всё технологическое оборудование и систему управления «под…",
-        "body": "<p>Инвестором малой гидроэлектростанции на реке Jadar выступила компания Elektro-Jovana, Milići. Наша компания поставила для неё всё технологическое оборудование и систему управления «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 27 м. Общий расход через малую ГЭС составляет 4,2 м³/с и распределяется между двумя гидроагрегатами: 2,55 м³/с через первый и оставшиеся 1,65 м³/с через второй.</p><p>Гидроагрегаты размещены в главном машинном зале. Каждый оснащён горизонтальной спиральной турбиной Френсиса с консольным рабочим колесом на валу синхронного генератора. Общая мощность генераторов составляет 960 кВт.</p><p>В качестве системы управления используется HONEYWELL Experion PKS HC900 со SCADA-сервером Experion PKS HS. Предусмотрены удалённый доступ через TeamViewer и передача аварийных сообщений на удалённое устройство оператора.</p><p>В систему наблюдения за электростанцией входят камеры, установленные как в машинном зале, так и на плотине.</p>",
+        "body": "<p>Инвестором малой гидроэлектростанции на реке Jadar выступила компания Elektro-Jovana, Milići. Наша компания поставила для неё всё технологическое оборудование и систему управления «под ключ».</p><p>Вода из реки подводится к электростанции с чистым напором 27 м. Общий расход через малую ГЭС составляет 4,2 м³/с и распределяется между двумя гидроагрегатами: 2,55 м³/с через первый и оставшиеся 1,65 м³/с через второй.</p><p>Гидроагрегаты размещены в главном машинном зале. Каждый оснащён горизонтальной спиральной турбиной Френсиса с консольным рабочим колесом на валу синхронного генератора. Общая мощность генераторов составляет 960 кВт.</p><p>В качестве системы управления используется HONEYWELL Experion PKS HC900 со SCADA-сервером Experion PKS HS. Предусмотрены дистанционное управление и контроль электростанции, а также передача аварийных сообщений на удалённое устройство оператора.</p><p>В систему наблюдения за электростанцией входят камеры, установленные как в машинном зале, так и на плотине.</p>",
         "gallery": [
             {
                 "src": "images/Jovana/01.jpg",
@@ -3384,19 +2868,11 @@
         "route": "references/lithuania-control-systems",
         "kind": "case",
         "title": "Замена систем управления на 10 объектах, Литва",
-        "lead": "Проект по замене систем управления на нескольких объектах финансировала компания Vaizga Mažeikiai, которой принадлежат 9 из 10 площадок, где проводилась замена.Работы прошли на…",
-        "body": "<p>Проект по замене систем управления на нескольких объектах финансировала компания Vaizga Mažeikiai, которой принадлежат 9 из 10 площадок, где проводилась замена.</p><p>Работы прошли на объектах Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai и Kaulakiai. Последний объект принадлежит другому владельцу.</p><p>Главной задачей было внедрение новых систем управления UNITRONICS Vision 1040 с интерфейсами HMI для операторов. Каждая система подключена к интернету через вновь установленные 3G-модемы.</p><p>К панели управления Vision подключён мини-ПК с установленным приложением TeamViewer, позволяющим операторам управлять объектами удалённо.</p><p>Система также отправляет операторам информационные и аварийные SMS через GSM-модем.</p><p>Замена всех 10 систем была выполнена командой из двух человек всего за 30 дней.</p>",
+        "lead": "Проект по замене систем управления на нескольких объектах финансировала компания Vaizga Mažeikiai, которой принадлежат 9 из 10 площадок, где проводилась замена. Работы прошли на…",
+        "body": "<p>Проект по замене систем управления на нескольких объектах финансировала компания Vaizga Mažeikiai, которой принадлежат 9 из 10 площадок, где проводилась замена.</p><p>Работы прошли на объектах Aukštdvaris, Baltosios Ančios, Bagdononys, Juodeikiai, Gondingos, Renavas, Ubišké, Sukančiai, Vaitekunai и Kaulakiai. Последний объект принадлежит другому владельцу.</p><p>Главной задачей было внедрение новых систем управления UNITRONICS Vision 1040 с интерфейсами HMI для операторов. Каждая система подключена к интернету через вновь установленные 3G-модемы.</p><p>К панели управления Vision подключён мини-ПК, позволяющий операторам управлять объектами удалённо.</p><p>Система также отправляет операторам информационные и аварийные SMS через GSM-модем.</p><p>Замена всех 10 систем была выполнена командой из двух человек всего за 30 дней.</p>",
         "gallery": [
             {
                 "src": "images/LitvaRS/01.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/02.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/03.jpg",
                 "alt": ""
             },
             {
@@ -3416,47 +2892,7 @@
                 "alt": ""
             },
             {
-                "src": "images/LitvaRS/08.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/09.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/10.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/11.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/12.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/13.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/14.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/15.jpg",
-                "alt": ""
-            },
-            {
                 "src": "images/LitvaRS/16.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/17.jpg",
-                "alt": ""
-            },
-            {
-                "src": "images/LitvaRS/18.jpg",
                 "alt": ""
             }
         ],
@@ -3471,7 +2907,7 @@
         "kind": "case",
         "title": "Малая ГЭС Prodanca, Сербия",
         "lead": "Инвестором малой ГЭС Prodanca выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему…",
-        "body": "<p>Инвестором малой ГЭС Prodanca выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему управления «под ключ».</p>\n<p>Вода подводится к электростанции по трубопроводу с чистым напором 141 м. Расход через электростанцию составляет 0,25 м³/с.</p>\n<p>В машинном зале установлен гидроагрегат с горизонтальной двухсопловой турбиной Пелтона, рабочее колесо которой консольно расположено на валу генератора мощностью 190 кВт.</p>\n<p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS Vision 1040 с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером Vision через SCADA-систему HONEYWELL Experion PKS HS. Удалённые операторы могут получить доступ к малой ГЭС Prodanca через TeamViewer или VNC Viewer.</p>\n<p>В систему наблюдения за электростанцией входят четыре стационарные камеры, установленные внутри и снаружи машинного зала.</p>",
+        "body": "<p>Инвестором малой ГЭС Prodanca выступила компания VLASINA ECO ENERGY d.o.o Beograd. Наша компания подготовила для электростанции всё технологическое оборудование и систему управления «под ключ».</p>\n<p>Вода подводится к электростанции по трубопроводу с чистым напором 141 м. Расход через электростанцию составляет 0,25 м³/с.</p>\n<p>В машинном зале установлен гидроагрегат с горизонтальной двухсопловой турбиной Пелтона, рабочее колесо которой консольно расположено на валу генератора мощностью 190 кВт.</p>\n<p>В качестве системы управления электростанцией используется программируемый контроллер UNITRONICS Vision 1040 с интерфейсом HMI, установленный на двери распределительного шкафа. Он дополнен операторской станцией Windows, связанной с контроллером Vision через SCADA-систему HONEYWELL Experion PKS HS. Предусмотрена возможность дистанционного управления и контроля малой ГЭС Prodanca.</p>\n<p>В систему наблюдения за электростанцией входят четыре стационарные камеры, установленные внутри и снаружи машинного зала.</p>",
         "gallery": [
             {
                 "src": "images/202011593911542370.jpg",
