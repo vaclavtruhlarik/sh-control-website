@@ -548,6 +548,9 @@ h3 {
     color: var(--muted);
     margin-bottom: 0.7rem;
 }
+.project-card .meta .photo-credit {
+    margin-top: 0;
+}
 .project-card h3 {
     font-size: 1.4rem;
     line-height: 1.25;

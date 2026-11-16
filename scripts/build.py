@@ -306,7 +306,11 @@ def rich_body(page, current):
     return body, headings
 
 
-def photo_credit(locale, image):
+def photo_credit(locale, image, link=True):
+    """Return the "Source: …" credit for an image, or "" when it has none.
+
+    Pass link=False inside an element that is already a link (e.g. a card).
+    """
     credit = (image.get("credit") or "").strip()
     url = (image.get("credit_url") or "").strip()
 
@@ -322,7 +326,7 @@ def photo_credit(locale, image):
 
     text = esc(credit)
 
-    if url.lower().startswith(("https://", "http://")):
+    if link and url.lower().startswith(("https://", "http://")):
         text = f'<a href="{esc(url)}">{text}</a>'
 
     return f'<span class="photo-credit">' f"{esc(label)}: {text}" f"</span>"
@@ -361,7 +365,9 @@ def project_image(page):
     return TURBINE
 
 
-def project_cards(current, locale, pages):
+def project_cards(current, locale, pages, show_credit=False):
+    """Render project cards. With show_credit, the photo source replaces the
+    date (falling back to the date when the card photo has no credit)."""
     cards = []
     for p in pages:
         photo = project_image(p)
@@ -370,7 +376,13 @@ def project_cards(current, locale, pages):
             if photo
             else ""
         )
-        meta = (
+        first = (p.get("gallery") or [{}])[0]
+        credit = (
+            photo_credit(locale, first, link=False)
+            if show_credit and photo == (first.get("src") or "").strip()
+            else ""
+        )
+        meta = credit or (
             f'<time datetime="{esc(p["date"])}">{esc(p["date"])}</time>'
             if p.get("date")
             else ""
@@ -391,14 +403,18 @@ def home(current, locale):
         )
     selected = [
         next(p for p in PAGES if p["locale"] == locale and p["id"] == ident)
-        for ident in ["57", "53", "52"]
+        for ident in [
+            "reference-zevo-melnik",
+            "reference-t700-litvinov",
+            "reference-teplarna-prerov",
+        ]
     ]
-    selected = [p for p in selected if p.get("status", "completed") == "completed"]
+    # selected = [p for p in selected if p.get("status", "completed") == "completed"]
     return f"""<section class="hero"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow">{esc(u['heroEyebrow'])}</p><h1>{u['heroTitle']}</h1><p class="lead">{esc(u['heroLead'])}</p><div class="actions">{page_link(current,locale,'solutions',u['ourSolutions'],'button',True)}{page_link(current,locale,'about',u['meetUs'],'text-link')}</div></div></div>
     <figure class="hero-photo"><img src="{asset(current,HERO)}" width="560" height="420" alt="" fetchpriority="high"><figcaption><strong>Name_of_plant</strong>{'Place_of_plant' if locale=='cz' else 'Place_of_plant' if locale=='en' else 'Place_of_plant'}</figcaption></figure></section>
     <section class="sectors" aria-label="{esc(u['solutions'])}"><div class="wrap sector-grid">{''.join(sectors)}</div></section>
     <section class="section"><div class="wrap intro-grid"><h2>{esc(u['aboutHeading'])}</h2><div><p class="lead">{esc(u['aboutLead'])}</p>{page_link(current,locale,'about',u['meetUs'],'text-link')}</div></div></section>
-    <section class="section muted-section"><div class="wrap"><div class="section-title"><h2>{esc(u['selectedProjects'])}</h2>{page_link(current,locale,'references',u['allProjects'],'text-link')}</div>{project_cards(current,locale,selected)}</div></section>{cta(current,locale)}"""
+    <section class="section muted-section"><div class="wrap"><div class="section-title"><h2>{esc(u['selectedProjects'])}</h2>{page_link(current,locale,'references',u['allProjects'],'text-link')}</div>{project_cards(current,locale,selected,show_credit=True)}</div></section>{cta(current,locale)}"""
 
 
 def index_page_text(locale, route):

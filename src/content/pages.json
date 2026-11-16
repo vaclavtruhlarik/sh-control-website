@@ -833,7 +833,7 @@
         "route": "references/zevo-melnik",
         "kind": "case",
         "status": "ongoing",
-        "title": "ZEVO Mělník",
+        "title": "ZEVO Mělník - Skupina ČEZ",
         "lead": "Kompletní dodávka aplikačního softwaru a inženýrských služeb pro novostavbu Zařízení pro energetické využití odpadů (ZEVO).",
         "body": [
             "<p><strong>Investor / Klient:</strong> Skupina ČEZ (Elektrárna Mělník / Horní Počaply)</p>",
@@ -865,7 +865,7 @@
         "route": "references/t700-litvinov",
         "kind": "case",
         "status": "ongoing",
-        "title": "Teplárna T700 – ORLEN Unipetrol Litvínov",
+        "title": "Teplárna T700 – ORLEN Unipetrol, Litvínov",
         "lead": "Inženýring a integrace nových technologických celků při přechodu z uhlí na plynná paliva bez přerušení nepřetržitého provozu rafinerie.",
         "body": [
             "<p><strong>Investor / Klient:</strong> ORLEN Unipetrol RPA s.r.o. (Areál litvínovské rafinerie)</p>",
@@ -1896,7 +1896,7 @@
         "route": "references/zevo-melnik",
         "kind": "case",
         "status": "ongoing",
-        "title": "ZEVO Mělník",
+        "title": "ZEVO Mělník – ČEZ Group",
         "lead": "Complete supply of application software and engineering services for a new energy-from-waste facility (ZEVO).",
         "body": [
             "<p><strong>Investor / Client:</strong> ČEZ Group (Mělník Power Plant / Horní Počaply)</p>",
@@ -1928,7 +1928,7 @@
         "route": "references/t700-litvinov",
         "kind": "case",
         "status": "ongoing",
-        "title": "T700 Heating Plant – ORLEN Unipetrol Litvínov",
+        "title": "T700 Heating Plant – ORLEN Unipetrol, Litvínov",
         "lead": "Engineering and integration of new process units during the transition from coal to gaseous fuels without interrupting continuous refinery operation.",
         "body": [
             "<p><strong>Investor / Client:</strong> ORLEN Unipetrol RPA s.r.o. (Litvínov refinery site)</p>",
@@ -2959,7 +2959,7 @@
         "route": "references/zevo-melnik",
         "kind": "case",
         "status": "ongoing",
-        "title": "ZEVO Mělník",
+        "title": "ZEVO Mělník – ČEZ Group",
         "lead": "Комплексная поставка прикладного программного обеспечения и инжиниринговых услуг для строительства нового завода энергетической утилизации отходов (ZEVO).",
         "body": [
             "<p><strong>Инвестор / Заказчик:</strong> Группа ČEZ (электростанция Mělník / Horní Počaply)</p>",
@@ -2991,7 +2991,7 @@
         "route": "references/t700-litvinov",
         "kind": "case",
         "status": "ongoing",
-        "title": "Теплоцентраль T700 – ORLEN Unipetrol Litvínov",
+        "title": "Теплоцентраль T700 – ORLEN Unipetrol, Litvínov",
         "lead": "Инжиниринг и интеграция новых технологических комплексов при переходе с угля на газообразное топливо без остановки непрерывного производства нефтеперерабатывающего завода.",
         "body": [
             "<p><strong>Инвестор / Заказчик:</strong> ORLEN Unipetrol RPA s.r.o. (территория нефтеперерабатывающего завода в Litvínov)</p>",
